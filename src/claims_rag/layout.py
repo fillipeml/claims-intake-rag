@@ -36,7 +36,13 @@ _VALUE = re.compile(
 )
 
 #: A footer: a page marker or a short line of small type at the bottom of the page.
-_FOOTER = re.compile(r"(p[áa]gina\s+\d+|\d+\s*/\s*\d+|documento gerado)", re.IGNORECASE)
+#:
+#: The page-of-page form is anchored to the whole line. It used to be a bare
+#: `\d+\s*/\s*\d+`, which matches the `02/02` inside `02/02/2026` — so every short
+#: line carrying a date was classified as a footer and dropped by the chunker. The claim
+#: notification lost its `Data do sinistro` line entirely, and the one question in the
+#: golden set that asks when the accident happened could never be answered by anything.
+_FOOTER = re.compile(r"(p[áa]gina\s+\d+|^\d{1,3}\s*/\s*\d{1,3}$|documento gerado)", re.IGNORECASE)
 
 
 @dataclass(frozen=True)
