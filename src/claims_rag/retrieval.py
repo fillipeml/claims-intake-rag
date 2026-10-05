@@ -154,13 +154,21 @@ class Bm25Index:
             for term, n in containing.items()
         }
 
-    def search(self, query: str, limit: int = 20) -> list[Scored]:
+    def search(
+        self, query: str, limit: int = 20, allowed: frozenset[str] | None = None
+    ) -> list[Scored]:
         terms = tokenise(query)
         if not terms or not self.chunk_ids:
             return []
 
         scored: list[Scored] = []
         for position, chunk_id in enumerate(self.chunk_ids):
+            # Filtered before scoring, not after: taking the top 20 of the corpus and then
+            # discarding the other claims leaves a top 20 made mostly of other people's
+            # documents, which is a different and much worse result than the top 20 of this
+            # claim.
+            if allowed is not None and chunk_id not in allowed:
+                continue
             counts = self._frequencies[position]
             length = self._lengths[position]
             total = 0.0
@@ -213,10 +221,13 @@ class DenseIndex:
             raise ValueError(f"vectors of mixed dimension: {sorted(sizes)}")
         self.dimension = sizes.pop()
 
-    def search(self, query_vector: list[float], limit: int = 20) -> list[Scored]:
+    def search(
+        self, query_vector: list[float], limit: int = 20, allowed: frozenset[str] | None = None
+    ) -> list[Scored]:
         scored = [
             Scored(chunk_id, cosine(query_vector, vector))
             for chunk_id, vector in self._vectors.items()
+            if allowed is None or chunk_id in allowed
         ]
         scored.sort(key=lambda s: (-s.score, s.chunk_id))
         return scored[:limit]
@@ -336,11 +347,25 @@ class HybridRetriever:
         config: RetrievalConfig,
         query_vector: list[float] | None = None,
         limit: int = 10,
+        claim_id: str | None = None,
     ) -> list[Scored]:
+        """`claim_id` scopes the search, and is not an optimisation.
+
+        A claims question is always about one claim. Searching the whole corpus and discarding
+        the other claims afterwards fills the top-k with other people's documents before the
+        filter ever runs — and eight repair estimates differ only in their totals, so the
+        unfiltered search is being asked a question with no answer in it.
+        """
+        allowed: frozenset[str] | None = None
+        if claim_id is not None:
+            allowed = frozenset(c.id for c in self.chunks.values() if c.claim_id == claim_id)
+            if not allowed:
+                return []
+
         rankings: list[list[Scored]] = []
 
         if config.use_lexical:
-            rankings.append(self.lexical.search(query, config.candidates))
+            rankings.append(self.lexical.search(query, config.candidates, allowed))
 
         if config.use_dense:
             if self.dense is None:
@@ -349,7 +374,7 @@ class HybridRetriever:
                 raise ValueError(
                     f"{config.name} asks for dense search but no query vector was given"
                 )
-            rankings.append(self.dense.search(query_vector, config.candidates))
+            rankings.append(self.dense.search(query_vector, config.candidates, allowed))
 
         if not rankings:
             raise ValueError(f"{config.name} disables every retriever, so there is nothing to run")
