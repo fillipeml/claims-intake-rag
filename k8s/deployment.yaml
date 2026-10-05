@@ -1,0 +1,110 @@
+# A deployment of the service, written for a cluster that enforces the restricted Pod Security
+# Standard. Every field below that looks like boilerplate is there because omitting it is how
+# a workload gets rejected at admission or runs with more privilege than it needs.
+#
+# Applied with `kubectl apply -f k8s/`. There is no Ingress here on purpose: how traffic
+# reaches a cluster is the cluster's decision, and a guessed Ingress is the manifest people
+# most often have to delete first.
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: claims-intake-rag
+  labels:
+    app.kubernetes.io/name: claims-intake-rag
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: claims-intake-rag
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: claims-intake-rag
+    spec:
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 10001
+        seccompProfile:
+          type: RuntimeDefault
+      containers:
+        - name: api
+          image: claims-intake-rag:0.1.0
+          imagePullPolicy: IfNotPresent
+          ports:
+            - name: http
+              containerPort: 8000
+          env:
+            - name: CLAIMS_FIXTURES
+              value: /app/fixtures
+          securityContext:
+            allowPrivilegeEscalation: false
+            readOnlyRootFilesystem: true
+            capabilities:
+              drop: ["ALL"]
+          volumeMounts:
+            - name: tmp
+              mountPath: /tmp
+          resources:
+            # The corpus and its vectors are held in process, so memory is a function of the
+            # corpus rather than of load. Request and limit are equal for memory so the pod
+            # lands in the Guaranteed QoS class and is not the first thing evicted under
+            # pressure; CPU has no limit, because throttling a latency-sensitive service to
+            # save cores it is not using costs time to first token for nothing.
+            requests:
+              cpu: 250m
+              memory: 512Mi
+            limits:
+              memory: 512Mi
+          # Readiness and liveness are different questions and must not share a probe. The
+          # readiness probe asks "can this pod serve traffic now"; the liveness probe asks
+          # "is this pod wedged beyond recovery". Pointing both at the same endpoint means a
+          # slow dependency gets the container killed instead of taken out of rotation.
+          startupProbe:
+            httpGet:
+              path: /health
+              port: http
+            failureThreshold: 20
+            periodSeconds: 3
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: http
+            periodSeconds: 10
+            timeoutSeconds: 3
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: http
+            periodSeconds: 30
+            timeoutSeconds: 5
+            failureThreshold: 3
+      volumes:
+        - name: tmp
+          emptyDir: {}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: claims-intake-rag
+  labels:
+    app.kubernetes.io/name: claims-intake-rag
+spec:
+  selector:
+    app.kubernetes.io/name: claims-intake-rag
+  ports:
+    - name: http
+      port: 80
+      targetPort: http
+---
+# Server-Sent Events are long-lived responses, so a rollout that terminates pods promptly cuts
+# streams mid-answer. This gives a draining pod time to finish what it is already streaming.
+apiVersion: policy/v1
+kind: PodDisruptionBudget
+metadata:
+  name: claims-intake-rag
+spec:
+  minAvailable: 1
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: claims-intake-rag
