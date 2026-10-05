@@ -1,0 +1,75 @@
+[project]
+name = "claims-intake-rag"
+version = "0.1.0"
+description = "Retrieval over scanned Portuguese insurance-claim documents: OCR with a measured error rate, hybrid search fused with RRF, cross-encoder reranking, and an answer that refuses to be given when retrieval is weak"
+readme = "README.md"
+requires-python = ">=3.12"
+license = "MIT"
+authors = [{ name = "Fillipe Loose" }]
+keywords = [
+  "rag",
+  "hybrid-search",
+  "reranking",
+  "vector-database",
+  "ocr",
+  "document-intelligence",
+  "portuguese",
+  "insurance",
+]
+
+# The core runs on the standard library plus Pydantic. Everything that needs a model, a GPU or
+# a server is an optional extra behind an interface, so the demo, the tests and CI run offline
+# on committed fixtures — recorded OCR output and precomputed embeddings — and still exercise
+# the real retrieval, fusion, reranking and scoring code.
+dependencies = [
+  "pydantic>=2.9",
+]
+
+[project.optional-dependencies]
+# The HTTP surface: FastAPI with Server-Sent Events, and the vector store.
+serve = [
+  "fastapi>=0.115",
+  "uvicorn[standard]>=0.32",
+  "qdrant-client>=1.12",
+]
+# Reading a scanned page. ONNX on the CPU, so no system binary and no GPU.
+ocr = [
+  "rapidocr-onnxruntime>=1.4",
+  "pypdfium2>=4.30",
+  "pillow>=11",
+]
+# Computing real vectors and running the cross-encoder. Heavy, and needed only to regenerate
+# the fixtures or to serve live documents — never to run the demo, the tests or CI.
+models = [
+  "sentence-transformers>=3.3",
+]
+dev = [
+  "pytest>=8",
+  "ruff>=0.6",
+  "httpx>=0.27",
+]
+
+[project.scripts]
+claims = "claims_rag.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/claims_rag"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "N"]
+
+[tool.ruff.lint.pycodestyle]
+max-line-length = 130
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-q"

@@ -1,0 +1,23 @@
+# Rendered pages are a deterministic function of the seed and weigh several megabytes.
+# Regenerate them with `uv run python scripts/make_fixtures.py`; what is committed is what
+# the OCR engine read back from them.
+fixtures/pages/
+.scratch/
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+sanitize.toml
+sanitize-report.*
+.env
+.env.*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
