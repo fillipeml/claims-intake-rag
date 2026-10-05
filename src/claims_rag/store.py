@@ -60,7 +60,10 @@ class QdrantStore:
     def recreate(self, dimension: int) -> None:
         from qdrant_client.models import Distance, VectorParams
 
-        self._client.recreate_collection(
+        # Not `recreate_collection`, which the client deprecated: check, drop, create.
+        if self._client.collection_exists(self._collection):
+            self._client.delete_collection(self._collection)
+        self._client.create_collection(
             collection_name=self._collection,
             vectors_config=VectorParams(size=dimension, distance=Distance.COSINE),
         )
@@ -118,13 +121,19 @@ class QdrantStore:
                     FieldCondition(key="confidence", range=Range(gte=where.min_confidence))
                 )
 
-        hits = self._client.search(
+        # `query_points`, not `search`: the client removed `search` outright in 1.19 rather
+        # than deprecating it, which is the sort of thing only running the code finds.
+        response = self._client.query_points(
             collection_name=self._collection,
-            query_vector=query_vector,
+            query=query_vector,
             limit=limit,
             query_filter=QFilter(must=conditions) if conditions else None,
         )
-        return [Scored(hit.payload["chunk_id"], float(hit.score)) for hit in hits if hit.payload]
+        return [
+            Scored(point.payload["chunk_id"], float(point.score))
+            for point in response.points
+            if point.payload
+        ]
 
     def count(self) -> int:
         return int(self._client.count(collection_name=self._collection).count)
