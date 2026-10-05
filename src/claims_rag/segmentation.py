@@ -29,9 +29,14 @@ from functools import lru_cache
 
 from .lexicon import base_vocabulary
 
-#: Below this length a run of letters is left alone. Short merges are rare, and splitting
-#: aggressively at this length turns ordinary words into pairs of shorter ones.
-MIN_LENGTH = 12
+#: Below this length a run of letters is left alone.
+#:
+#: It was 12, which measured well on prose and silently skipped every table row: the run in
+#: `TotalgeralR$10.372,00` is `TotalgeralR`, eleven letters, so the one line of the repair
+#: estimate anybody ever asks about was never re-segmented. Dropping to 8 costs little,
+#: because a word already in the vocabulary is returned untouched before the search even
+#: starts, and the search only splits when splitting is cheaper.
+MIN_LENGTH = 8
 
 #: No single Portuguese word in this corpus is longer than this, so the search never considers
 #: candidates past it. Bounds the dynamic programme and removes a class of absurd splits.
