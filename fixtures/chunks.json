@@ -6,11 +6,11 @@
       "claim_id": "AV-2026-4407",
       "kind": "aviso_de_sinistro",
       "page": 1,
-      "text": "Numerodoaviso:AV-2026-4407\nApolice:2026.100137\nSegurado:HelenaVilarinho",
+      "text": "Numerodoaviso:AV-2026-4407",
       "headings": [
         "AVISODESINISTRO"
       ],
-      "confidence": 0.9867
+      "confidence": 0.9908
     },
     {
       "id": "AV-2026-4407-aviso_de_sinistro#c02",
@@ -18,12 +18,11 @@
       "claim_id": "AV-2026-4407",
       "kind": "aviso_de_sinistro",
       "page": 1,
-      "text": "Local:Porto das Aguas -Zetalandia\nPlaca:ZBD1B17\nVeiculo:Hatch compacto 1.0,ano2021\nNatureza do evento:colisao traseira",
+      "text": "Apolice:2026.100137",
       "headings": [
-        "AVISODESINISTRO",
-        "CPF:218.801.148-21"
+        "AVISODESINISTRO"
       ],
-      "confidence": 0.9605
+      "confidence": 0.9879
     },
     {
       "id": "AV-2026-4407-aviso_de_sinistro#c03",
@@ -31,7 +30,84 @@
       "claim_id": "AV-2026-4407",
       "kind": "aviso_de_sinistro",
       "page": 1,
-      "text": "O condutor relatou que trafegava pela via marginal quando o veiculo a frente freou bruscamente, nao\nhavendo espacopara evitaro impactona traseira.\nO segurado declara que as informacoes acima sao verdadeiras e autoriza a seguradora a solicitar\ndocumentoscomplementaresparaaregulacaodosinistro.",
+      "text": "Segurado:HelenaVilarinho",
+      "headings": [
+        "AVISODESINISTRO"
+      ],
+      "confidence": 0.9867
+    },
+    {
+      "id": "AV-2026-4407-aviso_de_sinistro#c04",
+      "document_id": "AV-2026-4407-aviso_de_sinistro",
+      "claim_id": "AV-2026-4407",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Datadosinistro:02/02/2026",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:218.801.148-21"
+      ],
+      "confidence": 0.9926
+    },
+    {
+      "id": "AV-2026-4407-aviso_de_sinistro#c05",
+      "document_id": "AV-2026-4407-aviso_de_sinistro",
+      "claim_id": "AV-2026-4407",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Local:Porto das Aguas -Zetalandia",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:218.801.148-21"
+      ],
+      "confidence": 0.9605
+    },
+    {
+      "id": "AV-2026-4407-aviso_de_sinistro#c06",
+      "document_id": "AV-2026-4407-aviso_de_sinistro",
+      "claim_id": "AV-2026-4407",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Placa:ZBD1B17",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:218.801.148-21"
+      ],
+      "confidence": 0.9788
+    },
+    {
+      "id": "AV-2026-4407-aviso_de_sinistro#c07",
+      "document_id": "AV-2026-4407-aviso_de_sinistro",
+      "claim_id": "AV-2026-4407",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Veiculo:Hatch compacto 1.0,ano2021",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:218.801.148-21"
+      ],
+      "confidence": 0.9721
+    },
+    {
+      "id": "AV-2026-4407-aviso_de_sinistro#c08",
+      "document_id": "AV-2026-4407-aviso_de_sinistro",
+      "claim_id": "AV-2026-4407",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Natureza do evento:colisao traseira",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:218.801.148-21"
+      ],
+      "confidence": 0.9682
+    },
+    {
+      "id": "AV-2026-4407-aviso_de_sinistro#c09",
+      "document_id": "AV-2026-4407-aviso_de_sinistro",
+      "claim_id": "AV-2026-4407",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "O condutor relatou que trafegava pela via marginal quando o veiculo a frente freou bruscamente, nao\nhavendo espacopara evitaro impactona traseira.\nO segurado declara que as informacoes acima sao verdadeiras e autoriza a seguradora a solicitar\ndocumentoscomplementaresparaaregulacaodosinistro.\nDocumentogeradoem02/02/2026-pagina1/1",
       "headings": [
         "AVISODESINISTRO",
         "DESCRICAODOSEGURADO"
@@ -44,14 +120,74 @@
       "claim_id": "AV-2026-4407",
       "kind": "boletim_de_ocorrencia",
       "page": 1,
-      "text": "Numero:BO-20263011\nDelegacia:2aCircunscricaodePortodasAguas\nCondutor:Helena Vilarinho\nHabilitacao:valida\nVeiculoenvolvido:placaZBD1B17",
+      "text": "Numero:BO-20263011",
+      "headings": [
+        "BOLETIMDEOCORRENCIA"
+      ],
+      "confidence": 0.9865
+    },
+    {
+      "id": "AV-2026-4407-boletim_de_ocorrencia#c02",
+      "document_id": "AV-2026-4407-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4407",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Delegacia:2aCircunscricaodePortodasAguas",
+      "headings": [
+        "BOLETIMDEOCORRENCIA"
+      ],
+      "confidence": 0.991
+    },
+    {
+      "id": "AV-2026-4407-boletim_de_ocorrencia#c03",
+      "document_id": "AV-2026-4407-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4407",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Datadofato:02/02/2026",
+      "headings": [
+        "BOLETIMDEOCORRENCIA"
+      ],
+      "confidence": 0.9911
+    },
+    {
+      "id": "AV-2026-4407-boletim_de_ocorrencia#c04",
+      "document_id": "AV-2026-4407-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4407",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Condutor:Helena Vilarinho",
       "headings": [
         "BOLETIMDEOCORRENCIA"
       ],
       "confidence": 0.9713
     },
     {
-      "id": "AV-2026-4407-boletim_de_ocorrencia#c02",
+      "id": "AV-2026-4407-boletim_de_ocorrencia#c05",
+      "document_id": "AV-2026-4407-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4407",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Habilitacao:valida",
+      "headings": [
+        "BOLETIMDEOCORRENCIA"
+      ],
+      "confidence": 0.9867
+    },
+    {
+      "id": "AV-2026-4407-boletim_de_ocorrencia#c06",
+      "document_id": "AV-2026-4407-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4407",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Veiculoenvolvido:placaZBD1B17",
+      "headings": [
+        "BOLETIMDEOCORRENCIA"
+      ],
+      "confidence": 0.9864
+    },
+    {
+      "id": "AV-2026-4407-boletim_de_ocorrencia#c07",
       "document_id": "AV-2026-4407-boletim_de_ocorrencia",
       "claim_id": "AV-2026-4407",
       "kind": "boletim_de_ocorrencia",
@@ -69,7 +205,7 @@
       "claim_id": "AV-2026-4407",
       "kind": "orcamento_de_reparo",
       "page": 1,
-      "text": "Oficina:Oficina Modelo\nSinistro:AV-2026-4407\nPlaca:ZBD1B17",
+      "text": "Oficina:Oficina Modelo",
       "headings": [
         "ORCAMENTODEREPARO"
       ],
@@ -77,6 +213,30 @@
     },
     {
       "id": "AV-2026-4407-orcamento_de_reparo#c02",
+      "document_id": "AV-2026-4407-orcamento_de_reparo",
+      "claim_id": "AV-2026-4407",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Sinistro:AV-2026-4407",
+      "headings": [
+        "ORCAMENTODEREPARO"
+      ],
+      "confidence": 0.9923
+    },
+    {
+      "id": "AV-2026-4407-orcamento_de_reparo#c03",
+      "document_id": "AV-2026-4407-orcamento_de_reparo",
+      "claim_id": "AV-2026-4407",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Placa:ZBD1B17",
+      "headings": [
+        "ORCAMENTODEREPARO"
+      ],
+      "confidence": 0.9793
+    },
+    {
+      "id": "AV-2026-4407-orcamento_de_reparo#c04",
       "document_id": "AV-2026-4407-orcamento_de_reparo",
       "claim_id": "AV-2026-4407",
       "kind": "orcamento_de_reparo",
@@ -89,7 +249,7 @@
       "confidence": 0.9684
     },
     {
-      "id": "AV-2026-4407-orcamento_de_reparo#c03",
+      "id": "AV-2026-4407-orcamento_de_reparo#c05",
       "document_id": "AV-2026-4407-orcamento_de_reparo",
       "claim_id": "AV-2026-4407",
       "kind": "orcamento_de_reparo",
@@ -102,7 +262,7 @@
       "confidence": 0.9721
     },
     {
-      "id": "AV-2026-4407-orcamento_de_reparo#c04",
+      "id": "AV-2026-4407-orcamento_de_reparo#c06",
       "document_id": "AV-2026-4407-orcamento_de_reparo",
       "claim_id": "AV-2026-4407",
       "kind": "orcamento_de_reparo",
@@ -115,7 +275,7 @@
       "confidence": 0.97
     },
     {
-      "id": "AV-2026-4407-orcamento_de_reparo#c05",
+      "id": "AV-2026-4407-orcamento_de_reparo#c07",
       "document_id": "AV-2026-4407-orcamento_de_reparo",
       "claim_id": "AV-2026-4407",
       "kind": "orcamento_de_reparo",
@@ -128,7 +288,7 @@
       "confidence": 0.9478
     },
     {
-      "id": "AV-2026-4407-orcamento_de_reparo#c06",
+      "id": "AV-2026-4407-orcamento_de_reparo#c08",
       "document_id": "AV-2026-4407-orcamento_de_reparo",
       "claim_id": "AV-2026-4407",
       "kind": "orcamento_de_reparo",
@@ -141,7 +301,7 @@
       "confidence": 0.9422
     },
     {
-      "id": "AV-2026-4407-orcamento_de_reparo#c07",
+      "id": "AV-2026-4407-orcamento_de_reparo#c09",
       "document_id": "AV-2026-4407-orcamento_de_reparo",
       "claim_id": "AV-2026-4407",
       "kind": "orcamento_de_reparo",
@@ -154,7 +314,7 @@
       "confidence": 0.9741
     },
     {
-      "id": "AV-2026-4407-orcamento_de_reparo#c08",
+      "id": "AV-2026-4407-orcamento_de_reparo#c10",
       "document_id": "AV-2026-4407-orcamento_de_reparo",
       "claim_id": "AV-2026-4407",
       "kind": "orcamento_de_reparo",
@@ -167,7 +327,7 @@
       "confidence": 0.9601
     },
     {
-      "id": "AV-2026-4407-orcamento_de_reparo#c09",
+      "id": "AV-2026-4407-orcamento_de_reparo#c11",
       "document_id": "AV-2026-4407-orcamento_de_reparo",
       "claim_id": "AV-2026-4407",
       "kind": "orcamento_de_reparo",
@@ -180,7 +340,7 @@
       "confidence": 0.9651
     },
     {
-      "id": "AV-2026-4407-orcamento_de_reparo#c10",
+      "id": "AV-2026-4407-orcamento_de_reparo#c12",
       "document_id": "AV-2026-4407-orcamento_de_reparo",
       "claim_id": "AV-2026-4407",
       "kind": "orcamento_de_reparo",
@@ -210,6 +370,19 @@
       "claim_id": "AV-2026-4407",
       "kind": "laudo_medico",
       "page": 1,
+      "text": "Datadoatendimento:02/02/2026",
+      "headings": [
+        "LAUDOMEDICO",
+        "CPF:218.801.148-21"
+      ],
+      "confidence": 0.9908
+    },
+    {
+      "id": "AV-2026-4407-laudo_medico#c03",
+      "document_id": "AV-2026-4407-laudo_medico",
+      "claim_id": "AV-2026-4407",
+      "kind": "laudo_medico",
+      "page": 1,
       "text": "Paciente atendido aposeventoautomobilistico,consciente eorientado,sem alteracoesneurologicas\nagudas aoexame inicial.\nRecomendadoafastamentodasatividadeshabituaispor30dias.\nSolicitadoretornoambulatorial emquinzediasparareavaliacaoclinica.\nPagina1de1",
       "headings": [
         "LAUDOMEDICO",
@@ -223,14 +396,38 @@
       "claim_id": "AV-2026-4407",
       "kind": "apolice",
       "page": 1,
-      "text": "Apolice:2026.100137\nSegurado:HelenaVilarinho",
+      "text": "Apolice:2026.100137",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL"
+      ],
+      "confidence": 0.9823
+    },
+    {
+      "id": "AV-2026-4407-apolice#c02",
+      "document_id": "AV-2026-4407-apolice",
+      "claim_id": "AV-2026-4407",
+      "kind": "apolice",
+      "page": 1,
+      "text": "Segurado:HelenaVilarinho",
       "headings": [
         "APOLICEDESEGURODEAUTOMOVEL"
       ],
       "confidence": 0.9774
     },
     {
-      "id": "AV-2026-4407-apolice#c02",
+      "id": "AV-2026-4407-apolice#c03",
+      "document_id": "AV-2026-4407-apolice",
+      "claim_id": "AV-2026-4407",
+      "kind": "apolice",
+      "page": 1,
+      "text": "Vigencia:01/01/2026a31/12/2026",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL"
+      ],
+      "confidence": 0.9874
+    },
+    {
+      "id": "AV-2026-4407-apolice#c04",
       "document_id": "AV-2026-4407-apolice",
       "claim_id": "AV-2026-4407",
       "kind": "apolice",
@@ -243,7 +440,7 @@
       "confidence": 0.9714
     },
     {
-      "id": "AV-2026-4407-apolice#c03",
+      "id": "AV-2026-4407-apolice#c05",
       "document_id": "AV-2026-4407-apolice",
       "claim_id": "AV-2026-4407",
       "kind": "apolice",
@@ -256,7 +453,7 @@
       "confidence": 0.9538
     },
     {
-      "id": "AV-2026-4407-apolice#c04",
+      "id": "AV-2026-4407-apolice#c06",
       "document_id": "AV-2026-4407-apolice",
       "claim_id": "AV-2026-4407",
       "kind": "apolice",
@@ -269,7 +466,7 @@
       "confidence": 0.969
     },
     {
-      "id": "AV-2026-4407-apolice#c05",
+      "id": "AV-2026-4407-apolice#c07",
       "document_id": "AV-2026-4407-apolice",
       "claim_id": "AV-2026-4407",
       "kind": "apolice",
@@ -287,11 +484,11 @@
       "claim_id": "AV-2026-4414",
       "kind": "aviso_de_sinistro",
       "page": 1,
-      "text": "Numerodoaviso:AV-2026-4414\nApolice:2026.100274\nSegurado:Rafael Caldeira",
+      "text": "Numerodoaviso:AV-2026-4414",
       "headings": [
         "AVISODESINISTRO"
       ],
-      "confidence": 0.983
+      "confidence": 0.9928
     },
     {
       "id": "AV-2026-4414-aviso_de_sinistro#c02",
@@ -299,12 +496,11 @@
       "claim_id": "AV-2026-4414",
       "kind": "aviso_de_sinistro",
       "page": 1,
-      "text": "Local:VilaSerena-Zetalandia\nPlaca:ZCG2C24\nVeiculo:Sedamedio2.0,ano2019\nNatureza doevento:capotamento",
+      "text": "Apolice:2026.100274",
       "headings": [
-        "AVISODESINISTRO",
-        "CPF:565.464.420-46"
+        "AVISODESINISTRO"
       ],
-      "confidence": 0.9795
+      "confidence": 0.9938
     },
     {
       "id": "AV-2026-4414-aviso_de_sinistro#c03",
@@ -312,7 +508,84 @@
       "claim_id": "AV-2026-4414",
       "kind": "aviso_de_sinistro",
       "page": 1,
-      "text": "Segundo o condutor,houve perda de aderencia na alca de acesso da rodovia sob chuva, seguida de\ncapotamentolateralsobreocanteiro.\nOseguradodeclaraqueasinformacoesacimasaoverdadeiraseautoriza aseguradora asolicitar\ndocumentoscomplementaresparaaregulacaodosinistro.",
+      "text": "Segurado:Rafael Caldeira",
+      "headings": [
+        "AVISODESINISTRO"
+      ],
+      "confidence": 0.983
+    },
+    {
+      "id": "AV-2026-4414-aviso_de_sinistro#c04",
+      "document_id": "AV-2026-4414-aviso_de_sinistro",
+      "claim_id": "AV-2026-4414",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Datadosinistro:03/03/2026",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:565.464.420-46"
+      ],
+      "confidence": 0.9921
+    },
+    {
+      "id": "AV-2026-4414-aviso_de_sinistro#c05",
+      "document_id": "AV-2026-4414-aviso_de_sinistro",
+      "claim_id": "AV-2026-4414",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Local:VilaSerena-Zetalandia",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:565.464.420-46"
+      ],
+      "confidence": 0.9906
+    },
+    {
+      "id": "AV-2026-4414-aviso_de_sinistro#c06",
+      "document_id": "AV-2026-4414-aviso_de_sinistro",
+      "claim_id": "AV-2026-4414",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Placa:ZCG2C24",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:565.464.420-46"
+      ],
+      "confidence": 0.9804
+    },
+    {
+      "id": "AV-2026-4414-aviso_de_sinistro#c07",
+      "document_id": "AV-2026-4414-aviso_de_sinistro",
+      "claim_id": "AV-2026-4414",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Veiculo:Sedamedio2.0,ano2019",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:565.464.420-46"
+      ],
+      "confidence": 0.9795
+    },
+    {
+      "id": "AV-2026-4414-aviso_de_sinistro#c08",
+      "document_id": "AV-2026-4414-aviso_de_sinistro",
+      "claim_id": "AV-2026-4414",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Natureza doevento:capotamento",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:565.464.420-46"
+      ],
+      "confidence": 0.9806
+    },
+    {
+      "id": "AV-2026-4414-aviso_de_sinistro#c09",
+      "document_id": "AV-2026-4414-aviso_de_sinistro",
+      "claim_id": "AV-2026-4414",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Segundo o condutor,houve perda de aderencia na alca de acesso da rodovia sob chuva, seguida de\ncapotamentolateralsobreocanteiro.\nOseguradodeclaraqueasinformacoesacimasaoverdadeiraseautoriza aseguradora asolicitar\ndocumentoscomplementaresparaaregulacaodosinistro.\nDocumentogeradoem03/03/2026-pagina1/1",
       "headings": [
         "AVISODESINISTRO",
         "DESCRICAODOSEGURADO"
@@ -325,14 +598,74 @@
       "claim_id": "AV-2026-4414",
       "kind": "boletim_de_ocorrencia",
       "page": 1,
-      "text": "Numero:BO-20263022\nDelegacia:2aCircunscricaodeVilaSerena\nCondutor:Rafael Caldeira\nHabilitacao: valida\nVeiculoenvolvido:placaZCG2C24",
+      "text": "Numero:BO-20263022",
+      "headings": [
+        "BOLETIMDEOCORRENCIA"
+      ],
+      "confidence": 0.9773
+    },
+    {
+      "id": "AV-2026-4414-boletim_de_ocorrencia#c02",
+      "document_id": "AV-2026-4414-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4414",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Delegacia:2aCircunscricaodeVilaSerena",
+      "headings": [
+        "BOLETIMDEOCORRENCIA"
+      ],
+      "confidence": 0.9791
+    },
+    {
+      "id": "AV-2026-4414-boletim_de_ocorrencia#c03",
+      "document_id": "AV-2026-4414-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4414",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Datadofato:03/03/2026",
+      "headings": [
+        "BOLETIMDEOCORRENCIA"
+      ],
+      "confidence": 0.9911
+    },
+    {
+      "id": "AV-2026-4414-boletim_de_ocorrencia#c04",
+      "document_id": "AV-2026-4414-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4414",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Condutor:Rafael Caldeira",
+      "headings": [
+        "BOLETIMDEOCORRENCIA"
+      ],
+      "confidence": 0.9776
+    },
+    {
+      "id": "AV-2026-4414-boletim_de_ocorrencia#c05",
+      "document_id": "AV-2026-4414-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4414",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Habilitacao: valida",
       "headings": [
         "BOLETIMDEOCORRENCIA"
       ],
       "confidence": 0.9551
     },
     {
-      "id": "AV-2026-4414-boletim_de_ocorrencia#c02",
+      "id": "AV-2026-4414-boletim_de_ocorrencia#c06",
+      "document_id": "AV-2026-4414-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4414",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Veiculoenvolvido:placaZCG2C24",
+      "headings": [
+        "BOLETIMDEOCORRENCIA"
+      ],
+      "confidence": 0.9783
+    },
+    {
+      "id": "AV-2026-4414-boletim_de_ocorrencia#c07",
       "document_id": "AV-2026-4414-boletim_de_ocorrencia",
       "claim_id": "AV-2026-4414",
       "kind": "boletim_de_ocorrencia",
@@ -350,7 +683,7 @@
       "claim_id": "AV-2026-4414",
       "kind": "orcamento_de_reparo",
       "page": 1,
-      "text": "Oficina: Auto Center Exemplo\nSinistro:AV-2026-4414\nPlaca:ZCG2C24",
+      "text": "Oficina: Auto Center Exemplo",
       "headings": [
         "ORCAMENTODEREPARO"
       ],
@@ -358,6 +691,30 @@
     },
     {
       "id": "AV-2026-4414-orcamento_de_reparo#c02",
+      "document_id": "AV-2026-4414-orcamento_de_reparo",
+      "claim_id": "AV-2026-4414",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Sinistro:AV-2026-4414",
+      "headings": [
+        "ORCAMENTODEREPARO"
+      ],
+      "confidence": 0.993
+    },
+    {
+      "id": "AV-2026-4414-orcamento_de_reparo#c03",
+      "document_id": "AV-2026-4414-orcamento_de_reparo",
+      "claim_id": "AV-2026-4414",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Placa:ZCG2C24",
+      "headings": [
+        "ORCAMENTODEREPARO"
+      ],
+      "confidence": 0.984
+    },
+    {
+      "id": "AV-2026-4414-orcamento_de_reparo#c04",
       "document_id": "AV-2026-4414-orcamento_de_reparo",
       "claim_id": "AV-2026-4414",
       "kind": "orcamento_de_reparo",
@@ -370,7 +727,7 @@
       "confidence": 0.9781
     },
     {
-      "id": "AV-2026-4414-orcamento_de_reparo#c03",
+      "id": "AV-2026-4414-orcamento_de_reparo#c05",
       "document_id": "AV-2026-4414-orcamento_de_reparo",
       "claim_id": "AV-2026-4414",
       "kind": "orcamento_de_reparo",
@@ -383,7 +740,7 @@
       "confidence": 0.9524
     },
     {
-      "id": "AV-2026-4414-orcamento_de_reparo#c04",
+      "id": "AV-2026-4414-orcamento_de_reparo#c06",
       "document_id": "AV-2026-4414-orcamento_de_reparo",
       "claim_id": "AV-2026-4414",
       "kind": "orcamento_de_reparo",
@@ -396,7 +753,7 @@
       "confidence": 0.998
     },
     {
-      "id": "AV-2026-4414-orcamento_de_reparo#c05",
+      "id": "AV-2026-4414-orcamento_de_reparo#c07",
       "document_id": "AV-2026-4414-orcamento_de_reparo",
       "claim_id": "AV-2026-4414",
       "kind": "orcamento_de_reparo",
@@ -409,7 +766,7 @@
       "confidence": 0.948
     },
     {
-      "id": "AV-2026-4414-orcamento_de_reparo#c06",
+      "id": "AV-2026-4414-orcamento_de_reparo#c08",
       "document_id": "AV-2026-4414-orcamento_de_reparo",
       "claim_id": "AV-2026-4414",
       "kind": "orcamento_de_reparo",
@@ -422,7 +779,7 @@
       "confidence": 0.9817
     },
     {
-      "id": "AV-2026-4414-orcamento_de_reparo#c07",
+      "id": "AV-2026-4414-orcamento_de_reparo#c09",
       "document_id": "AV-2026-4414-orcamento_de_reparo",
       "claim_id": "AV-2026-4414",
       "kind": "orcamento_de_reparo",
@@ -435,7 +792,7 @@
       "confidence": 0.9473
     },
     {
-      "id": "AV-2026-4414-orcamento_de_reparo#c08",
+      "id": "AV-2026-4414-orcamento_de_reparo#c10",
       "document_id": "AV-2026-4414-orcamento_de_reparo",
       "claim_id": "AV-2026-4414",
       "kind": "orcamento_de_reparo",
@@ -465,6 +822,19 @@
       "claim_id": "AV-2026-4414",
       "kind": "laudo_medico",
       "page": 1,
+      "text": "Datadoatendimento:03/03/2026",
+      "headings": [
+        "LAUDO MEDICO",
+        "CPF:565.464.420-46"
+      ],
+      "confidence": 0.9903
+    },
+    {
+      "id": "AV-2026-4414-laudo_medico#c03",
+      "document_id": "AV-2026-4414-laudo_medico",
+      "claim_id": "AV-2026-4414",
+      "kind": "laudo_medico",
+      "page": 1,
       "text": "agudas ao exame inicial.\nRecomendadoafastamentodasatividadeshabituaispor15dias.\nSolicitadoretornoambulatorial emquinzediasparareavaliacaoclinica.\nPagina1de1",
       "headings": [
         "LAUDO MEDICO",
@@ -478,14 +848,38 @@
       "claim_id": "AV-2026-4414",
       "kind": "apolice",
       "page": 1,
-      "text": "Apolice:2026.100274\nSegurado:Rafael Caldeira",
+      "text": "Apolice:2026.100274",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL"
+      ],
+      "confidence": 0.9878
+    },
+    {
+      "id": "AV-2026-4414-apolice#c02",
+      "document_id": "AV-2026-4414-apolice",
+      "claim_id": "AV-2026-4414",
+      "kind": "apolice",
+      "page": 1,
+      "text": "Segurado:Rafael Caldeira",
       "headings": [
         "APOLICEDESEGURODEAUTOMOVEL"
       ],
       "confidence": 0.9531
     },
     {
-      "id": "AV-2026-4414-apolice#c02",
+      "id": "AV-2026-4414-apolice#c03",
+      "document_id": "AV-2026-4414-apolice",
+      "claim_id": "AV-2026-4414",
+      "kind": "apolice",
+      "page": 1,
+      "text": "Vigencia:01/01/2026a31/12/2026",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL"
+      ],
+      "confidence": 0.9857
+    },
+    {
+      "id": "AV-2026-4414-apolice#c04",
       "document_id": "AV-2026-4414-apolice",
       "claim_id": "AV-2026-4414",
       "kind": "apolice",
@@ -498,7 +892,7 @@
       "confidence": 0.9674
     },
     {
-      "id": "AV-2026-4414-apolice#c03",
+      "id": "AV-2026-4414-apolice#c05",
       "document_id": "AV-2026-4414-apolice",
       "claim_id": "AV-2026-4414",
       "kind": "apolice",
@@ -511,7 +905,7 @@
       "confidence": 0.9369
     },
     {
-      "id": "AV-2026-4414-apolice#c04",
+      "id": "AV-2026-4414-apolice#c06",
       "document_id": "AV-2026-4414-apolice",
       "claim_id": "AV-2026-4414",
       "kind": "apolice",
@@ -524,7 +918,7 @@
       "confidence": 0.9671
     },
     {
-      "id": "AV-2026-4414-apolice#c05",
+      "id": "AV-2026-4414-apolice#c07",
       "document_id": "AV-2026-4414-apolice",
       "claim_id": "AV-2026-4414",
       "kind": "apolice",
@@ -542,11 +936,11 @@
       "claim_id": "AV-2026-4421",
       "kind": "aviso_de_sinistro",
       "page": 1,
-      "text": "Numerodoaviso:AV-2026-4421\nApolice:2026.100411\nSegurado:TerezaBastos",
+      "text": "Numerodoaviso:AV-2026-4421",
       "headings": [
         "AVISODESINISTRO"
       ],
-      "confidence": 0.9849
+      "confidence": 0.9907
     },
     {
       "id": "AV-2026-4421-aviso_de_sinistro#c02",
@@ -554,12 +948,11 @@
       "claim_id": "AV-2026-4421",
       "kind": "aviso_de_sinistro",
       "page": 1,
-      "text": "Local: Campo do Meio-Zetalandia\nPlaca:ZDJ3D31\nVeiculo:Utilitarioleve,ano2022\nNaturezadoevento:alagamento",
+      "text": "Apolice:2026.100411",
       "headings": [
-        "AVISODESINISTRO",
-        "CPF:879.269.553-21"
+        "AVISODESINISTRO"
       ],
-      "confidence": 0.964
+      "confidence": 0.9849
     },
     {
       "id": "AV-2026-4421-aviso_de_sinistro#c03",
@@ -567,7 +960,84 @@
       "claim_id": "AV-2026-4421",
       "kind": "aviso_de_sinistro",
       "page": 1,
-      "text": "Oveiculofoi surpreendidoporelevacaorapida donivel daagua emviapublica,atingindo o\ncompartimentodomotor.\nO segurado declara que as informacoes acima sao verdadeiras e autoriza a seguradora a solicitar\ndocumentos complementarespara aregulacao do sinistro.",
+      "text": "Segurado:TerezaBastos",
+      "headings": [
+        "AVISODESINISTRO"
+      ],
+      "confidence": 0.9917
+    },
+    {
+      "id": "AV-2026-4421-aviso_de_sinistro#c04",
+      "document_id": "AV-2026-4421-aviso_de_sinistro",
+      "claim_id": "AV-2026-4421",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Datadosinistro:04/04/2026",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:879.269.553-21"
+      ],
+      "confidence": 0.9922
+    },
+    {
+      "id": "AV-2026-4421-aviso_de_sinistro#c05",
+      "document_id": "AV-2026-4421-aviso_de_sinistro",
+      "claim_id": "AV-2026-4421",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Local: Campo do Meio-Zetalandia",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:879.269.553-21"
+      ],
+      "confidence": 0.964
+    },
+    {
+      "id": "AV-2026-4421-aviso_de_sinistro#c06",
+      "document_id": "AV-2026-4421-aviso_de_sinistro",
+      "claim_id": "AV-2026-4421",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Placa:ZDJ3D31",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:879.269.553-21"
+      ],
+      "confidence": 0.972
+    },
+    {
+      "id": "AV-2026-4421-aviso_de_sinistro#c07",
+      "document_id": "AV-2026-4421-aviso_de_sinistro",
+      "claim_id": "AV-2026-4421",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Veiculo:Utilitarioleve,ano2022",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:879.269.553-21"
+      ],
+      "confidence": 0.9735
+    },
+    {
+      "id": "AV-2026-4421-aviso_de_sinistro#c08",
+      "document_id": "AV-2026-4421-aviso_de_sinistro",
+      "claim_id": "AV-2026-4421",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Naturezadoevento:alagamento",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:879.269.553-21"
+      ],
+      "confidence": 0.9934
+    },
+    {
+      "id": "AV-2026-4421-aviso_de_sinistro#c09",
+      "document_id": "AV-2026-4421-aviso_de_sinistro",
+      "claim_id": "AV-2026-4421",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Oveiculofoi surpreendidoporelevacaorapida donivel daagua emviapublica,atingindo o\ncompartimentodomotor.\nO segurado declara que as informacoes acima sao verdadeiras e autoriza a seguradora a solicitar\ndocumentos complementarespara aregulacao do sinistro.\nDocumentogeradoem04/04/2026-pagina1/1",
       "headings": [
         "AVISODESINISTRO",
         "DESCRICAODOSEGURADO"
@@ -580,14 +1050,74 @@
       "claim_id": "AV-2026-4421",
       "kind": "boletim_de_ocorrencia",
       "page": 1,
-      "text": "Numero:BO-20263033\nDelegacia:2aCircunscricaodeCampodoMeio\nCondutor:TerezaBastos\nHabilitacao:valida\nVeiculoenvolvido:placaZDJ3D31",
+      "text": "Numero:BO-20263033",
+      "headings": [
+        "BOLETIMDEOCORRENCIA"
+      ],
+      "confidence": 0.9867
+    },
+    {
+      "id": "AV-2026-4421-boletim_de_ocorrencia#c02",
+      "document_id": "AV-2026-4421-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4421",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Delegacia:2aCircunscricaodeCampodoMeio",
+      "headings": [
+        "BOLETIMDEOCORRENCIA"
+      ],
+      "confidence": 0.992
+    },
+    {
+      "id": "AV-2026-4421-boletim_de_ocorrencia#c03",
+      "document_id": "AV-2026-4421-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4421",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Datadofato:04/04/2026",
+      "headings": [
+        "BOLETIMDEOCORRENCIA"
+      ],
+      "confidence": 0.9888
+    },
+    {
+      "id": "AV-2026-4421-boletim_de_ocorrencia#c04",
+      "document_id": "AV-2026-4421-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4421",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Condutor:TerezaBastos",
+      "headings": [
+        "BOLETIMDEOCORRENCIA"
+      ],
+      "confidence": 0.9932
+    },
+    {
+      "id": "AV-2026-4421-boletim_de_ocorrencia#c05",
+      "document_id": "AV-2026-4421-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4421",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Habilitacao:valida",
       "headings": [
         "BOLETIMDEOCORRENCIA"
       ],
       "confidence": 0.9582
     },
     {
-      "id": "AV-2026-4421-boletim_de_ocorrencia#c02",
+      "id": "AV-2026-4421-boletim_de_ocorrencia#c06",
+      "document_id": "AV-2026-4421-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4421",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Veiculoenvolvido:placaZDJ3D31",
+      "headings": [
+        "BOLETIMDEOCORRENCIA"
+      ],
+      "confidence": 0.9714
+    },
+    {
+      "id": "AV-2026-4421-boletim_de_ocorrencia#c07",
       "document_id": "AV-2026-4421-boletim_de_ocorrencia",
       "claim_id": "AV-2026-4421",
       "kind": "boletim_de_ocorrencia",
@@ -605,14 +1135,38 @@
       "claim_id": "AV-2026-4421",
       "kind": "orcamento_de_reparo",
       "page": 1,
-      "text": "Oficina:ReparacaoFicticiaLtda\nSinistro:AV-2026-4421\nPlaca:ZDJ3D31",
+      "text": "Oficina:ReparacaoFicticiaLtda",
+      "headings": [
+        "ORCAMENTODEREPARO"
+      ],
+      "confidence": 0.9859
+    },
+    {
+      "id": "AV-2026-4421-orcamento_de_reparo#c02",
+      "document_id": "AV-2026-4421-orcamento_de_reparo",
+      "claim_id": "AV-2026-4421",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Sinistro:AV-2026-4421",
+      "headings": [
+        "ORCAMENTODEREPARO"
+      ],
+      "confidence": 0.994
+    },
+    {
+      "id": "AV-2026-4421-orcamento_de_reparo#c03",
+      "document_id": "AV-2026-4421-orcamento_de_reparo",
+      "claim_id": "AV-2026-4421",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Placa:ZDJ3D31",
       "headings": [
         "ORCAMENTODEREPARO"
       ],
       "confidence": 0.978
     },
     {
-      "id": "AV-2026-4421-orcamento_de_reparo#c02",
+      "id": "AV-2026-4421-orcamento_de_reparo#c04",
       "document_id": "AV-2026-4421-orcamento_de_reparo",
       "claim_id": "AV-2026-4421",
       "kind": "orcamento_de_reparo",
@@ -625,7 +1179,7 @@
       "confidence": 0.9487
     },
     {
-      "id": "AV-2026-4421-orcamento_de_reparo#c03",
+      "id": "AV-2026-4421-orcamento_de_reparo#c05",
       "document_id": "AV-2026-4421-orcamento_de_reparo",
       "claim_id": "AV-2026-4421",
       "kind": "orcamento_de_reparo",
@@ -638,7 +1192,7 @@
       "confidence": 0.9597
     },
     {
-      "id": "AV-2026-4421-orcamento_de_reparo#c04",
+      "id": "AV-2026-4421-orcamento_de_reparo#c06",
       "document_id": "AV-2026-4421-orcamento_de_reparo",
       "claim_id": "AV-2026-4421",
       "kind": "orcamento_de_reparo",
@@ -651,7 +1205,7 @@
       "confidence": 0.948
     },
     {
-      "id": "AV-2026-4421-orcamento_de_reparo#c05",
+      "id": "AV-2026-4421-orcamento_de_reparo#c07",
       "document_id": "AV-2026-4421-orcamento_de_reparo",
       "claim_id": "AV-2026-4421",
       "kind": "orcamento_de_reparo",
@@ -664,7 +1218,7 @@
       "confidence": 0.9769
     },
     {
-      "id": "AV-2026-4421-orcamento_de_reparo#c06",
+      "id": "AV-2026-4421-orcamento_de_reparo#c08",
       "document_id": "AV-2026-4421-orcamento_de_reparo",
       "claim_id": "AV-2026-4421",
       "kind": "orcamento_de_reparo",
@@ -677,7 +1231,7 @@
       "confidence": 0.9764
     },
     {
-      "id": "AV-2026-4421-orcamento_de_reparo#c07",
+      "id": "AV-2026-4421-orcamento_de_reparo#c09",
       "document_id": "AV-2026-4421-orcamento_de_reparo",
       "claim_id": "AV-2026-4421",
       "kind": "orcamento_de_reparo",
@@ -690,7 +1244,7 @@
       "confidence": 0.9711
     },
     {
-      "id": "AV-2026-4421-orcamento_de_reparo#c08",
+      "id": "AV-2026-4421-orcamento_de_reparo#c10",
       "document_id": "AV-2026-4421-orcamento_de_reparo",
       "claim_id": "AV-2026-4421",
       "kind": "orcamento_de_reparo",
@@ -720,6 +1274,19 @@
       "claim_id": "AV-2026-4421",
       "kind": "laudo_medico",
       "page": 1,
+      "text": "Datadoatendimento:04/04/2026",
+      "headings": [
+        "LAUDO MEDICO",
+        "CPF:879.269.553-21"
+      ],
+      "confidence": 0.9915
+    },
+    {
+      "id": "AV-2026-4421-laudo_medico#c03",
+      "document_id": "AV-2026-4421-laudo_medico",
+      "claim_id": "AV-2026-4421",
+      "kind": "laudo_medico",
+      "page": 1,
       "text": "Paciente atendido apos evento automobilistico,consciente e orientado,sem alteracoesneurologicas\nagudas ao exame inicial.\nNaohouvenecessidadedeafastamentodasatividadeshabituais.\nSolicitadoretornoambulatorial emquinzediasparareavaliacaoclinica.\nPagina1de1",
       "headings": [
         "LAUDO MEDICO",
@@ -733,7 +1300,7 @@
       "claim_id": "AV-2026-4421",
       "kind": "apolice",
       "page": 1,
-      "text": "Apolice:2026.100411\nSegurado:TerezaBastos",
+      "text": "Apolice:2026.100411",
       "headings": [
         "APOLICEDESEGURODEAUTOMOVEL"
       ],
@@ -741,6 +1308,30 @@
     },
     {
       "id": "AV-2026-4421-apolice#c02",
+      "document_id": "AV-2026-4421-apolice",
+      "claim_id": "AV-2026-4421",
+      "kind": "apolice",
+      "page": 1,
+      "text": "Segurado:TerezaBastos",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL"
+      ],
+      "confidence": 0.9916
+    },
+    {
+      "id": "AV-2026-4421-apolice#c03",
+      "document_id": "AV-2026-4421-apolice",
+      "claim_id": "AV-2026-4421",
+      "kind": "apolice",
+      "page": 1,
+      "text": "Vigencia:01/01/2026a31/12/2026",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL"
+      ],
+      "confidence": 0.9896
+    },
+    {
+      "id": "AV-2026-4421-apolice#c04",
       "document_id": "AV-2026-4421-apolice",
       "claim_id": "AV-2026-4421",
       "kind": "apolice",
@@ -753,7 +1344,7 @@
       "confidence": 0.9634
     },
     {
-      "id": "AV-2026-4421-apolice#c03",
+      "id": "AV-2026-4421-apolice#c05",
       "document_id": "AV-2026-4421-apolice",
       "claim_id": "AV-2026-4421",
       "kind": "apolice",
@@ -766,7 +1357,7 @@
       "confidence": 0.9428
     },
     {
-      "id": "AV-2026-4421-apolice#c04",
+      "id": "AV-2026-4421-apolice#c06",
       "document_id": "AV-2026-4421-apolice",
       "claim_id": "AV-2026-4421",
       "kind": "apolice",
@@ -779,7 +1370,7 @@
       "confidence": 0.9684
     },
     {
-      "id": "AV-2026-4421-apolice#c05",
+      "id": "AV-2026-4421-apolice#c07",
       "document_id": "AV-2026-4421-apolice",
       "claim_id": "AV-2026-4421",
       "kind": "apolice",
@@ -797,11 +1388,11 @@
       "claim_id": "AV-2026-4428",
       "kind": "aviso_de_sinistro",
       "page": 1,
-      "text": "Numerodoaviso:AV-2026-4428\nApolice:2026.100548\nSegurado:Gustavo Quintela",
+      "text": "Numerodoaviso:AV-2026-4428",
       "headings": [
         "AVISODESINISTRO"
       ],
-      "confidence": 0.9762
+      "confidence": 0.9931
     },
     {
       "id": "AV-2026-4428-aviso_de_sinistro#c02",
@@ -809,12 +1400,11 @@
       "claim_id": "AV-2026-4428",
       "kind": "aviso_de_sinistro",
       "page": 1,
-      "text": "Local:NovaAurora-Zetalandia\nPlaca:ZEM4E48\nVeiculo:SUV compacto 1.4,ano2020\nNaturezadoevento:colisaolateralemcruzamento",
+      "text": "Apolice:2026.100548",
       "headings": [
-        "AVISODESINISTRO",
-        "CPF:129.781.209-43"
+        "AVISODESINISTRO"
       ],
-      "confidence": 0.9524
+      "confidence": 0.986
     },
     {
       "id": "AV-2026-4428-aviso_de_sinistro#c03",
@@ -822,7 +1412,84 @@
       "claim_id": "AV-2026-4428",
       "kind": "aviso_de_sinistro",
       "page": 1,
-      "text": "O condutorinformou que cruzava aviapreferencial com sinalizacaosemaforica intermitentequando\nfoi atingido na lateral direita.\nO segurado declara que as informacoesacima saoverdadeiras e autoriza a seguradora asolicitar\ndocumentoscomplementaresparaaregulacaodosinistro.",
+      "text": "Segurado:Gustavo Quintela",
+      "headings": [
+        "AVISODESINISTRO"
+      ],
+      "confidence": 0.9762
+    },
+    {
+      "id": "AV-2026-4428-aviso_de_sinistro#c04",
+      "document_id": "AV-2026-4428-aviso_de_sinistro",
+      "claim_id": "AV-2026-4428",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Datadosinistro:05/05/2026",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:129.781.209-43"
+      ],
+      "confidence": 0.9912
+    },
+    {
+      "id": "AV-2026-4428-aviso_de_sinistro#c05",
+      "document_id": "AV-2026-4428-aviso_de_sinistro",
+      "claim_id": "AV-2026-4428",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Local:NovaAurora-Zetalandia",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:129.781.209-43"
+      ],
+      "confidence": 0.9915
+    },
+    {
+      "id": "AV-2026-4428-aviso_de_sinistro#c06",
+      "document_id": "AV-2026-4428-aviso_de_sinistro",
+      "claim_id": "AV-2026-4428",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Placa:ZEM4E48",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:129.781.209-43"
+      ],
+      "confidence": 0.9789
+    },
+    {
+      "id": "AV-2026-4428-aviso_de_sinistro#c07",
+      "document_id": "AV-2026-4428-aviso_de_sinistro",
+      "claim_id": "AV-2026-4428",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Veiculo:SUV compacto 1.4,ano2020",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:129.781.209-43"
+      ],
+      "confidence": 0.9524
+    },
+    {
+      "id": "AV-2026-4428-aviso_de_sinistro#c08",
+      "document_id": "AV-2026-4428-aviso_de_sinistro",
+      "claim_id": "AV-2026-4428",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Naturezadoevento:colisaolateralemcruzamento",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:129.781.209-43"
+      ],
+      "confidence": 0.9848
+    },
+    {
+      "id": "AV-2026-4428-aviso_de_sinistro#c09",
+      "document_id": "AV-2026-4428-aviso_de_sinistro",
+      "claim_id": "AV-2026-4428",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "O condutorinformou que cruzava aviapreferencial com sinalizacaosemaforica intermitentequando\nfoi atingido na lateral direita.\nO segurado declara que as informacoesacima saoverdadeiras e autoriza a seguradora asolicitar\ndocumentoscomplementaresparaaregulacaodosinistro.\nDocumentogeradoem05/05/2026-pagina1/1",
       "headings": [
         "AVISODESINISTRO",
         "DESCRICAODOSEGURADO"
@@ -835,7 +1502,7 @@
       "claim_id": "AV-2026-4428",
       "kind": "boletim_de_ocorrencia",
       "page": 1,
-      "text": "Numero:BO-20263044\nDelegacia:2aCircunscricaodeNovaAurora\nCondutor:GustavoQuintela\nHabilitacao:vencidahamaisde30dias\nVeiculoenvolvido:placaZEM4E48",
+      "text": "Numero:BO-20263044",
       "headings": [
         "BOLETIMDEOCORRENCIA"
       ],
@@ -843,6 +1510,66 @@
     },
     {
       "id": "AV-2026-4428-boletim_de_ocorrencia#c02",
+      "document_id": "AV-2026-4428-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4428",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Delegacia:2aCircunscricaodeNovaAurora",
+      "headings": [
+        "BOLETIMDEOCORRENCIA"
+      ],
+      "confidence": 0.9896
+    },
+    {
+      "id": "AV-2026-4428-boletim_de_ocorrencia#c03",
+      "document_id": "AV-2026-4428-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4428",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Datadofato:05/05/2026",
+      "headings": [
+        "BOLETIMDEOCORRENCIA"
+      ],
+      "confidence": 0.9915
+    },
+    {
+      "id": "AV-2026-4428-boletim_de_ocorrencia#c04",
+      "document_id": "AV-2026-4428-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4428",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Condutor:GustavoQuintela",
+      "headings": [
+        "BOLETIMDEOCORRENCIA"
+      ],
+      "confidence": 0.9945
+    },
+    {
+      "id": "AV-2026-4428-boletim_de_ocorrencia#c05",
+      "document_id": "AV-2026-4428-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4428",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Habilitacao:vencidahamaisde30dias",
+      "headings": [
+        "BOLETIMDEOCORRENCIA"
+      ],
+      "confidence": 0.9848
+    },
+    {
+      "id": "AV-2026-4428-boletim_de_ocorrencia#c06",
+      "document_id": "AV-2026-4428-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4428",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Veiculoenvolvido:placaZEM4E48",
+      "headings": [
+        "BOLETIMDEOCORRENCIA"
+      ],
+      "confidence": 0.9839
+    },
+    {
+      "id": "AV-2026-4428-boletim_de_ocorrencia#c07",
       "document_id": "AV-2026-4428-boletim_de_ocorrencia",
       "claim_id": "AV-2026-4428",
       "kind": "boletim_de_ocorrencia",
@@ -860,14 +1587,38 @@
       "claim_id": "AV-2026-4428",
       "kind": "orcamento_de_reparo",
       "page": 1,
-      "text": "Oficina:OficinaModelo\nSinistro:AV-2026-4428\nPlaca:ZEM4E48",
+      "text": "Oficina:OficinaModelo",
+      "headings": [
+        "ORCAMENTODEREPARO"
+      ],
+      "confidence": 0.9863
+    },
+    {
+      "id": "AV-2026-4428-orcamento_de_reparo#c02",
+      "document_id": "AV-2026-4428-orcamento_de_reparo",
+      "claim_id": "AV-2026-4428",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Sinistro:AV-2026-4428",
+      "headings": [
+        "ORCAMENTODEREPARO"
+      ],
+      "confidence": 0.9924
+    },
+    {
+      "id": "AV-2026-4428-orcamento_de_reparo#c03",
+      "document_id": "AV-2026-4428-orcamento_de_reparo",
+      "claim_id": "AV-2026-4428",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Placa:ZEM4E48",
       "headings": [
         "ORCAMENTODEREPARO"
       ],
       "confidence": 0.9821
     },
     {
-      "id": "AV-2026-4428-orcamento_de_reparo#c02",
+      "id": "AV-2026-4428-orcamento_de_reparo#c04",
       "document_id": "AV-2026-4428-orcamento_de_reparo",
       "claim_id": "AV-2026-4428",
       "kind": "orcamento_de_reparo",
@@ -880,7 +1631,7 @@
       "confidence": 0.9752
     },
     {
-      "id": "AV-2026-4428-orcamento_de_reparo#c03",
+      "id": "AV-2026-4428-orcamento_de_reparo#c05",
       "document_id": "AV-2026-4428-orcamento_de_reparo",
       "claim_id": "AV-2026-4428",
       "kind": "orcamento_de_reparo",
@@ -893,7 +1644,7 @@
       "confidence": 0.9759
     },
     {
-      "id": "AV-2026-4428-orcamento_de_reparo#c04",
+      "id": "AV-2026-4428-orcamento_de_reparo#c06",
       "document_id": "AV-2026-4428-orcamento_de_reparo",
       "claim_id": "AV-2026-4428",
       "kind": "orcamento_de_reparo",
@@ -906,7 +1657,7 @@
       "confidence": 0.9666
     },
     {
-      "id": "AV-2026-4428-orcamento_de_reparo#c05",
+      "id": "AV-2026-4428-orcamento_de_reparo#c07",
       "document_id": "AV-2026-4428-orcamento_de_reparo",
       "claim_id": "AV-2026-4428",
       "kind": "orcamento_de_reparo",
@@ -919,7 +1670,7 @@
       "confidence": 0.9552
     },
     {
-      "id": "AV-2026-4428-orcamento_de_reparo#c06",
+      "id": "AV-2026-4428-orcamento_de_reparo#c08",
       "document_id": "AV-2026-4428-orcamento_de_reparo",
       "claim_id": "AV-2026-4428",
       "kind": "orcamento_de_reparo",
@@ -932,7 +1683,7 @@
       "confidence": 0.9637
     },
     {
-      "id": "AV-2026-4428-orcamento_de_reparo#c07",
+      "id": "AV-2026-4428-orcamento_de_reparo#c09",
       "document_id": "AV-2026-4428-orcamento_de_reparo",
       "claim_id": "AV-2026-4428",
       "kind": "orcamento_de_reparo",
@@ -945,7 +1696,7 @@
       "confidence": 0.9587
     },
     {
-      "id": "AV-2026-4428-orcamento_de_reparo#c08",
+      "id": "AV-2026-4428-orcamento_de_reparo#c10",
       "document_id": "AV-2026-4428-orcamento_de_reparo",
       "claim_id": "AV-2026-4428",
       "kind": "orcamento_de_reparo",
@@ -958,7 +1709,7 @@
       "confidence": 0.9874
     },
     {
-      "id": "AV-2026-4428-orcamento_de_reparo#c09",
+      "id": "AV-2026-4428-orcamento_de_reparo#c11",
       "document_id": "AV-2026-4428-orcamento_de_reparo",
       "claim_id": "AV-2026-4428",
       "kind": "orcamento_de_reparo",
@@ -988,6 +1739,19 @@
       "claim_id": "AV-2026-4428",
       "kind": "laudo_medico",
       "page": 1,
+      "text": "Datadoatendimento:05/05/2026",
+      "headings": [
+        "LAUDOMEDICO",
+        "CPF:129.781.209-43"
+      ],
+      "confidence": 0.993
+    },
+    {
+      "id": "AV-2026-4428-laudo_medico#c03",
+      "document_id": "AV-2026-4428-laudo_medico",
+      "claim_id": "AV-2026-4428",
+      "kind": "laudo_medico",
+      "page": 1,
       "text": "Paciente atendido apos evento automobilistico,consciente eorientado,sem alteracoesneurologicas\nagudas ao exame inicial.\nRecomendadoafastamentodasatividadeshabituaispor15dias.\nSolicitadoretornoambulatorial emquinzediasparareavaliacaoclinica.\nPagina1de1",
       "headings": [
         "LAUDOMEDICO",
@@ -1001,7 +1765,7 @@
       "claim_id": "AV-2026-4428",
       "kind": "apolice",
       "page": 1,
-      "text": "Apolice:2026.100548\nSegurado:GustavoQuintela",
+      "text": "Apolice:2026.100548",
       "headings": [
         "APOLICEDESEGURODEAUTOMOVEL"
       ],
@@ -1009,6 +1773,30 @@
     },
     {
       "id": "AV-2026-4428-apolice#c02",
+      "document_id": "AV-2026-4428-apolice",
+      "claim_id": "AV-2026-4428",
+      "kind": "apolice",
+      "page": 1,
+      "text": "Segurado:GustavoQuintela",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL"
+      ],
+      "confidence": 0.9911
+    },
+    {
+      "id": "AV-2026-4428-apolice#c03",
+      "document_id": "AV-2026-4428-apolice",
+      "claim_id": "AV-2026-4428",
+      "kind": "apolice",
+      "page": 1,
+      "text": "Vigencia:01/01/2026a31/12/2026",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL"
+      ],
+      "confidence": 0.9857
+    },
+    {
+      "id": "AV-2026-4428-apolice#c04",
       "document_id": "AV-2026-4428-apolice",
       "claim_id": "AV-2026-4428",
       "kind": "apolice",
@@ -1021,7 +1809,7 @@
       "confidence": 0.9574
     },
     {
-      "id": "AV-2026-4428-apolice#c03",
+      "id": "AV-2026-4428-apolice#c05",
       "document_id": "AV-2026-4428-apolice",
       "claim_id": "AV-2026-4428",
       "kind": "apolice",
@@ -1034,7 +1822,7 @@
       "confidence": 0.9334
     },
     {
-      "id": "AV-2026-4428-apolice#c04",
+      "id": "AV-2026-4428-apolice#c06",
       "document_id": "AV-2026-4428-apolice",
       "claim_id": "AV-2026-4428",
       "kind": "apolice",
@@ -1047,7 +1835,7 @@
       "confidence": 0.9693
     },
     {
-      "id": "AV-2026-4428-apolice#c05",
+      "id": "AV-2026-4428-apolice#c07",
       "document_id": "AV-2026-4428-apolice",
       "claim_id": "AV-2026-4428",
       "kind": "apolice",
@@ -1065,11 +1853,11 @@
       "claim_id": "AV-2026-4435",
       "kind": "aviso_de_sinistro",
       "page": 1,
-      "text": "Numerodoaviso:AV-2026-4435\nApolice:2026.100685\nSegurado:Nadia Moraes",
+      "text": "Numerodoaviso:AV-2026-4435",
       "headings": [
         "AVISODESINISTRO"
       ],
-      "confidence": 0.9714
+      "confidence": 0.9905
     },
     {
       "id": "AV-2026-4435-aviso_de_sinistro#c02",
@@ -1077,12 +1865,11 @@
       "claim_id": "AV-2026-4435",
       "kind": "aviso_de_sinistro",
       "page": 1,
-      "text": "Local:PortodasAguas-Zetalandia\nPlaca:ZFP5F55\nVeiculo:Hatch compacto1.0,ano2021\nNatureza doevento:colisao traseira",
+      "text": "Apolice:2026.100685",
       "headings": [
-        "AVISODESINISTRO",
-        "CPF:850.425.037-84"
+        "AVISODESINISTRO"
       ],
-      "confidence": 0.9726
+      "confidence": 0.9891
     },
     {
       "id": "AV-2026-4435-aviso_de_sinistro#c03",
@@ -1090,7 +1877,84 @@
       "claim_id": "AV-2026-4435",
       "kind": "aviso_de_sinistro",
       "page": 1,
-      "text": "Ocondutorrelatouquetrafegavapelaviamarginal quandooveiculoafrentefreoubruscamente,nao\nhavendoespacoparaevitaro impactona traseira.\nOsegurado declara que as informacoes acima sao verdadeiras e autoriza a seguradora a solicitar\ndocumentoscomplementaresparaaregulacaodosinistro.",
+      "text": "Segurado:Nadia Moraes",
+      "headings": [
+        "AVISODESINISTRO"
+      ],
+      "confidence": 0.9714
+    },
+    {
+      "id": "AV-2026-4435-aviso_de_sinistro#c04",
+      "document_id": "AV-2026-4435-aviso_de_sinistro",
+      "claim_id": "AV-2026-4435",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Datadosinistro:06/06/2026",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:850.425.037-84"
+      ],
+      "confidence": 0.9932
+    },
+    {
+      "id": "AV-2026-4435-aviso_de_sinistro#c05",
+      "document_id": "AV-2026-4435-aviso_de_sinistro",
+      "claim_id": "AV-2026-4435",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Local:PortodasAguas-Zetalandia",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:850.425.037-84"
+      ],
+      "confidence": 0.9902
+    },
+    {
+      "id": "AV-2026-4435-aviso_de_sinistro#c06",
+      "document_id": "AV-2026-4435-aviso_de_sinistro",
+      "claim_id": "AV-2026-4435",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Placa:ZFP5F55",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:850.425.037-84"
+      ],
+      "confidence": 0.9782
+    },
+    {
+      "id": "AV-2026-4435-aviso_de_sinistro#c07",
+      "document_id": "AV-2026-4435-aviso_de_sinistro",
+      "claim_id": "AV-2026-4435",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Veiculo:Hatch compacto1.0,ano2021",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:850.425.037-84"
+      ],
+      "confidence": 0.9726
+    },
+    {
+      "id": "AV-2026-4435-aviso_de_sinistro#c08",
+      "document_id": "AV-2026-4435-aviso_de_sinistro",
+      "claim_id": "AV-2026-4435",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Natureza doevento:colisao traseira",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:850.425.037-84"
+      ],
+      "confidence": 0.976
+    },
+    {
+      "id": "AV-2026-4435-aviso_de_sinistro#c09",
+      "document_id": "AV-2026-4435-aviso_de_sinistro",
+      "claim_id": "AV-2026-4435",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Ocondutorrelatouquetrafegavapelaviamarginal quandooveiculoafrentefreoubruscamente,nao\nhavendoespacoparaevitaro impactona traseira.\nOsegurado declara que as informacoes acima sao verdadeiras e autoriza a seguradora a solicitar\ndocumentoscomplementaresparaaregulacaodosinistro.\nDocumentogeradoem06/06/2026-pagina1/1",
       "headings": [
         "AVISODESINISTRO",
         "DESCRICAODOSEGURADO"
@@ -1115,7 +1979,33 @@
       "claim_id": "AV-2026-4435",
       "kind": "boletim_de_ocorrencia",
       "page": 1,
-      "text": "Condutor:NadiaMoraes\nHabilitacao:valida\nVeiculoenvolvido:placaZFP5F55",
+      "text": "Datadofato:06/06/2026",
+      "headings": [
+        "BOLETIMDEOCORRENCIA",
+        "Delegacia: 2a Circunscricao de Porto das Aguas"
+      ],
+      "confidence": 0.9917
+    },
+    {
+      "id": "AV-2026-4435-boletim_de_ocorrencia#c03",
+      "document_id": "AV-2026-4435-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4435",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Condutor:NadiaMoraes",
+      "headings": [
+        "BOLETIMDEOCORRENCIA",
+        "Delegacia: 2a Circunscricao de Porto das Aguas"
+      ],
+      "confidence": 0.9897
+    },
+    {
+      "id": "AV-2026-4435-boletim_de_ocorrencia#c04",
+      "document_id": "AV-2026-4435-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4435",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Habilitacao:valida",
       "headings": [
         "BOLETIMDEOCORRENCIA",
         "Delegacia: 2a Circunscricao de Porto das Aguas"
@@ -1123,7 +2013,20 @@
       "confidence": 0.9608
     },
     {
-      "id": "AV-2026-4435-boletim_de_ocorrencia#c03",
+      "id": "AV-2026-4435-boletim_de_ocorrencia#c05",
+      "document_id": "AV-2026-4435-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4435",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Veiculoenvolvido:placaZFP5F55",
+      "headings": [
+        "BOLETIMDEOCORRENCIA",
+        "Delegacia: 2a Circunscricao de Porto das Aguas"
+      ],
+      "confidence": 0.9855
+    },
+    {
+      "id": "AV-2026-4435-boletim_de_ocorrencia#c06",
       "document_id": "AV-2026-4435-boletim_de_ocorrencia",
       "claim_id": "AV-2026-4435",
       "kind": "boletim_de_ocorrencia",
@@ -1141,14 +2044,38 @@
       "claim_id": "AV-2026-4435",
       "kind": "orcamento_de_reparo",
       "page": 1,
-      "text": "Oficina:AutoCenterExemplo\nSinistro:AV-2026-4435\nPlaca:ZFP5F55",
+      "text": "Oficina:AutoCenterExemplo",
+      "headings": [
+        "ORCAMENTODEREPARO"
+      ],
+      "confidence": 0.9799
+    },
+    {
+      "id": "AV-2026-4435-orcamento_de_reparo#c02",
+      "document_id": "AV-2026-4435-orcamento_de_reparo",
+      "claim_id": "AV-2026-4435",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Sinistro:AV-2026-4435",
+      "headings": [
+        "ORCAMENTODEREPARO"
+      ],
+      "confidence": 0.993
+    },
+    {
+      "id": "AV-2026-4435-orcamento_de_reparo#c03",
+      "document_id": "AV-2026-4435-orcamento_de_reparo",
+      "claim_id": "AV-2026-4435",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Placa:ZFP5F55",
       "headings": [
         "ORCAMENTODEREPARO"
       ],
       "confidence": 0.9789
     },
     {
-      "id": "AV-2026-4435-orcamento_de_reparo#c02",
+      "id": "AV-2026-4435-orcamento_de_reparo#c04",
       "document_id": "AV-2026-4435-orcamento_de_reparo",
       "claim_id": "AV-2026-4435",
       "kind": "orcamento_de_reparo",
@@ -1161,7 +2088,7 @@
       "confidence": 0.9741
     },
     {
-      "id": "AV-2026-4435-orcamento_de_reparo#c03",
+      "id": "AV-2026-4435-orcamento_de_reparo#c05",
       "document_id": "AV-2026-4435-orcamento_de_reparo",
       "claim_id": "AV-2026-4435",
       "kind": "orcamento_de_reparo",
@@ -1174,7 +2101,7 @@
       "confidence": 0.9422
     },
     {
-      "id": "AV-2026-4435-orcamento_de_reparo#c04",
+      "id": "AV-2026-4435-orcamento_de_reparo#c06",
       "document_id": "AV-2026-4435-orcamento_de_reparo",
       "claim_id": "AV-2026-4435",
       "kind": "orcamento_de_reparo",
@@ -1187,7 +2114,7 @@
       "confidence": 0.971
     },
     {
-      "id": "AV-2026-4435-orcamento_de_reparo#c05",
+      "id": "AV-2026-4435-orcamento_de_reparo#c07",
       "document_id": "AV-2026-4435-orcamento_de_reparo",
       "claim_id": "AV-2026-4435",
       "kind": "orcamento_de_reparo",
@@ -1200,7 +2127,7 @@
       "confidence": 0.9531
     },
     {
-      "id": "AV-2026-4435-orcamento_de_reparo#c06",
+      "id": "AV-2026-4435-orcamento_de_reparo#c08",
       "document_id": "AV-2026-4435-orcamento_de_reparo",
       "claim_id": "AV-2026-4435",
       "kind": "orcamento_de_reparo",
@@ -1213,7 +2140,7 @@
       "confidence": 0.969
     },
     {
-      "id": "AV-2026-4435-orcamento_de_reparo#c07",
+      "id": "AV-2026-4435-orcamento_de_reparo#c09",
       "document_id": "AV-2026-4435-orcamento_de_reparo",
       "claim_id": "AV-2026-4435",
       "kind": "orcamento_de_reparo",
@@ -1226,7 +2153,7 @@
       "confidence": 0.9642
     },
     {
-      "id": "AV-2026-4435-orcamento_de_reparo#c08",
+      "id": "AV-2026-4435-orcamento_de_reparo#c10",
       "document_id": "AV-2026-4435-orcamento_de_reparo",
       "claim_id": "AV-2026-4435",
       "kind": "orcamento_de_reparo",
@@ -1239,7 +2166,7 @@
       "confidence": 0.9516
     },
     {
-      "id": "AV-2026-4435-orcamento_de_reparo#c09",
+      "id": "AV-2026-4435-orcamento_de_reparo#c11",
       "document_id": "AV-2026-4435-orcamento_de_reparo",
       "claim_id": "AV-2026-4435",
       "kind": "orcamento_de_reparo",
@@ -1269,6 +2196,19 @@
       "claim_id": "AV-2026-4435",
       "kind": "laudo_medico",
       "page": 1,
+      "text": "Datadoatendimento:06/06/2026",
+      "headings": [
+        "LAUDO MEDICO",
+        "CPF:850.425.037-84"
+      ],
+      "confidence": 0.9927
+    },
+    {
+      "id": "AV-2026-4435-laudo_medico#c03",
+      "document_id": "AV-2026-4435-laudo_medico",
+      "claim_id": "AV-2026-4435",
+      "kind": "laudo_medico",
+      "page": 1,
       "text": "Paciente atendido apos evento automobilistico,consciente e orientado,sem alteracoesneurologicas\nagudas aoexame inicial.\nRecomendadoafastamentodasatividadeshabituaispor15dias.\nSolicitadoretornoambulatorial emquinzediasparareavaliacaoclinica.\nPagina1de1",
       "headings": [
         "LAUDO MEDICO",
@@ -1282,7 +2222,7 @@
       "claim_id": "AV-2026-4435",
       "kind": "apolice",
       "page": 1,
-      "text": "Apolice:2026.100685\nSegurado:NadiaMoraes",
+      "text": "Apolice:2026.100685",
       "headings": [
         "APOLICEDESEGURODEAUTOMOVEL"
       ],
@@ -1290,6 +2230,30 @@
     },
     {
       "id": "AV-2026-4435-apolice#c02",
+      "document_id": "AV-2026-4435-apolice",
+      "claim_id": "AV-2026-4435",
+      "kind": "apolice",
+      "page": 1,
+      "text": "Segurado:NadiaMoraes",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "AV-2026-4435-apolice#c03",
+      "document_id": "AV-2026-4435-apolice",
+      "claim_id": "AV-2026-4435",
+      "kind": "apolice",
+      "page": 1,
+      "text": "Vigencia:01/01/2026a31/12/2026",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL"
+      ],
+      "confidence": 0.9865
+    },
+    {
+      "id": "AV-2026-4435-apolice#c04",
       "document_id": "AV-2026-4435-apolice",
       "claim_id": "AV-2026-4435",
       "kind": "apolice",
@@ -1302,7 +2266,7 @@
       "confidence": 0.9696
     },
     {
-      "id": "AV-2026-4435-apolice#c03",
+      "id": "AV-2026-4435-apolice#c05",
       "document_id": "AV-2026-4435-apolice",
       "claim_id": "AV-2026-4435",
       "kind": "apolice",
@@ -1315,7 +2279,7 @@
       "confidence": 0.9368
     },
     {
-      "id": "AV-2026-4435-apolice#c04",
+      "id": "AV-2026-4435-apolice#c06",
       "document_id": "AV-2026-4435-apolice",
       "claim_id": "AV-2026-4435",
       "kind": "apolice",
@@ -1328,7 +2292,7 @@
       "confidence": 0.9712
     },
     {
-      "id": "AV-2026-4435-apolice#c05",
+      "id": "AV-2026-4435-apolice#c07",
       "document_id": "AV-2026-4435-apolice",
       "claim_id": "AV-2026-4435",
       "kind": "apolice",
@@ -1346,11 +2310,11 @@
       "claim_id": "AV-2026-4442",
       "kind": "aviso_de_sinistro",
       "page": 1,
-      "text": "Numerodoaviso:AV-2026-4442\nApolice:2026.100822\nSegurado: Otavio Trindade",
+      "text": "Numerodoaviso:AV-2026-4442",
       "headings": [
         "AVISODESINISTRO"
       ],
-      "confidence": 0.962
+      "confidence": 0.9894
     },
     {
       "id": "AV-2026-4442-aviso_de_sinistro#c02",
@@ -1358,12 +2322,11 @@
       "claim_id": "AV-2026-4442",
       "kind": "aviso_de_sinistro",
       "page": 1,
-      "text": "Local:VilaSerena-Zetalandia\nPlaca:ZGS6G62\nVeiculo:Seda medio2.0,ano2019\nNatureza do evento:capotamento",
+      "text": "Apolice:2026.100822",
       "headings": [
-        "AVISODESINISTRO",
-        "CPF:999.091.624-26"
+        "AVISODESINISTRO"
       ],
-      "confidence": 0.9697
+      "confidence": 0.9924
     },
     {
       "id": "AV-2026-4442-aviso_de_sinistro#c03",
@@ -1371,7 +2334,84 @@
       "claim_id": "AV-2026-4442",
       "kind": "aviso_de_sinistro",
       "page": 1,
-      "text": "Segundo o condutor,houve perda de aderencia na alca de acesso darodovia sob chuva,seguida de\ncapotamentolateralsobreocanteiro.\nOseguradodeclaraque asinformacoes acimasaoverdadeirase autoriza aseguradoraasolicitar\ndocumentoscomplementaresparaaregulacaodosinistro.",
+      "text": "Segurado: Otavio Trindade",
+      "headings": [
+        "AVISODESINISTRO"
+      ],
+      "confidence": 0.962
+    },
+    {
+      "id": "AV-2026-4442-aviso_de_sinistro#c04",
+      "document_id": "AV-2026-4442-aviso_de_sinistro",
+      "claim_id": "AV-2026-4442",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Datadosinistro:07/07/2026",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:999.091.624-26"
+      ],
+      "confidence": 0.9922
+    },
+    {
+      "id": "AV-2026-4442-aviso_de_sinistro#c05",
+      "document_id": "AV-2026-4442-aviso_de_sinistro",
+      "claim_id": "AV-2026-4442",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Local:VilaSerena-Zetalandia",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:999.091.624-26"
+      ],
+      "confidence": 0.989
+    },
+    {
+      "id": "AV-2026-4442-aviso_de_sinistro#c06",
+      "document_id": "AV-2026-4442-aviso_de_sinistro",
+      "claim_id": "AV-2026-4442",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Placa:ZGS6G62",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:999.091.624-26"
+      ],
+      "confidence": 0.9819
+    },
+    {
+      "id": "AV-2026-4442-aviso_de_sinistro#c07",
+      "document_id": "AV-2026-4442-aviso_de_sinistro",
+      "claim_id": "AV-2026-4442",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Veiculo:Seda medio2.0,ano2019",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:999.091.624-26"
+      ],
+      "confidence": 0.9697
+    },
+    {
+      "id": "AV-2026-4442-aviso_de_sinistro#c08",
+      "document_id": "AV-2026-4442-aviso_de_sinistro",
+      "claim_id": "AV-2026-4442",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Natureza do evento:capotamento",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:999.091.624-26"
+      ],
+      "confidence": 0.9807
+    },
+    {
+      "id": "AV-2026-4442-aviso_de_sinistro#c09",
+      "document_id": "AV-2026-4442-aviso_de_sinistro",
+      "claim_id": "AV-2026-4442",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Segundo o condutor,houve perda de aderencia na alca de acesso darodovia sob chuva,seguida de\ncapotamentolateralsobreocanteiro.\nOseguradodeclaraque asinformacoes acimasaoverdadeirase autoriza aseguradoraasolicitar\ndocumentoscomplementaresparaaregulacaodosinistro.\nDocumentogeradoem07/07/2026-pagina1/1",
       "headings": [
         "AVISODESINISTRO",
         "DESCRICAODOSEGURADO"
@@ -1384,14 +2424,74 @@
       "claim_id": "AV-2026-4442",
       "kind": "boletim_de_ocorrencia",
       "page": 1,
-      "text": "Numero:BO-20263066\nDelegacia:2a CircunscricaodeVilaSerena\nCondutor:OtavioTrindade\nHabilitacao:valida\nVeiculoenvolvido:placaZGS6G62",
+      "text": "Numero:BO-20263066",
+      "headings": [
+        "BOLETIMDEOCORRENCIA"
+      ],
+      "confidence": 0.9784
+    },
+    {
+      "id": "AV-2026-4442-boletim_de_ocorrencia#c02",
+      "document_id": "AV-2026-4442-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4442",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Delegacia:2a CircunscricaodeVilaSerena",
       "headings": [
         "BOLETIMDEOCORRENCIA"
       ],
       "confidence": 0.9747
     },
     {
-      "id": "AV-2026-4442-boletim_de_ocorrencia#c02",
+      "id": "AV-2026-4442-boletim_de_ocorrencia#c03",
+      "document_id": "AV-2026-4442-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4442",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Datadofato:07/07/2026",
+      "headings": [
+        "BOLETIMDEOCORRENCIA"
+      ],
+      "confidence": 0.991
+    },
+    {
+      "id": "AV-2026-4442-boletim_de_ocorrencia#c04",
+      "document_id": "AV-2026-4442-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4442",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Condutor:OtavioTrindade",
+      "headings": [
+        "BOLETIMDEOCORRENCIA"
+      ],
+      "confidence": 0.9945
+    },
+    {
+      "id": "AV-2026-4442-boletim_de_ocorrencia#c05",
+      "document_id": "AV-2026-4442-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4442",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Habilitacao:valida",
+      "headings": [
+        "BOLETIMDEOCORRENCIA"
+      ],
+      "confidence": 0.978
+    },
+    {
+      "id": "AV-2026-4442-boletim_de_ocorrencia#c06",
+      "document_id": "AV-2026-4442-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4442",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Veiculoenvolvido:placaZGS6G62",
+      "headings": [
+        "BOLETIMDEOCORRENCIA"
+      ],
+      "confidence": 0.9834
+    },
+    {
+      "id": "AV-2026-4442-boletim_de_ocorrencia#c07",
       "document_id": "AV-2026-4442-boletim_de_ocorrencia",
       "claim_id": "AV-2026-4442",
       "kind": "boletim_de_ocorrencia",
@@ -1409,7 +2509,7 @@
       "claim_id": "AV-2026-4442",
       "kind": "orcamento_de_reparo",
       "page": 1,
-      "text": "Oficina:Reparacao Ficticia Ltda\nSinistro:AV-2026-4442\nPlaca:ZGS6G62",
+      "text": "Oficina:Reparacao Ficticia Ltda",
       "headings": [
         "ORCAMENTODEREPARO"
       ],
@@ -1417,6 +2517,30 @@
     },
     {
       "id": "AV-2026-4442-orcamento_de_reparo#c02",
+      "document_id": "AV-2026-4442-orcamento_de_reparo",
+      "claim_id": "AV-2026-4442",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Sinistro:AV-2026-4442",
+      "headings": [
+        "ORCAMENTODEREPARO"
+      ],
+      "confidence": 0.9943
+    },
+    {
+      "id": "AV-2026-4442-orcamento_de_reparo#c03",
+      "document_id": "AV-2026-4442-orcamento_de_reparo",
+      "claim_id": "AV-2026-4442",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Placa:ZGS6G62",
+      "headings": [
+        "ORCAMENTODEREPARO"
+      ],
+      "confidence": 0.9872
+    },
+    {
+      "id": "AV-2026-4442-orcamento_de_reparo#c04",
       "document_id": "AV-2026-4442-orcamento_de_reparo",
       "claim_id": "AV-2026-4442",
       "kind": "orcamento_de_reparo",
@@ -1429,7 +2553,7 @@
       "confidence": 0.9771
     },
     {
-      "id": "AV-2026-4442-orcamento_de_reparo#c03",
+      "id": "AV-2026-4442-orcamento_de_reparo#c05",
       "document_id": "AV-2026-4442-orcamento_de_reparo",
       "claim_id": "AV-2026-4442",
       "kind": "orcamento_de_reparo",
@@ -1442,7 +2566,7 @@
       "confidence": 0.9807
     },
     {
-      "id": "AV-2026-4442-orcamento_de_reparo#c04",
+      "id": "AV-2026-4442-orcamento_de_reparo#c06",
       "document_id": "AV-2026-4442-orcamento_de_reparo",
       "claim_id": "AV-2026-4442",
       "kind": "orcamento_de_reparo",
@@ -1455,7 +2579,7 @@
       "confidence": 0.8816
     },
     {
-      "id": "AV-2026-4442-orcamento_de_reparo#c05",
+      "id": "AV-2026-4442-orcamento_de_reparo#c07",
       "document_id": "AV-2026-4442-orcamento_de_reparo",
       "claim_id": "AV-2026-4442",
       "kind": "orcamento_de_reparo",
@@ -1468,7 +2592,7 @@
       "confidence": 0.9767
     },
     {
-      "id": "AV-2026-4442-orcamento_de_reparo#c06",
+      "id": "AV-2026-4442-orcamento_de_reparo#c08",
       "document_id": "AV-2026-4442-orcamento_de_reparo",
       "claim_id": "AV-2026-4442",
       "kind": "orcamento_de_reparo",
@@ -1481,7 +2605,7 @@
       "confidence": 0.9495
     },
     {
-      "id": "AV-2026-4442-orcamento_de_reparo#c07",
+      "id": "AV-2026-4442-orcamento_de_reparo#c09",
       "document_id": "AV-2026-4442-orcamento_de_reparo",
       "claim_id": "AV-2026-4442",
       "kind": "orcamento_de_reparo",
@@ -1494,7 +2618,7 @@
       "confidence": 0.9562
     },
     {
-      "id": "AV-2026-4442-orcamento_de_reparo#c08",
+      "id": "AV-2026-4442-orcamento_de_reparo#c10",
       "document_id": "AV-2026-4442-orcamento_de_reparo",
       "claim_id": "AV-2026-4442",
       "kind": "orcamento_de_reparo",
@@ -1507,7 +2631,7 @@
       "confidence": 0.9781
     },
     {
-      "id": "AV-2026-4442-orcamento_de_reparo#c09",
+      "id": "AV-2026-4442-orcamento_de_reparo#c11",
       "document_id": "AV-2026-4442-orcamento_de_reparo",
       "claim_id": "AV-2026-4442",
       "kind": "orcamento_de_reparo",
@@ -1520,7 +2644,7 @@
       "confidence": 0.9354
     },
     {
-      "id": "AV-2026-4442-orcamento_de_reparo#c10",
+      "id": "AV-2026-4442-orcamento_de_reparo#c12",
       "document_id": "AV-2026-4442-orcamento_de_reparo",
       "claim_id": "AV-2026-4442",
       "kind": "orcamento_de_reparo",
@@ -1533,7 +2657,7 @@
       "confidence": 0.9806
     },
     {
-      "id": "AV-2026-4442-orcamento_de_reparo#c11",
+      "id": "AV-2026-4442-orcamento_de_reparo#c13",
       "document_id": "AV-2026-4442-orcamento_de_reparo",
       "claim_id": "AV-2026-4442",
       "kind": "orcamento_de_reparo",
@@ -1563,6 +2687,19 @@
       "claim_id": "AV-2026-4442",
       "kind": "laudo_medico",
       "page": 1,
+      "text": "Datadoatendimento:07/07/2026",
+      "headings": [
+        "LAUDO MEDICO",
+        "CPF:999.091.624-26"
+      ],
+      "confidence": 0.9923
+    },
+    {
+      "id": "AV-2026-4442-laudo_medico#c03",
+      "document_id": "AV-2026-4442-laudo_medico",
+      "claim_id": "AV-2026-4442",
+      "kind": "laudo_medico",
+      "page": 1,
       "text": "Paciente atendido apos evento automobilistico,consciente eorientado,sem alteracoesneurologicas\nagudas ao exame inicial.\nRecomendadoafastamentodasatividadeshabituaispor45dias.\nSolicitadoretornoambulatorial emquinzediasparareavaliacaoclinica.\nPagina1de1",
       "headings": [
         "LAUDO MEDICO",
@@ -1576,7 +2713,7 @@
       "claim_id": "AV-2026-4442",
       "kind": "apolice",
       "page": 1,
-      "text": "Apolice:2026.100822\nSegurado:OtavioTrindade",
+      "text": "Apolice:2026.100822",
       "headings": [
         "APOLICEDESEGURODEAUTOMOVEL"
       ],
@@ -1584,6 +2721,30 @@
     },
     {
       "id": "AV-2026-4442-apolice#c02",
+      "document_id": "AV-2026-4442-apolice",
+      "claim_id": "AV-2026-4442",
+      "kind": "apolice",
+      "page": 1,
+      "text": "Segurado:OtavioTrindade",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL"
+      ],
+      "confidence": 0.9916
+    },
+    {
+      "id": "AV-2026-4442-apolice#c03",
+      "document_id": "AV-2026-4442-apolice",
+      "claim_id": "AV-2026-4442",
+      "kind": "apolice",
+      "page": 1,
+      "text": "Vigencia:01/01/2026a31/12/2026",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL"
+      ],
+      "confidence": 0.9866
+    },
+    {
+      "id": "AV-2026-4442-apolice#c04",
       "document_id": "AV-2026-4442-apolice",
       "claim_id": "AV-2026-4442",
       "kind": "apolice",
@@ -1596,7 +2757,7 @@
       "confidence": 0.9666
     },
     {
-      "id": "AV-2026-4442-apolice#c03",
+      "id": "AV-2026-4442-apolice#c05",
       "document_id": "AV-2026-4442-apolice",
       "claim_id": "AV-2026-4442",
       "kind": "apolice",
@@ -1609,7 +2770,7 @@
       "confidence": 0.9468
     },
     {
-      "id": "AV-2026-4442-apolice#c04",
+      "id": "AV-2026-4442-apolice#c06",
       "document_id": "AV-2026-4442-apolice",
       "claim_id": "AV-2026-4442",
       "kind": "apolice",
@@ -1622,7 +2783,7 @@
       "confidence": 0.9683
     },
     {
-      "id": "AV-2026-4442-apolice#c05",
+      "id": "AV-2026-4442-apolice#c07",
       "document_id": "AV-2026-4442-apolice",
       "claim_id": "AV-2026-4442",
       "kind": "apolice",
@@ -1640,11 +2801,11 @@
       "claim_id": "AV-2026-4449",
       "kind": "aviso_de_sinistro",
       "page": 1,
-      "text": "Numerodoaviso:AV-2026-4449\nApolice:2026.100959\nSegurado:BeatrizPecanha",
+      "text": "Numerodoaviso:AV-2026-4449",
       "headings": [
         "AVISODESINISTRO"
       ],
-      "confidence": 0.9872
+      "confidence": 0.9911
     },
     {
       "id": "AV-2026-4449-aviso_de_sinistro#c02",
@@ -1652,12 +2813,11 @@
       "claim_id": "AV-2026-4449",
       "kind": "aviso_de_sinistro",
       "page": 1,
-      "text": "Local:Campo do Meio-Zetalandia\nPlaca:ZHV7H79\nVeiculo:Utilitarioleve,ano2022\nNatureza doevento:alagamento",
+      "text": "Apolice:2026.100959",
       "headings": [
-        "AVISODESINISTRO",
-        "CPF:742.194.376-68"
+        "AVISODESINISTRO"
       ],
-      "confidence": 0.9611
+      "confidence": 0.9919
     },
     {
       "id": "AV-2026-4449-aviso_de_sinistro#c03",
@@ -1665,7 +2825,84 @@
       "claim_id": "AV-2026-4449",
       "kind": "aviso_de_sinistro",
       "page": 1,
-      "text": "Oveiculofoi surpreendidoporelevacaorapida donivel daagua emviapublica,atingindoo\ncompartimentodomotor.\nOsegurado declara que asinformacoesacima saoverdadeirase autoriza aseguradora asolicitar\ndocumentoscomplementaresparaaregulacaodosinistro.",
+      "text": "Segurado:BeatrizPecanha",
+      "headings": [
+        "AVISODESINISTRO"
+      ],
+      "confidence": 0.9872
+    },
+    {
+      "id": "AV-2026-4449-aviso_de_sinistro#c04",
+      "document_id": "AV-2026-4449-aviso_de_sinistro",
+      "claim_id": "AV-2026-4449",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Datadosinistro:08/08/2026",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:742.194.376-68"
+      ],
+      "confidence": 0.9932
+    },
+    {
+      "id": "AV-2026-4449-aviso_de_sinistro#c05",
+      "document_id": "AV-2026-4449-aviso_de_sinistro",
+      "claim_id": "AV-2026-4449",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Local:Campo do Meio-Zetalandia",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:742.194.376-68"
+      ],
+      "confidence": 0.9611
+    },
+    {
+      "id": "AV-2026-4449-aviso_de_sinistro#c06",
+      "document_id": "AV-2026-4449-aviso_de_sinistro",
+      "claim_id": "AV-2026-4449",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Placa:ZHV7H79",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:742.194.376-68"
+      ],
+      "confidence": 0.9642
+    },
+    {
+      "id": "AV-2026-4449-aviso_de_sinistro#c07",
+      "document_id": "AV-2026-4449-aviso_de_sinistro",
+      "claim_id": "AV-2026-4449",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Veiculo:Utilitarioleve,ano2022",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:742.194.376-68"
+      ],
+      "confidence": 0.9696
+    },
+    {
+      "id": "AV-2026-4449-aviso_de_sinistro#c08",
+      "document_id": "AV-2026-4449-aviso_de_sinistro",
+      "claim_id": "AV-2026-4449",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Natureza doevento:alagamento",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:742.194.376-68"
+      ],
+      "confidence": 0.9759
+    },
+    {
+      "id": "AV-2026-4449-aviso_de_sinistro#c09",
+      "document_id": "AV-2026-4449-aviso_de_sinistro",
+      "claim_id": "AV-2026-4449",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Oveiculofoi surpreendidoporelevacaorapida donivel daagua emviapublica,atingindoo\ncompartimentodomotor.\nOsegurado declara que asinformacoesacima saoverdadeirase autoriza aseguradora asolicitar\ndocumentoscomplementaresparaaregulacaodosinistro.\nDocumentogeradoem08/08/2026-pagina1/1",
       "headings": [
         "AVISODESINISTRO",
         "DESCRICAODOSEGURADO"
@@ -1678,7 +2915,7 @@
       "claim_id": "AV-2026-4449",
       "kind": "boletim_de_ocorrencia",
       "page": 1,
-      "text": "Numero:BO-20263077\nDelegacia:2aCircunscricaodeCampodoMeio\nCondutor:BeatrizPecanha\nHabilitacao:valida\nVeiculoenvolvido:placaZHV7H79",
+      "text": "Numero:BO-20263077",
       "headings": [
         "BOLETIMDEOCORRENCIA"
       ],
@@ -1686,6 +2923,66 @@
     },
     {
       "id": "AV-2026-4449-boletim_de_ocorrencia#c02",
+      "document_id": "AV-2026-4449-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4449",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Delegacia:2aCircunscricaodeCampodoMeio",
+      "headings": [
+        "BOLETIMDEOCORRENCIA"
+      ],
+      "confidence": 0.9845
+    },
+    {
+      "id": "AV-2026-4449-boletim_de_ocorrencia#c03",
+      "document_id": "AV-2026-4449-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4449",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Datadofato:08/08/2026",
+      "headings": [
+        "BOLETIMDEOCORRENCIA"
+      ],
+      "confidence": 0.9916
+    },
+    {
+      "id": "AV-2026-4449-boletim_de_ocorrencia#c04",
+      "document_id": "AV-2026-4449-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4449",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Condutor:BeatrizPecanha",
+      "headings": [
+        "BOLETIMDEOCORRENCIA"
+      ],
+      "confidence": 0.9874
+    },
+    {
+      "id": "AV-2026-4449-boletim_de_ocorrencia#c05",
+      "document_id": "AV-2026-4449-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4449",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Habilitacao:valida",
+      "headings": [
+        "BOLETIMDEOCORRENCIA"
+      ],
+      "confidence": 0.9877
+    },
+    {
+      "id": "AV-2026-4449-boletim_de_ocorrencia#c06",
+      "document_id": "AV-2026-4449-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4449",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Veiculoenvolvido:placaZHV7H79",
+      "headings": [
+        "BOLETIMDEOCORRENCIA"
+      ],
+      "confidence": 0.9732
+    },
+    {
+      "id": "AV-2026-4449-boletim_de_ocorrencia#c07",
       "document_id": "AV-2026-4449-boletim_de_ocorrencia",
       "claim_id": "AV-2026-4449",
       "kind": "boletim_de_ocorrencia",
@@ -1703,14 +3000,38 @@
       "claim_id": "AV-2026-4449",
       "kind": "orcamento_de_reparo",
       "page": 1,
-      "text": "Oficina:Oficina Modelo\nSinistro:AV-2026-4449\nPlaca:ZHV7H79",
+      "text": "Oficina:Oficina Modelo",
+      "headings": [
+        "ORCAMENTODEREPARO"
+      ],
+      "confidence": 0.9836
+    },
+    {
+      "id": "AV-2026-4449-orcamento_de_reparo#c02",
+      "document_id": "AV-2026-4449-orcamento_de_reparo",
+      "claim_id": "AV-2026-4449",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Sinistro:AV-2026-4449",
+      "headings": [
+        "ORCAMENTODEREPARO"
+      ],
+      "confidence": 0.9939
+    },
+    {
+      "id": "AV-2026-4449-orcamento_de_reparo#c03",
+      "document_id": "AV-2026-4449-orcamento_de_reparo",
+      "claim_id": "AV-2026-4449",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Placa:ZHV7H79",
       "headings": [
         "ORCAMENTODEREPARO"
       ],
       "confidence": 0.9737
     },
     {
-      "id": "AV-2026-4449-orcamento_de_reparo#c02",
+      "id": "AV-2026-4449-orcamento_de_reparo#c04",
       "document_id": "AV-2026-4449-orcamento_de_reparo",
       "claim_id": "AV-2026-4449",
       "kind": "orcamento_de_reparo",
@@ -1723,7 +3044,7 @@
       "confidence": 0.9784
     },
     {
-      "id": "AV-2026-4449-orcamento_de_reparo#c03",
+      "id": "AV-2026-4449-orcamento_de_reparo#c05",
       "document_id": "AV-2026-4449-orcamento_de_reparo",
       "claim_id": "AV-2026-4449",
       "kind": "orcamento_de_reparo",
@@ -1736,7 +3057,7 @@
       "confidence": 0.9645
     },
     {
-      "id": "AV-2026-4449-orcamento_de_reparo#c04",
+      "id": "AV-2026-4449-orcamento_de_reparo#c06",
       "document_id": "AV-2026-4449-orcamento_de_reparo",
       "claim_id": "AV-2026-4449",
       "kind": "orcamento_de_reparo",
@@ -1749,7 +3070,7 @@
       "confidence": 0.98
     },
     {
-      "id": "AV-2026-4449-orcamento_de_reparo#c05",
+      "id": "AV-2026-4449-orcamento_de_reparo#c07",
       "document_id": "AV-2026-4449-orcamento_de_reparo",
       "claim_id": "AV-2026-4449",
       "kind": "orcamento_de_reparo",
@@ -1762,7 +3083,7 @@
       "confidence": 0.9458
     },
     {
-      "id": "AV-2026-4449-orcamento_de_reparo#c06",
+      "id": "AV-2026-4449-orcamento_de_reparo#c08",
       "document_id": "AV-2026-4449-orcamento_de_reparo",
       "claim_id": "AV-2026-4449",
       "kind": "orcamento_de_reparo",
@@ -1775,7 +3096,7 @@
       "confidence": 0.9738
     },
     {
-      "id": "AV-2026-4449-orcamento_de_reparo#c07",
+      "id": "AV-2026-4449-orcamento_de_reparo#c09",
       "document_id": "AV-2026-4449-orcamento_de_reparo",
       "claim_id": "AV-2026-4449",
       "kind": "orcamento_de_reparo",
@@ -1788,7 +3109,7 @@
       "confidence": 0.9901
     },
     {
-      "id": "AV-2026-4449-orcamento_de_reparo#c08",
+      "id": "AV-2026-4449-orcamento_de_reparo#c10",
       "document_id": "AV-2026-4449-orcamento_de_reparo",
       "claim_id": "AV-2026-4449",
       "kind": "orcamento_de_reparo",
@@ -1801,7 +3122,7 @@
       "confidence": 0.9727
     },
     {
-      "id": "AV-2026-4449-orcamento_de_reparo#c09",
+      "id": "AV-2026-4449-orcamento_de_reparo#c11",
       "document_id": "AV-2026-4449-orcamento_de_reparo",
       "claim_id": "AV-2026-4449",
       "kind": "orcamento_de_reparo",
@@ -1814,7 +3135,7 @@
       "confidence": 0.9641
     },
     {
-      "id": "AV-2026-4449-orcamento_de_reparo#c10",
+      "id": "AV-2026-4449-orcamento_de_reparo#c12",
       "document_id": "AV-2026-4449-orcamento_de_reparo",
       "claim_id": "AV-2026-4449",
       "kind": "orcamento_de_reparo",
@@ -1844,6 +3165,19 @@
       "claim_id": "AV-2026-4449",
       "kind": "laudo_medico",
       "page": 1,
+      "text": "Datadoatendimento:08/08/2026",
+      "headings": [
+        "LAUDO MEDICO",
+        "CPF:742.194.376-68"
+      ],
+      "confidence": 0.9911
+    },
+    {
+      "id": "AV-2026-4449-laudo_medico#c03",
+      "document_id": "AV-2026-4449-laudo_medico",
+      "claim_id": "AV-2026-4449",
+      "kind": "laudo_medico",
+      "page": 1,
       "text": "Paciente atendido apos evento automobilistico, consciente e orientado, sem alteracoes neurologicas\nagudasaoexameinicial.\nNaohouvenecessidadedeafastamentodasatividadeshabituais.\nSolicitadoretornoambulatorialemquinzediasparareavaliacaoclinica.\nPagina1de1",
       "headings": [
         "LAUDO MEDICO",
@@ -1857,14 +3191,38 @@
       "claim_id": "AV-2026-4449",
       "kind": "apolice",
       "page": 1,
-      "text": "Apolice:2026.100959\nSegurado:Beatriz Pecanha",
+      "text": "Apolice:2026.100959",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL"
+      ],
+      "confidence": 0.985
+    },
+    {
+      "id": "AV-2026-4449-apolice#c02",
+      "document_id": "AV-2026-4449-apolice",
+      "claim_id": "AV-2026-4449",
+      "kind": "apolice",
+      "page": 1,
+      "text": "Segurado:Beatriz Pecanha",
       "headings": [
         "APOLICEDESEGURODEAUTOMOVEL"
       ],
       "confidence": 0.9706
     },
     {
-      "id": "AV-2026-4449-apolice#c02",
+      "id": "AV-2026-4449-apolice#c03",
+      "document_id": "AV-2026-4449-apolice",
+      "claim_id": "AV-2026-4449",
+      "kind": "apolice",
+      "page": 1,
+      "text": "Vigencia:01/01/2026a31/12/2026",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL"
+      ],
+      "confidence": 0.9739
+    },
+    {
+      "id": "AV-2026-4449-apolice#c04",
       "document_id": "AV-2026-4449-apolice",
       "claim_id": "AV-2026-4449",
       "kind": "apolice",
@@ -1877,7 +3235,7 @@
       "confidence": 0.9712
     },
     {
-      "id": "AV-2026-4449-apolice#c03",
+      "id": "AV-2026-4449-apolice#c05",
       "document_id": "AV-2026-4449-apolice",
       "claim_id": "AV-2026-4449",
       "kind": "apolice",
@@ -1890,7 +3248,7 @@
       "confidence": 0.9391
     },
     {
-      "id": "AV-2026-4449-apolice#c04",
+      "id": "AV-2026-4449-apolice#c06",
       "document_id": "AV-2026-4449-apolice",
       "claim_id": "AV-2026-4449",
       "kind": "apolice",
@@ -1903,7 +3261,7 @@
       "confidence": 0.9716
     },
     {
-      "id": "AV-2026-4449-apolice#c05",
+      "id": "AV-2026-4449-apolice#c07",
       "document_id": "AV-2026-4449-apolice",
       "claim_id": "AV-2026-4449",
       "kind": "apolice",
@@ -1921,11 +3279,11 @@
       "claim_id": "AV-2026-4456",
       "kind": "aviso_de_sinistro",
       "page": 1,
-      "text": "Numerodoaviso:AV-2026-4456\nApolice:2026.101096\nSegurado:LeandroArruda",
+      "text": "Numerodoaviso:AV-2026-4456",
       "headings": [
         "AVISODESINISTRO"
       ],
-      "confidence": 0.986
+      "confidence": 0.9917
     },
     {
       "id": "AV-2026-4456-aviso_de_sinistro#c02",
@@ -1933,12 +3291,11 @@
       "claim_id": "AV-2026-4456",
       "kind": "aviso_de_sinistro",
       "page": 1,
-      "text": "Local:NovaAurora-Zetalandia\nPlaca:ZIY8186\nVeiculo:SUVcompacto1.4,ano2020\nNaturezadoevento:colisaolateralemcruzamento",
+      "text": "Apolice:2026.101096",
       "headings": [
-        "AVISODESINISTRO",
-        "CPF:357.416.658-48"
+        "AVISODESINISTRO"
       ],
-      "confidence": 0.9573
+      "confidence": 0.986
     },
     {
       "id": "AV-2026-4456-aviso_de_sinistro#c03",
@@ -1946,7 +3303,84 @@
       "claim_id": "AV-2026-4456",
       "kind": "aviso_de_sinistro",
       "page": 1,
-      "text": "O condutor informou que cruzava a via preferencial com sinalizacao semaforica intermitente quando\nfoi atingidonalateral direita.\nO segurado declara que as informacoes acima sao verdadeiras e autoriza a seguradora a solicitar\ndocumentoscomplementaresparaaregulacaodosinistro.",
+      "text": "Segurado:LeandroArruda",
+      "headings": [
+        "AVISODESINISTRO"
+      ],
+      "confidence": 0.9908
+    },
+    {
+      "id": "AV-2026-4456-aviso_de_sinistro#c04",
+      "document_id": "AV-2026-4456-aviso_de_sinistro",
+      "claim_id": "AV-2026-4456",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Datadosinistro:09/09/2026",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:357.416.658-48"
+      ],
+      "confidence": 0.9926
+    },
+    {
+      "id": "AV-2026-4456-aviso_de_sinistro#c05",
+      "document_id": "AV-2026-4456-aviso_de_sinistro",
+      "claim_id": "AV-2026-4456",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Local:NovaAurora-Zetalandia",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:357.416.658-48"
+      ],
+      "confidence": 0.9921
+    },
+    {
+      "id": "AV-2026-4456-aviso_de_sinistro#c06",
+      "document_id": "AV-2026-4456-aviso_de_sinistro",
+      "claim_id": "AV-2026-4456",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Placa:ZIY8186",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:357.416.658-48"
+      ],
+      "confidence": 0.9573
+    },
+    {
+      "id": "AV-2026-4456-aviso_de_sinistro#c07",
+      "document_id": "AV-2026-4456-aviso_de_sinistro",
+      "claim_id": "AV-2026-4456",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Veiculo:SUVcompacto1.4,ano2020",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:357.416.658-48"
+      ],
+      "confidence": 0.9797
+    },
+    {
+      "id": "AV-2026-4456-aviso_de_sinistro#c08",
+      "document_id": "AV-2026-4456-aviso_de_sinistro",
+      "claim_id": "AV-2026-4456",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Naturezadoevento:colisaolateralemcruzamento",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:357.416.658-48"
+      ],
+      "confidence": 0.9911
+    },
+    {
+      "id": "AV-2026-4456-aviso_de_sinistro#c09",
+      "document_id": "AV-2026-4456-aviso_de_sinistro",
+      "claim_id": "AV-2026-4456",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "O condutor informou que cruzava a via preferencial com sinalizacao semaforica intermitente quando\nfoi atingidonalateral direita.\nO segurado declara que as informacoes acima sao verdadeiras e autoriza a seguradora a solicitar\ndocumentoscomplementaresparaaregulacaodosinistro.\nDocumentogeradoem09/09/2026-pagina1/1",
       "headings": [
         "AVISODESINISTRO",
         "DESCRICAODOSEGURADO"
@@ -1959,14 +3393,74 @@
       "claim_id": "AV-2026-4456",
       "kind": "boletim_de_ocorrencia",
       "page": 1,
-      "text": "Numero:BO-20263088\nDelegacia:2aCircunscricaodeNovaAurora\nCondutor:LeandroArruda\nHabilitacao:vencidahamaisde30dias\nVeiculoenvolvido:placaZiY8l86",
+      "text": "Numero:BO-20263088",
+      "headings": [
+        "BOLETIMDEOCORRENCIA"
+      ],
+      "confidence": 0.9805
+    },
+    {
+      "id": "AV-2026-4456-boletim_de_ocorrencia#c02",
+      "document_id": "AV-2026-4456-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4456",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Delegacia:2aCircunscricaodeNovaAurora",
+      "headings": [
+        "BOLETIMDEOCORRENCIA"
+      ],
+      "confidence": 0.9916
+    },
+    {
+      "id": "AV-2026-4456-boletim_de_ocorrencia#c03",
+      "document_id": "AV-2026-4456-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4456",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Datadofato:09/09/2026",
+      "headings": [
+        "BOLETIMDEOCORRENCIA"
+      ],
+      "confidence": 0.9933
+    },
+    {
+      "id": "AV-2026-4456-boletim_de_ocorrencia#c04",
+      "document_id": "AV-2026-4456-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4456",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Condutor:LeandroArruda",
+      "headings": [
+        "BOLETIMDEOCORRENCIA"
+      ],
+      "confidence": 0.9924
+    },
+    {
+      "id": "AV-2026-4456-boletim_de_ocorrencia#c05",
+      "document_id": "AV-2026-4456-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4456",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Habilitacao:vencidahamaisde30dias",
+      "headings": [
+        "BOLETIMDEOCORRENCIA"
+      ],
+      "confidence": 0.9851
+    },
+    {
+      "id": "AV-2026-4456-boletim_de_ocorrencia#c06",
+      "document_id": "AV-2026-4456-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4456",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Veiculoenvolvido:placaZiY8l86",
       "headings": [
         "BOLETIMDEOCORRENCIA"
       ],
       "confidence": 0.9514
     },
     {
-      "id": "AV-2026-4456-boletim_de_ocorrencia#c02",
+      "id": "AV-2026-4456-boletim_de_ocorrencia#c07",
       "document_id": "AV-2026-4456-boletim_de_ocorrencia",
       "claim_id": "AV-2026-4456",
       "kind": "boletim_de_ocorrencia",
@@ -1984,14 +3478,38 @@
       "claim_id": "AV-2026-4456",
       "kind": "orcamento_de_reparo",
       "page": 1,
-      "text": "Oficina:Auto CenterExemplo\nSinistro:AV-2026-4456\nPlaca:ZIY8186",
+      "text": "Oficina:Auto CenterExemplo",
+      "headings": [
+        "ORCAMENTO DEREPARO"
+      ],
+      "confidence": 0.9812
+    },
+    {
+      "id": "AV-2026-4456-orcamento_de_reparo#c02",
+      "document_id": "AV-2026-4456-orcamento_de_reparo",
+      "claim_id": "AV-2026-4456",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Sinistro:AV-2026-4456",
+      "headings": [
+        "ORCAMENTO DEREPARO"
+      ],
+      "confidence": 0.9929
+    },
+    {
+      "id": "AV-2026-4456-orcamento_de_reparo#c03",
+      "document_id": "AV-2026-4456-orcamento_de_reparo",
+      "claim_id": "AV-2026-4456",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Placa:ZIY8186",
       "headings": [
         "ORCAMENTO DEREPARO"
       ],
       "confidence": 0.9682
     },
     {
-      "id": "AV-2026-4456-orcamento_de_reparo#c02",
+      "id": "AV-2026-4456-orcamento_de_reparo#c04",
       "document_id": "AV-2026-4456-orcamento_de_reparo",
       "claim_id": "AV-2026-4456",
       "kind": "orcamento_de_reparo",
@@ -2004,7 +3522,7 @@
       "confidence": 0.9596
     },
     {
-      "id": "AV-2026-4456-orcamento_de_reparo#c03",
+      "id": "AV-2026-4456-orcamento_de_reparo#c05",
       "document_id": "AV-2026-4456-orcamento_de_reparo",
       "claim_id": "AV-2026-4456",
       "kind": "orcamento_de_reparo",
@@ -2017,7 +3535,7 @@
       "confidence": 0.971
     },
     {
-      "id": "AV-2026-4456-orcamento_de_reparo#c04",
+      "id": "AV-2026-4456-orcamento_de_reparo#c06",
       "document_id": "AV-2026-4456-orcamento_de_reparo",
       "claim_id": "AV-2026-4456",
       "kind": "orcamento_de_reparo",
@@ -2030,7 +3548,7 @@
       "confidence": 0.9734
     },
     {
-      "id": "AV-2026-4456-orcamento_de_reparo#c05",
+      "id": "AV-2026-4456-orcamento_de_reparo#c07",
       "document_id": "AV-2026-4456-orcamento_de_reparo",
       "claim_id": "AV-2026-4456",
       "kind": "orcamento_de_reparo",
@@ -2043,7 +3561,7 @@
       "confidence": 0.9778
     },
     {
-      "id": "AV-2026-4456-orcamento_de_reparo#c06",
+      "id": "AV-2026-4456-orcamento_de_reparo#c08",
       "document_id": "AV-2026-4456-orcamento_de_reparo",
       "claim_id": "AV-2026-4456",
       "kind": "orcamento_de_reparo",
@@ -2056,7 +3574,7 @@
       "confidence": 0.9402
     },
     {
-      "id": "AV-2026-4456-orcamento_de_reparo#c07",
+      "id": "AV-2026-4456-orcamento_de_reparo#c09",
       "document_id": "AV-2026-4456-orcamento_de_reparo",
       "claim_id": "AV-2026-4456",
       "kind": "orcamento_de_reparo",
@@ -2069,7 +3587,7 @@
       "confidence": 0.9557
     },
     {
-      "id": "AV-2026-4456-orcamento_de_reparo#c08",
+      "id": "AV-2026-4456-orcamento_de_reparo#c10",
       "document_id": "AV-2026-4456-orcamento_de_reparo",
       "claim_id": "AV-2026-4456",
       "kind": "orcamento_de_reparo",
@@ -2082,7 +3600,7 @@
       "confidence": 0.9709
     },
     {
-      "id": "AV-2026-4456-orcamento_de_reparo#c09",
+      "id": "AV-2026-4456-orcamento_de_reparo#c11",
       "document_id": "AV-2026-4456-orcamento_de_reparo",
       "claim_id": "AV-2026-4456",
       "kind": "orcamento_de_reparo",
@@ -2095,7 +3613,7 @@
       "confidence": 0.9652
     },
     {
-      "id": "AV-2026-4456-orcamento_de_reparo#c10",
+      "id": "AV-2026-4456-orcamento_de_reparo#c12",
       "document_id": "AV-2026-4456-orcamento_de_reparo",
       "claim_id": "AV-2026-4456",
       "kind": "orcamento_de_reparo",
@@ -2108,7 +3626,7 @@
       "confidence": 0.9677
     },
     {
-      "id": "AV-2026-4456-orcamento_de_reparo#c11",
+      "id": "AV-2026-4456-orcamento_de_reparo#c13",
       "document_id": "AV-2026-4456-orcamento_de_reparo",
       "claim_id": "AV-2026-4456",
       "kind": "orcamento_de_reparo",
@@ -2138,6 +3656,19 @@
       "claim_id": "AV-2026-4456",
       "kind": "laudo_medico",
       "page": 1,
+      "text": "Datadoatendimento:09/09/2026",
+      "headings": [
+        "LAUDO MEDICO",
+        "CPF:357.416.658-48"
+      ],
+      "confidence": 0.991
+    },
+    {
+      "id": "AV-2026-4456-laudo_medico#c03",
+      "document_id": "AV-2026-4456-laudo_medico",
+      "claim_id": "AV-2026-4456",
+      "kind": "laudo_medico",
+      "page": 1,
       "text": "Paciente atendido apos evento automobilistico,consciente eorientado,sem alteracoesneurologicas\nagudas ao exame inicial.\nRecomendadoafastamentodasatividadeshabituaispor45dias.\nSolicitadoretornoambulatorial emquinzediasparareavaliacaoclinica.\nPagina1de1",
       "headings": [
         "LAUDO MEDICO",
@@ -2151,14 +3682,38 @@
       "claim_id": "AV-2026-4456",
       "kind": "apolice",
       "page": 1,
-      "text": "Apolice:2026.101096\nSegurado: LeandroArruda",
+      "text": "Apolice:2026.101096",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL"
+      ],
+      "confidence": 0.9864
+    },
+    {
+      "id": "AV-2026-4456-apolice#c02",
+      "document_id": "AV-2026-4456-apolice",
+      "claim_id": "AV-2026-4456",
+      "kind": "apolice",
+      "page": 1,
+      "text": "Segurado: LeandroArruda",
       "headings": [
         "APOLICEDESEGURODEAUTOMOVEL"
       ],
       "confidence": 0.9723
     },
     {
-      "id": "AV-2026-4456-apolice#c02",
+      "id": "AV-2026-4456-apolice#c03",
+      "document_id": "AV-2026-4456-apolice",
+      "claim_id": "AV-2026-4456",
+      "kind": "apolice",
+      "page": 1,
+      "text": "Vigencia:01/01/2026a31/12/2026",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL"
+      ],
+      "confidence": 0.9855
+    },
+    {
+      "id": "AV-2026-4456-apolice#c04",
       "document_id": "AV-2026-4456-apolice",
       "claim_id": "AV-2026-4456",
       "kind": "apolice",
@@ -2171,7 +3726,7 @@
       "confidence": 0.9721
     },
     {
-      "id": "AV-2026-4456-apolice#c03",
+      "id": "AV-2026-4456-apolice#c05",
       "document_id": "AV-2026-4456-apolice",
       "claim_id": "AV-2026-4456",
       "kind": "apolice",
@@ -2184,7 +3739,7 @@
       "confidence": 0.9521
     },
     {
-      "id": "AV-2026-4456-apolice#c04",
+      "id": "AV-2026-4456-apolice#c06",
       "document_id": "AV-2026-4456-apolice",
       "claim_id": "AV-2026-4456",
       "kind": "apolice",
@@ -2197,7 +3752,7 @@
       "confidence": 0.9652
     },
     {
-      "id": "AV-2026-4456-apolice#c05",
+      "id": "AV-2026-4456-apolice#c07",
       "document_id": "AV-2026-4456-apolice",
       "claim_id": "AV-2026-4456",
       "kind": "apolice",

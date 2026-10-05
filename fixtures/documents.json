@@ -70,7 +70,7 @@
             },
             {
               "text": "Datadosinistro:02/02/2026",
-              "kind": "footer",
+              "kind": "field",
               "box": [
                 183,
                 618,
@@ -180,7 +180,7 @@
             },
             {
               "text": "Documentogeradoem02/02/2026-pagina1/1",
-              "kind": "footer",
+              "kind": "paragraph",
               "box": [
                 186,
                 1414,
@@ -241,7 +241,7 @@
             },
             {
               "text": "Datadofato:02/02/2026",
-              "kind": "footer",
+              "kind": "field",
               "box": [
                 179,
                 465,
@@ -594,7 +594,7 @@
             },
             {
               "text": "Datadoatendimento:02/02/2026",
-              "kind": "footer",
+              "kind": "field",
               "box": [
                 193,
                 450,
@@ -732,7 +732,7 @@
             },
             {
               "text": "Vigencia:01/01/2026a31/12/2026",
-              "kind": "footer",
+              "kind": "table_row",
               "box": [
                 186,
                 470,
@@ -903,7 +903,7 @@
             },
             {
               "text": "Datadosinistro:03/03/2026",
-              "kind": "footer",
+              "kind": "field",
               "box": [
                 190,
                 615,
@@ -1013,7 +1013,7 @@
             },
             {
               "text": "Documentogeradoem03/03/2026-pagina1/1",
-              "kind": "footer",
+              "kind": "paragraph",
               "box": [
                 191,
                 1414,
@@ -1074,7 +1074,7 @@
             },
             {
               "text": "Datadofato:03/03/2026",
-              "kind": "footer",
+              "kind": "field",
               "box": [
                 184,
                 463,
@@ -1416,7 +1416,7 @@
             },
             {
               "text": "Datadoatendimento:03/03/2026",
-              "kind": "footer",
+              "kind": "field",
               "box": [
                 184,
                 456,
@@ -1543,7 +1543,7 @@
             },
             {
               "text": "Vigencia:01/01/2026a31/12/2026",
-              "kind": "footer",
+              "kind": "table_row",
               "box": [
                 193,
                 468,
@@ -1714,7 +1714,7 @@
             },
             {
               "text": "Datadosinistro:04/04/2026",
-              "kind": "footer",
+              "kind": "field",
               "box": [
                 193,
                 613,
@@ -1824,7 +1824,7 @@
             },
             {
               "text": "Documentogeradoem04/04/2026-pagina1/1",
-              "kind": "footer",
+              "kind": "paragraph",
               "box": [
                 188,
                 1416,
@@ -1885,7 +1885,7 @@
             },
             {
               "text": "Datadofato:04/04/2026",
-              "kind": "footer",
+              "kind": "field",
               "box": [
                 186,
                 468,
@@ -2227,7 +2227,7 @@
             },
             {
               "text": "Datadoatendimento:04/04/2026",
-              "kind": "footer",
+              "kind": "field",
               "box": [
                 193,
                 450,
@@ -2365,7 +2365,7 @@
             },
             {
               "text": "Vigencia:01/01/2026a31/12/2026",
-              "kind": "footer",
+              "kind": "table_row",
               "box": [
                 188,
                 468,
@@ -2536,7 +2536,7 @@
             },
             {
               "text": "Datadosinistro:05/05/2026",
-              "kind": "footer",
+              "kind": "field",
               "box": [
                 190,
                 615,
@@ -2646,7 +2646,7 @@
             },
             {
               "text": "Documentogeradoem05/05/2026-pagina1/1",
-              "kind": "footer",
+              "kind": "paragraph",
               "box": [
                 190,
                 1405,
@@ -2707,7 +2707,7 @@
             },
             {
               "text": "Datadofato:05/05/2026",
-              "kind": "footer",
+              "kind": "field",
               "box": [
                 199,
                 454,
@@ -3049,7 +3049,7 @@
             },
             {
               "text": "Datadoatendimento:05/05/2026",
-              "kind": "footer",
+              "kind": "field",
               "box": [
                 193,
                 449,
@@ -3187,7 +3187,7 @@
             },
             {
               "text": "Vigencia:01/01/2026a31/12/2026",
-              "kind": "footer",
+              "kind": "table_row",
               "box": [
                 193,
                 470,
@@ -3358,7 +3358,7 @@
             },
             {
               "text": "Datadosinistro:06/06/2026",
-              "kind": "footer",
+              "kind": "field",
               "box": [
                 184,
                 618,
@@ -3468,7 +3468,7 @@
             },
             {
               "text": "Documentogeradoem06/06/2026-pagina1/1",
-              "kind": "footer",
+              "kind": "paragraph",
               "box": [
                 186,
                 1414,
@@ -3529,7 +3529,7 @@
             },
             {
               "text": "Datadofato:06/06/2026",
-              "kind": "footer",
+              "kind": "field",
               "box": [
                 191,
                 465,
@@ -3871,7 +3871,7 @@
             },
             {
               "text": "Datadoatendimento:06/06/2026",
-              "kind": "footer",
+              "kind": "field",
               "box": [
                 197,
                 445,
@@ -4009,7 +4009,7 @@
             },
             {
               "text": "Vigencia:01/01/2026a31/12/2026",
-              "kind": "footer",
+              "kind": "table_row",
               "box": [
                 183,
                 470,
@@ -4180,7 +4180,7 @@
             },
             {
               "text": "Datadosinistro:07/07/2026",
-              "kind": "footer",
+              "kind": "field",
               "box": [
                 181,
                 618,
@@ -4290,7 +4290,7 @@
             },
             {
               "text": "Documentogeradoem07/07/2026-pagina1/1",
-              "kind": "footer",
+              "kind": "paragraph",
               "box": [
                 184,
                 1412,
@@ -4351,7 +4351,7 @@
             },
             {
               "text": "Datadofato:07/07/2026",
-              "kind": "footer",
+              "kind": "field",
               "box": [
                 197,
                 459,
@@ -4715,7 +4715,7 @@
             },
             {
               "text": "Datadoatendimento:07/07/2026",
-              "kind": "footer",
+              "kind": "field",
               "box": [
                 179,
                 456,
@@ -4853,7 +4853,7 @@
             },
             {
               "text": "Vigencia:01/01/2026a31/12/2026",
-              "kind": "footer",
+              "kind": "table_row",
               "box": [
                 191,
                 472,
@@ -5024,7 +5024,7 @@
             },
             {
               "text": "Datadosinistro:08/08/2026",
-              "kind": "footer",
+              "kind": "field",
               "box": [
                 191,
                 618,
@@ -5134,7 +5134,7 @@
             },
             {
               "text": "Documentogeradoem08/08/2026-pagina1/1",
-              "kind": "footer",
+              "kind": "paragraph",
               "box": [
                 188,
                 1419,
@@ -5195,7 +5195,7 @@
             },
             {
               "text": "Datadofato:08/08/2026",
-              "kind": "footer",
+              "kind": "field",
               "box": [
                 188,
                 465,
@@ -5559,7 +5559,7 @@
             },
             {
               "text": "Datadoatendimento:08/08/2026",
-              "kind": "footer",
+              "kind": "field",
               "box": [
                 184,
                 466,
@@ -5697,7 +5697,7 @@
             },
             {
               "text": "Vigencia:01/01/2026a31/12/2026",
-              "kind": "footer",
+              "kind": "table_row",
               "box": [
                 184,
                 473,
@@ -5868,7 +5868,7 @@
             },
             {
               "text": "Datadosinistro:09/09/2026",
-              "kind": "footer",
+              "kind": "field",
               "box": [
                 197,
                 610,
@@ -5978,7 +5978,7 @@
             },
             {
               "text": "Documentogeradoem09/09/2026-pagina1/1",
-              "kind": "footer",
+              "kind": "paragraph",
               "box": [
                 191,
                 1400,
@@ -6039,7 +6039,7 @@
             },
             {
               "text": "Datadofato:09/09/2026",
-              "kind": "footer",
+              "kind": "field",
               "box": [
                 191,
                 465,
@@ -6403,7 +6403,7 @@
             },
             {
               "text": "Datadoatendimento:09/09/2026",
-              "kind": "footer",
+              "kind": "field",
               "box": [
                 183,
                 454,
@@ -6541,7 +6541,7 @@
             },
             {
               "text": "Vigencia:01/01/2026a31/12/2026",
-              "kind": "footer",
+              "kind": "table_row",
               "box": [
                 200,
                 465,

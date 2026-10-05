@@ -1,0 +1,806 @@
+{
+  "queries": [
+    {
+      "id": "q001",
+      "text": "quanto vai custar o conserto do veículo",
+      "relevant": [
+        "AV-2026-4407-orcamento_de_reparo#c10"
+      ],
+      "tags": [
+        "money",
+        "single"
+      ],
+      "claim_id": "AV-2026-4407"
+    },
+    {
+      "id": "q002",
+      "text": "qual o valor que o segurado paga do próprio bolso numa batida",
+      "relevant": [
+        "AV-2026-4407-apolice#c04"
+      ],
+      "tags": [
+        "money",
+        "paraphrase",
+        "single"
+      ],
+      "claim_id": "AV-2026-4407"
+    },
+    {
+      "id": "q003",
+      "text": "o motorista podia dirigir no dia do acidente",
+      "relevant": [
+        "AV-2026-4407-boletim_de_ocorrencia#c05"
+      ],
+      "tags": [
+        "paraphrase",
+        "single"
+      ],
+      "claim_id": "AV-2026-4407"
+    },
+    {
+      "id": "q004",
+      "text": "o médico mandou a pessoa parar de trabalhar",
+      "relevant": [
+        "AV-2026-4407-laudo_medico#c03"
+      ],
+      "tags": [
+        "paraphrase",
+        "single"
+      ],
+      "claim_id": "AV-2026-4407"
+    },
+    {
+      "id": "q005",
+      "text": "em que dia aconteceu o acidente",
+      "relevant": [
+        "AV-2026-4407-aviso_de_sinistro#c09",
+        "AV-2026-4407-boletim_de_ocorrencia#c03"
+      ],
+      "tags": [
+        "date",
+        "cross-document"
+      ],
+      "claim_id": "AV-2026-4407"
+    },
+    {
+      "id": "q006",
+      "text": "como foi o acidente",
+      "relevant": [
+        "AV-2026-4407-aviso_de_sinistro#c09",
+        "AV-2026-4407-boletim_de_ocorrencia#c07"
+      ],
+      "tags": [
+        "narrative",
+        "cross-document"
+      ],
+      "claim_id": "AV-2026-4407"
+    },
+    {
+      "id": "q007",
+      "text": "qual oficina fez o orçamento",
+      "relevant": [
+        "AV-2026-4407-orcamento_de_reparo#c01"
+      ],
+      "tags": [
+        "identifier",
+        "single"
+      ],
+      "claim_id": "AV-2026-4407"
+    },
+    {
+      "id": "q008",
+      "text": "até quanto a apólice cobre em caso de incêndio ou roubo",
+      "relevant": [
+        "AV-2026-4407-apolice#c05"
+      ],
+      "tags": [
+        "money",
+        "single"
+      ],
+      "claim_id": "AV-2026-4407"
+    },
+    {
+      "id": "q009",
+      "text": "quanto vai custar o conserto do veículo",
+      "relevant": [
+        "AV-2026-4414-orcamento_de_reparo#c09"
+      ],
+      "tags": [
+        "money",
+        "single"
+      ],
+      "claim_id": "AV-2026-4414"
+    },
+    {
+      "id": "q010",
+      "text": "qual o valor que o segurado paga do próprio bolso numa batida",
+      "relevant": [
+        "AV-2026-4414-apolice#c04"
+      ],
+      "tags": [
+        "money",
+        "paraphrase",
+        "single"
+      ],
+      "claim_id": "AV-2026-4414"
+    },
+    {
+      "id": "q011",
+      "text": "o motorista podia dirigir no dia do acidente",
+      "relevant": [
+        "AV-2026-4414-boletim_de_ocorrencia#c05"
+      ],
+      "tags": [
+        "paraphrase",
+        "single"
+      ],
+      "claim_id": "AV-2026-4414"
+    },
+    {
+      "id": "q012",
+      "text": "o médico mandou a pessoa parar de trabalhar",
+      "relevant": [
+        "AV-2026-4414-laudo_medico#c03"
+      ],
+      "tags": [
+        "paraphrase",
+        "single"
+      ],
+      "claim_id": "AV-2026-4414"
+    },
+    {
+      "id": "q013",
+      "text": "em que dia aconteceu o acidente",
+      "relevant": [
+        "AV-2026-4414-aviso_de_sinistro#c09",
+        "AV-2026-4414-boletim_de_ocorrencia#c03"
+      ],
+      "tags": [
+        "date",
+        "cross-document"
+      ],
+      "claim_id": "AV-2026-4414"
+    },
+    {
+      "id": "q014",
+      "text": "como foi o acidente",
+      "relevant": [
+        "AV-2026-4414-aviso_de_sinistro#c09",
+        "AV-2026-4414-boletim_de_ocorrencia#c07"
+      ],
+      "tags": [
+        "narrative",
+        "cross-document"
+      ],
+      "claim_id": "AV-2026-4414"
+    },
+    {
+      "id": "q015",
+      "text": "qual oficina fez o orçamento",
+      "relevant": [
+        "AV-2026-4414-orcamento_de_reparo#c01"
+      ],
+      "tags": [
+        "identifier",
+        "single"
+      ],
+      "claim_id": "AV-2026-4414"
+    },
+    {
+      "id": "q016",
+      "text": "até quanto a apólice cobre em caso de incêndio ou roubo",
+      "relevant": [
+        "AV-2026-4414-apolice#c05"
+      ],
+      "tags": [
+        "money",
+        "single"
+      ],
+      "claim_id": "AV-2026-4414"
+    },
+    {
+      "id": "q017",
+      "text": "quanto vai custar o conserto do veículo",
+      "relevant": [
+        "AV-2026-4421-orcamento_de_reparo#c09"
+      ],
+      "tags": [
+        "money",
+        "single"
+      ],
+      "claim_id": "AV-2026-4421"
+    },
+    {
+      "id": "q018",
+      "text": "qual o valor que o segurado paga do próprio bolso numa batida",
+      "relevant": [
+        "AV-2026-4421-apolice#c04"
+      ],
+      "tags": [
+        "money",
+        "paraphrase",
+        "single"
+      ],
+      "claim_id": "AV-2026-4421"
+    },
+    {
+      "id": "q019",
+      "text": "o motorista podia dirigir no dia do acidente",
+      "relevant": [
+        "AV-2026-4421-boletim_de_ocorrencia#c05"
+      ],
+      "tags": [
+        "paraphrase",
+        "single"
+      ],
+      "claim_id": "AV-2026-4421"
+    },
+    {
+      "id": "q020",
+      "text": "o médico mandou a pessoa parar de trabalhar",
+      "relevant": [
+        "AV-2026-4421-laudo_medico#c03"
+      ],
+      "tags": [
+        "paraphrase",
+        "single"
+      ],
+      "claim_id": "AV-2026-4421"
+    },
+    {
+      "id": "q021",
+      "text": "em que dia aconteceu o acidente",
+      "relevant": [
+        "AV-2026-4421-aviso_de_sinistro#c09",
+        "AV-2026-4421-boletim_de_ocorrencia#c03"
+      ],
+      "tags": [
+        "date",
+        "cross-document"
+      ],
+      "claim_id": "AV-2026-4421"
+    },
+    {
+      "id": "q022",
+      "text": "como foi o acidente",
+      "relevant": [
+        "AV-2026-4421-aviso_de_sinistro#c09",
+        "AV-2026-4421-boletim_de_ocorrencia#c07"
+      ],
+      "tags": [
+        "narrative",
+        "cross-document"
+      ],
+      "claim_id": "AV-2026-4421"
+    },
+    {
+      "id": "q023",
+      "text": "qual oficina fez o orçamento",
+      "relevant": [
+        "AV-2026-4421-orcamento_de_reparo#c01"
+      ],
+      "tags": [
+        "identifier",
+        "single"
+      ],
+      "claim_id": "AV-2026-4421"
+    },
+    {
+      "id": "q024",
+      "text": "até quanto a apólice cobre em caso de incêndio ou roubo",
+      "relevant": [
+        "AV-2026-4421-apolice#c05"
+      ],
+      "tags": [
+        "money",
+        "single"
+      ],
+      "claim_id": "AV-2026-4421"
+    },
+    {
+      "id": "q025",
+      "text": "quanto vai custar o conserto do veículo",
+      "relevant": [
+        "AV-2026-4428-orcamento_de_reparo#c09"
+      ],
+      "tags": [
+        "money",
+        "single"
+      ],
+      "claim_id": "AV-2026-4428"
+    },
+    {
+      "id": "q026",
+      "text": "qual o valor que o segurado paga do próprio bolso numa batida",
+      "relevant": [
+        "AV-2026-4428-apolice#c04"
+      ],
+      "tags": [
+        "money",
+        "paraphrase",
+        "single"
+      ],
+      "claim_id": "AV-2026-4428"
+    },
+    {
+      "id": "q027",
+      "text": "o motorista podia dirigir no dia do acidente",
+      "relevant": [
+        "AV-2026-4428-boletim_de_ocorrencia#c05"
+      ],
+      "tags": [
+        "paraphrase",
+        "single"
+      ],
+      "claim_id": "AV-2026-4428"
+    },
+    {
+      "id": "q028",
+      "text": "o médico mandou a pessoa parar de trabalhar",
+      "relevant": [
+        "AV-2026-4428-laudo_medico#c03"
+      ],
+      "tags": [
+        "paraphrase",
+        "single"
+      ],
+      "claim_id": "AV-2026-4428"
+    },
+    {
+      "id": "q029",
+      "text": "em que dia aconteceu o acidente",
+      "relevant": [
+        "AV-2026-4428-aviso_de_sinistro#c09",
+        "AV-2026-4428-boletim_de_ocorrencia#c03"
+      ],
+      "tags": [
+        "date",
+        "cross-document"
+      ],
+      "claim_id": "AV-2026-4428"
+    },
+    {
+      "id": "q030",
+      "text": "como foi o acidente",
+      "relevant": [
+        "AV-2026-4428-aviso_de_sinistro#c09",
+        "AV-2026-4428-boletim_de_ocorrencia#c07"
+      ],
+      "tags": [
+        "narrative",
+        "cross-document"
+      ],
+      "claim_id": "AV-2026-4428"
+    },
+    {
+      "id": "q031",
+      "text": "qual oficina fez o orçamento",
+      "relevant": [
+        "AV-2026-4428-orcamento_de_reparo#c01"
+      ],
+      "tags": [
+        "identifier",
+        "single"
+      ],
+      "claim_id": "AV-2026-4428"
+    },
+    {
+      "id": "q032",
+      "text": "até quanto a apólice cobre em caso de incêndio ou roubo",
+      "relevant": [
+        "AV-2026-4428-apolice#c05"
+      ],
+      "tags": [
+        "money",
+        "single"
+      ],
+      "claim_id": "AV-2026-4428"
+    },
+    {
+      "id": "q033",
+      "text": "quanto vai custar o conserto do veículo",
+      "relevant": [
+        "AV-2026-4435-orcamento_de_reparo#c09"
+      ],
+      "tags": [
+        "money",
+        "single"
+      ],
+      "claim_id": "AV-2026-4435"
+    },
+    {
+      "id": "q034",
+      "text": "qual o valor que o segurado paga do próprio bolso numa batida",
+      "relevant": [
+        "AV-2026-4435-apolice#c04"
+      ],
+      "tags": [
+        "money",
+        "paraphrase",
+        "single"
+      ],
+      "claim_id": "AV-2026-4435"
+    },
+    {
+      "id": "q035",
+      "text": "o motorista podia dirigir no dia do acidente",
+      "relevant": [
+        "AV-2026-4435-boletim_de_ocorrencia#c04"
+      ],
+      "tags": [
+        "paraphrase",
+        "single"
+      ],
+      "claim_id": "AV-2026-4435"
+    },
+    {
+      "id": "q036",
+      "text": "o médico mandou a pessoa parar de trabalhar",
+      "relevant": [
+        "AV-2026-4435-laudo_medico#c03"
+      ],
+      "tags": [
+        "paraphrase",
+        "single"
+      ],
+      "claim_id": "AV-2026-4435"
+    },
+    {
+      "id": "q037",
+      "text": "em que dia aconteceu o acidente",
+      "relevant": [
+        "AV-2026-4435-aviso_de_sinistro#c09",
+        "AV-2026-4435-boletim_de_ocorrencia#c02"
+      ],
+      "tags": [
+        "date",
+        "cross-document"
+      ],
+      "claim_id": "AV-2026-4435"
+    },
+    {
+      "id": "q038",
+      "text": "como foi o acidente",
+      "relevant": [
+        "AV-2026-4435-aviso_de_sinistro#c09",
+        "AV-2026-4435-boletim_de_ocorrencia#c06"
+      ],
+      "tags": [
+        "narrative",
+        "cross-document"
+      ],
+      "claim_id": "AV-2026-4435"
+    },
+    {
+      "id": "q039",
+      "text": "qual oficina fez o orçamento",
+      "relevant": [
+        "AV-2026-4435-orcamento_de_reparo#c01"
+      ],
+      "tags": [
+        "identifier",
+        "single"
+      ],
+      "claim_id": "AV-2026-4435"
+    },
+    {
+      "id": "q040",
+      "text": "até quanto a apólice cobre em caso de incêndio ou roubo",
+      "relevant": [
+        "AV-2026-4435-apolice#c05"
+      ],
+      "tags": [
+        "money",
+        "single"
+      ],
+      "claim_id": "AV-2026-4435"
+    },
+    {
+      "id": "q041",
+      "text": "quanto vai custar o conserto do veículo",
+      "relevant": [
+        "AV-2026-4442-orcamento_de_reparo#c11"
+      ],
+      "tags": [
+        "money",
+        "single"
+      ],
+      "claim_id": "AV-2026-4442"
+    },
+    {
+      "id": "q042",
+      "text": "qual o valor que o segurado paga do próprio bolso numa batida",
+      "relevant": [
+        "AV-2026-4442-apolice#c04"
+      ],
+      "tags": [
+        "money",
+        "paraphrase",
+        "single"
+      ],
+      "claim_id": "AV-2026-4442"
+    },
+    {
+      "id": "q043",
+      "text": "o motorista podia dirigir no dia do acidente",
+      "relevant": [
+        "AV-2026-4442-boletim_de_ocorrencia#c05"
+      ],
+      "tags": [
+        "paraphrase",
+        "single"
+      ],
+      "claim_id": "AV-2026-4442"
+    },
+    {
+      "id": "q044",
+      "text": "o médico mandou a pessoa parar de trabalhar",
+      "relevant": [
+        "AV-2026-4442-laudo_medico#c03"
+      ],
+      "tags": [
+        "paraphrase",
+        "single"
+      ],
+      "claim_id": "AV-2026-4442"
+    },
+    {
+      "id": "q045",
+      "text": "em que dia aconteceu o acidente",
+      "relevant": [
+        "AV-2026-4442-aviso_de_sinistro#c09",
+        "AV-2026-4442-boletim_de_ocorrencia#c03"
+      ],
+      "tags": [
+        "date",
+        "cross-document"
+      ],
+      "claim_id": "AV-2026-4442"
+    },
+    {
+      "id": "q046",
+      "text": "como foi o acidente",
+      "relevant": [
+        "AV-2026-4442-aviso_de_sinistro#c09",
+        "AV-2026-4442-boletim_de_ocorrencia#c07"
+      ],
+      "tags": [
+        "narrative",
+        "cross-document"
+      ],
+      "claim_id": "AV-2026-4442"
+    },
+    {
+      "id": "q047",
+      "text": "qual oficina fez o orçamento",
+      "relevant": [
+        "AV-2026-4442-orcamento_de_reparo#c01"
+      ],
+      "tags": [
+        "identifier",
+        "single"
+      ],
+      "claim_id": "AV-2026-4442"
+    },
+    {
+      "id": "q048",
+      "text": "até quanto a apólice cobre em caso de incêndio ou roubo",
+      "relevant": [
+        "AV-2026-4442-apolice#c05"
+      ],
+      "tags": [
+        "money",
+        "single"
+      ],
+      "claim_id": "AV-2026-4442"
+    },
+    {
+      "id": "q049",
+      "text": "quanto vai custar o conserto do veículo",
+      "relevant": [
+        "AV-2026-4449-orcamento_de_reparo#c11"
+      ],
+      "tags": [
+        "money",
+        "single"
+      ],
+      "claim_id": "AV-2026-4449"
+    },
+    {
+      "id": "q050",
+      "text": "qual o valor que o segurado paga do próprio bolso numa batida",
+      "relevant": [
+        "AV-2026-4449-apolice#c04"
+      ],
+      "tags": [
+        "money",
+        "paraphrase",
+        "single"
+      ],
+      "claim_id": "AV-2026-4449"
+    },
+    {
+      "id": "q051",
+      "text": "o motorista podia dirigir no dia do acidente",
+      "relevant": [
+        "AV-2026-4449-boletim_de_ocorrencia#c05"
+      ],
+      "tags": [
+        "paraphrase",
+        "single"
+      ],
+      "claim_id": "AV-2026-4449"
+    },
+    {
+      "id": "q052",
+      "text": "o médico mandou a pessoa parar de trabalhar",
+      "relevant": [
+        "AV-2026-4449-laudo_medico#c03"
+      ],
+      "tags": [
+        "paraphrase",
+        "single"
+      ],
+      "claim_id": "AV-2026-4449"
+    },
+    {
+      "id": "q053",
+      "text": "em que dia aconteceu o acidente",
+      "relevant": [
+        "AV-2026-4449-aviso_de_sinistro#c09",
+        "AV-2026-4449-boletim_de_ocorrencia#c03"
+      ],
+      "tags": [
+        "date",
+        "cross-document"
+      ],
+      "claim_id": "AV-2026-4449"
+    },
+    {
+      "id": "q054",
+      "text": "como foi o acidente",
+      "relevant": [
+        "AV-2026-4449-aviso_de_sinistro#c09",
+        "AV-2026-4449-boletim_de_ocorrencia#c07"
+      ],
+      "tags": [
+        "narrative",
+        "cross-document"
+      ],
+      "claim_id": "AV-2026-4449"
+    },
+    {
+      "id": "q055",
+      "text": "qual oficina fez o orçamento",
+      "relevant": [
+        "AV-2026-4449-orcamento_de_reparo#c01"
+      ],
+      "tags": [
+        "identifier",
+        "single"
+      ],
+      "claim_id": "AV-2026-4449"
+    },
+    {
+      "id": "q056",
+      "text": "até quanto a apólice cobre em caso de incêndio ou roubo",
+      "relevant": [
+        "AV-2026-4449-apolice#c05"
+      ],
+      "tags": [
+        "money",
+        "single"
+      ],
+      "claim_id": "AV-2026-4449"
+    },
+    {
+      "id": "q057",
+      "text": "quanto vai custar o conserto do veículo",
+      "relevant": [
+        "AV-2026-4456-orcamento_de_reparo#c11"
+      ],
+      "tags": [
+        "money",
+        "single"
+      ],
+      "claim_id": "AV-2026-4456"
+    },
+    {
+      "id": "q058",
+      "text": "qual o valor que o segurado paga do próprio bolso numa batida",
+      "relevant": [
+        "AV-2026-4456-apolice#c04"
+      ],
+      "tags": [
+        "money",
+        "paraphrase",
+        "single"
+      ],
+      "claim_id": "AV-2026-4456"
+    },
+    {
+      "id": "q059",
+      "text": "o motorista podia dirigir no dia do acidente",
+      "relevant": [
+        "AV-2026-4456-boletim_de_ocorrencia#c05"
+      ],
+      "tags": [
+        "paraphrase",
+        "single"
+      ],
+      "claim_id": "AV-2026-4456"
+    },
+    {
+      "id": "q060",
+      "text": "o médico mandou a pessoa parar de trabalhar",
+      "relevant": [
+        "AV-2026-4456-laudo_medico#c03"
+      ],
+      "tags": [
+        "paraphrase",
+        "single"
+      ],
+      "claim_id": "AV-2026-4456"
+    },
+    {
+      "id": "q061",
+      "text": "em que dia aconteceu o acidente",
+      "relevant": [
+        "AV-2026-4456-aviso_de_sinistro#c09",
+        "AV-2026-4456-boletim_de_ocorrencia#c03"
+      ],
+      "tags": [
+        "date",
+        "cross-document"
+      ],
+      "claim_id": "AV-2026-4456"
+    },
+    {
+      "id": "q062",
+      "text": "como foi o acidente",
+      "relevant": [
+        "AV-2026-4456-aviso_de_sinistro#c09",
+        "AV-2026-4456-boletim_de_ocorrencia#c07"
+      ],
+      "tags": [
+        "narrative",
+        "cross-document"
+      ],
+      "claim_id": "AV-2026-4456"
+    },
+    {
+      "id": "q063",
+      "text": "qual oficina fez o orçamento",
+      "relevant": [
+        "AV-2026-4456-orcamento_de_reparo#c01"
+      ],
+      "tags": [
+        "identifier",
+        "single"
+      ],
+      "claim_id": "AV-2026-4456"
+    },
+    {
+      "id": "q064",
+      "text": "até quanto a apólice cobre em caso de incêndio ou roubo",
+      "relevant": [
+        "AV-2026-4456-apolice#c05"
+      ],
+      "tags": [
+        "money",
+        "single"
+      ],
+      "claim_id": "AV-2026-4456"
+    }
+  ],
+  "unanswerable": [
+    "qual foi a decisão do juiz nesse processo trabalhista",
+    "quantas ações de cobrança a empresa tem em andamento",
+    "qual o CNPJ da transportadora contratada para a mudança",
+    "a aposentadoria especial foi concedida pelo INSS",
+    "qual o percentual de reajuste do aluguel do imóvel comercial",
+    "quando vence a licença ambiental da fábrica",
+    "qual foi a nota do aluno na avaliação de matemática",
+    "em que data a patente foi depositada no INPI"
+  ]
+}

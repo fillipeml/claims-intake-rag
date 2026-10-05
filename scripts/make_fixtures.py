@@ -493,9 +493,16 @@ def edit_distance_words(a: list[str], b: list[str]) -> int:
 def chunk_document(doc: Document) -> list[Chunk]:
     """Cut along the layout, not every N characters.
 
-    A heading opens a section and the blocks under it belong to it. Table rows are kept one
-    per chunk because a row is already the unit somebody asks about; paragraphs are grouped
-    under their heading until the next one, because half a sentence retrieves badly.
+    A heading opens a section and the blocks under it belong to it. **Fields and table rows get
+    one chunk each**, because each is already the unit somebody asks about; paragraphs are
+    grouped under their heading until the next one, because half a sentence retrieves badly.
+
+    Fields were grouped at first, which put the nine header fields of a claim notification into
+    a single chunk. Measured, that was the largest retrieval defect in the repository: asked
+    whether the driver was licensed, the system returned the notification's header block —
+    claim number, policy, insured — with a cross-encoder score of 0.78, while the police report
+    line reading `Habilitação: válida` did not reach the top four at all. A chunk holding nine
+    fields answers nine questions badly instead of one question well.
     """
     chunks: list[Chunk] = []
     headings: list[str] = []
@@ -533,7 +540,7 @@ def chunk_document(doc: Document) -> list[Chunk]:
                 # the trail stays readable in a citation.
                 headings = [block.text] if len(headings) < 1 else [headings[0], block.text]
                 continue
-            if block.kind == "table_row":
+            if block.kind in ("table_row", "field"):
                 flush(page.number)
                 counter += 1
                 chunks.append(
