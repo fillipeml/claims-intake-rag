@@ -1,0 +1,83 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: lint and test, offline
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ["3.12", "3.13"]
+
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: ${{ matrix.python }}
+
+      # The dev extra only. The job has no model, no GPU and no network access to a model
+      # hub, which is the claim the README makes about the demo and the tests.
+      - run: pip install -e ".[dev]"
+
+      - run: ruff check .
+
+      - run: ruff format --check .
+
+      - run: pytest -q
+
+  corpus:
+    name: the corpus is invented, and nothing else got in
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      # The suite computes the CPF check digits and asserts every one is wrong; these greps
+      # are the cheaper, blunter version that catches a file arriving from somewhere else.
+      - name: No document identifier that belongs to a real scheme
+        run: |
+          set -e
+          if grep -rEn '[0-9]{2}\.[0-9]{3}\.[0-9]{3}/[0-9]{4}-[0-9]{2}' fixtures/; then
+            echo "a CNPJ-shaped string is in the fixtures"; exit 1
+          fi
+          if grep -rEn '[0-9]{7}-[0-9]{2}\.[0-9]{4}\.[0-9]\.[0-9]{2}\.[0-9]{4}' fixtures/; then
+            echo "a court case number is in the fixtures"; exit 1
+          fi
+          echo "ok"
+
+      - name: The rendered pages are not committed
+        run: |
+          if git ls-files --error-unmatch 'fixtures/pages/*' 2>/dev/null; then
+            echo "rendered pages are committed; they are a function of the seed and belong in .gitignore"
+            exit 1
+          fi
+          echo "ok"
+
+  secrets:
+    name: secret scan
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - uses: gitleaks/gitleaks-action@e0c47f4f8be36e29cdc102c57e68cb5cbf0e8d1e # v3.0.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
