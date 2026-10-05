@@ -1,0 +1,6646 @@
+{
+  "documents": [
+    {
+      "id": "AV-2026-4407-aviso_de_sinistro",
+      "kind": "aviso_de_sinistro",
+      "claim_id": "AV-2026-4407",
+      "meta": {
+        "image": "pages/AV-2026-4407-aviso_de_sinistro.png"
+      },
+      "pages": [
+        {
+          "number": 1,
+          "width": 2480,
+          "height": 3508,
+          "blocks": [
+            {
+              "text": "AVISODESINISTRO",
+              "kind": "heading",
+              "box": [
+                183,
+                199,
+                785,
+                263
+              ],
+              "confidence": 0.983
+            },
+            {
+              "text": "Numerodoaviso:AV-2026-4407",
+              "kind": "field",
+              "box": [
+                181,
+                311,
+                861,
+                366
+              ],
+              "confidence": 0.9908
+            },
+            {
+              "text": "Apolice:2026.100137",
+              "kind": "field",
+              "box": [
+                181,
+                383,
+                639,
+                442
+              ],
+              "confidence": 0.9879
+            },
+            {
+              "text": "Segurado:HelenaVilarinho",
+              "kind": "field",
+              "box": [
+                183,
+                463,
+                752,
+                523
+              ],
+              "confidence": 0.9867
+            },
+            {
+              "text": "CPF:218.801.148-21",
+              "kind": "heading",
+              "box": [
+                183,
+                546,
+                630,
+                597
+              ],
+              "confidence": 0.9893
+            },
+            {
+              "text": "Datadosinistro:02/02/2026",
+              "kind": "footer",
+              "box": [
+                183,
+                618,
+                769,
+                670
+              ],
+              "confidence": 0.9926
+            },
+            {
+              "text": "Local:Porto das Aguas -Zetalandia",
+              "kind": "field",
+              "box": [
+                177,
+                682,
+                926,
+                747
+              ],
+              "confidence": 0.9605
+            },
+            {
+              "text": "Placa:ZBD1B17",
+              "kind": "field",
+              "box": [
+                181,
+                770,
+                533,
+                827
+              ],
+              "confidence": 0.9788
+            },
+            {
+              "text": "Veiculo:Hatch compacto 1.0,ano2021",
+              "kind": "field",
+              "box": [
+                181,
+                841,
+                1000,
+                898
+              ],
+              "confidence": 0.9721
+            },
+            {
+              "text": "Natureza do evento:colisao traseira",
+              "kind": "field",
+              "box": [
+                183,
+                921,
+                930,
+                979
+              ],
+              "confidence": 0.9682
+            },
+            {
+              "text": "DESCRICAODOSEGURADO",
+              "kind": "heading",
+              "box": [
+                184,
+                995,
+                1044,
+                1062
+              ],
+              "confidence": 0.9841
+            },
+            {
+              "text": "O condutor relatou que trafegava pela via marginal quando o veiculo a frente freou bruscamente, nao",
+              "kind": "paragraph",
+              "box": [
+                183,
+                1112,
+                2279,
+                1181
+              ],
+              "confidence": 0.9705
+            },
+            {
+              "text": "havendo espacopara evitaro impactona traseira.",
+              "kind": "paragraph",
+              "box": [
+                181,
+                1189,
+                1225,
+                1253
+              ],
+              "confidence": 0.9474
+            },
+            {
+              "text": "O segurado declara que as informacoes acima sao verdadeiras e autoriza a seguradora a solicitar",
+              "kind": "paragraph",
+              "box": [
+                186,
+                1262,
+                2210,
+                1329
+              ],
+              "confidence": 0.9605
+            },
+            {
+              "text": "documentoscomplementaresparaaregulacaodosinistro.",
+              "kind": "paragraph",
+              "box": [
+                186,
+                1342,
+                1398,
+                1402
+              ],
+              "confidence": 0.9927
+            },
+            {
+              "text": "Documentogeradoem02/02/2026-pagina1/1",
+              "kind": "footer",
+              "box": [
+                186,
+                1414,
+                873,
+                1465
+              ],
+              "confidence": 0.9921
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AV-2026-4407-boletim_de_ocorrencia",
+      "kind": "boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4407",
+      "meta": {
+        "image": "pages/AV-2026-4407-boletim_de_ocorrencia.png"
+      },
+      "pages": [
+        {
+          "number": 1,
+          "width": 2480,
+          "height": 3508,
+          "blocks": [
+            {
+              "text": "BOLETIMDEOCORRENCIA",
+              "kind": "heading",
+              "box": [
+                179,
+                192,
+                1002,
+                263
+              ],
+              "confidence": 0.9919
+            },
+            {
+              "text": "Numero:BO-20263011",
+              "kind": "field",
+              "box": [
+                177,
+                307,
+                664,
+                371
+              ],
+              "confidence": 0.9865
+            },
+            {
+              "text": "Delegacia:2aCircunscricaodePortodasAguas",
+              "kind": "field",
+              "box": [
+                179,
+                376,
+                1173,
+                445
+              ],
+              "confidence": 0.991
+            },
+            {
+              "text": "Datadofato:02/02/2026",
+              "kind": "footer",
+              "box": [
+                179,
+                465,
+                701,
+                523
+              ],
+              "confidence": 0.9911
+            },
+            {
+              "text": "Condutor:Helena Vilarinho",
+              "kind": "field",
+              "box": [
+                181,
+                537,
+                743,
+                594
+              ],
+              "confidence": 0.9713
+            },
+            {
+              "text": "Habilitacao:valida",
+              "kind": "field",
+              "box": [
+                177,
+                611,
+                563,
+                668
+              ],
+              "confidence": 0.9867
+            },
+            {
+              "text": "Veiculoenvolvido:placaZBD1B17",
+              "kind": "field",
+              "box": [
+                177,
+                691,
+                901,
+                746
+              ],
+              "confidence": 0.9864
+            },
+            {
+              "text": "RELATO",
+              "kind": "heading",
+              "box": [
+                183,
+                779,
+                443,
+                839
+              ],
+              "confidence": 0.9939
+            },
+            {
+              "text": "O condutor relatou que trafegava pela via marginal quando o veiculo a frente freou bruscamente, nao",
+              "kind": "paragraph",
+              "box": [
+                181,
+                877,
+                2275,
+                949
+              ],
+              "confidence": 0.9473
+            },
+            {
+              "text": "havendoespacopara evitaro impactona traseira.",
+              "kind": "paragraph",
+              "box": [
+                179,
+                958,
+                1224,
+                1021
+              ],
+              "confidence": 0.9649
+            },
+            {
+              "text": "Naohouvevitima fatal.Ocondutorfoiencaminhadopara atendimentomedicoderotinaeoveiculo",
+              "kind": "paragraph",
+              "box": [
+                183,
+                1029,
+                2229,
+                1094
+              ],
+              "confidence": 0.9814
+            },
+            {
+              "text": "removidoporguinchocredenciado.",
+              "kind": "paragraph",
+              "box": [
+                183,
+                1108,
+                915,
+                1166
+              ],
+              "confidence": 0.9947
+            },
+            {
+              "text": "Pagina1de1",
+              "kind": "paragraph",
+              "box": [
+                186,
+                1186,
+                394,
+                1228
+              ],
+              "confidence": 0.9842
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AV-2026-4407-orcamento_de_reparo",
+      "kind": "orcamento_de_reparo",
+      "claim_id": "AV-2026-4407",
+      "meta": {
+        "image": "pages/AV-2026-4407-orcamento_de_reparo.png"
+      },
+      "pages": [
+        {
+          "number": 1,
+          "width": 2480,
+          "height": 3508,
+          "blocks": [
+            {
+              "text": "ORCAMENTODEREPARO",
+              "kind": "heading",
+              "box": [
+                186,
+                198,
+                975,
+                261
+              ],
+              "confidence": 0.9868
+            },
+            {
+              "text": "Oficina:Oficina Modelo",
+              "kind": "field",
+              "box": [
+                183,
+                320,
+                665,
+                376
+              ],
+              "confidence": 0.9717
+            },
+            {
+              "text": "Sinistro:AV-2026-4407",
+              "kind": "field",
+              "box": [
+                184,
+                392,
+                665,
+                443
+              ],
+              "confidence": 0.9923
+            },
+            {
+              "text": "Placa:ZBD1B17",
+              "kind": "field",
+              "box": [
+                179,
+                463,
+                533,
+                519
+              ],
+              "confidence": 0.9793
+            },
+            {
+              "text": "PECAS",
+              "kind": "heading",
+              "box": [
+                181,
+                541,
+                405,
+                608
+              ],
+              "confidence": 0.9884
+            },
+            {
+              "text": "Airbag docondutor1unR$4.320,00",
+              "kind": "table_row",
+              "box": [
+                184,
+                661,
+                952,
+                717
+              ],
+              "confidence": 0.9684
+            },
+            {
+              "text": "Cap1unR$3.250,00",
+              "kind": "table_row",
+              "box": [
+                186,
+                739,
+                672,
+                795
+              ],
+              "confidence": 0.9721
+            },
+            {
+              "text": "Paralamaesquerdo1unR$1.690,00",
+              "kind": "table_row",
+              "box": [
+                184,
+                815,
+                965,
+                869
+              ],
+              "confidence": 0.97
+            },
+            {
+              "text": "MAODEOBRA",
+              "kind": "heading",
+              "box": [
+                188,
+                891,
+                637,
+                960
+              ],
+              "confidence": 0.9864
+            },
+            {
+              "text": "Servicos de funilariaepintura1 unR$ 1.112,00",
+              "kind": "table_row",
+              "box": [
+                186,
+                1006,
+                1173,
+                1066
+              ],
+              "confidence": 0.9478
+            },
+            {
+              "text": "TOTAIS",
+              "kind": "heading",
+              "box": [
+                183,
+                1089,
+                422,
+                1154
+              ],
+              "confidence": 0.9913
+            },
+            {
+              "text": "Subtotal depecasR$9.260,00",
+              "kind": "table_row",
+              "box": [
+                186,
+                1204,
+                831,
+                1258
+              ],
+              "confidence": 0.9422
+            },
+            {
+              "text": "SubtotaldemaodeobraR$1.112,00",
+              "kind": "table_row",
+              "box": [
+                188,
+                1283,
+                968,
+                1334
+              ],
+              "confidence": 0.9741
+            },
+            {
+              "text": "TotalgeralR$10.372,00",
+              "kind": "table_row",
+              "box": [
+                186,
+                1357,
+                704,
+                1414
+              ],
+              "confidence": 0.9601
+            },
+            {
+              "text": "Orcamento valido por 15 dias.Pecas sujeitas a confirmacao de disponibilidade junto ao fornecedor.",
+              "kind": "table_row",
+              "box": [
+                190,
+                1426,
+                2238,
+                1494
+              ],
+              "confidence": 0.9651
+            },
+            {
+              "text": "Pagina1de1",
+              "kind": "paragraph",
+              "box": [
+                188,
+                1511,
+                399,
+                1554
+              ],
+              "confidence": 0.9859
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AV-2026-4407-laudo_medico",
+      "kind": "laudo_medico",
+      "claim_id": "AV-2026-4407",
+      "meta": {
+        "image": "pages/AV-2026-4407-laudo_medico.png"
+      },
+      "pages": [
+        {
+          "number": 1,
+          "width": 2480,
+          "height": 3508,
+          "blocks": [
+            {
+              "text": "LAUDOMEDICO",
+              "kind": "heading",
+              "box": [
+                200,
+                189,
+                679,
+                254
+              ],
+              "confidence": 0.989
+            },
+            {
+              "text": "Paciente:HelenaVilarinho",
+              "kind": "field",
+              "box": [
+                191,
+                304,
+                745,
+                358
+              ],
+              "confidence": 0.9857
+            },
+            {
+              "text": "CPF:218.801.148-21",
+              "kind": "heading",
+              "box": [
+                197,
+                383,
+                641,
+                424
+              ],
+              "confidence": 0.9889
+            },
+            {
+              "text": "Datadoatendimento:02/02/2026",
+              "kind": "footer",
+              "box": [
+                193,
+                450,
+                891,
+                502
+              ],
+              "confidence": 0.9908
+            },
+            {
+              "text": "CID-10:S82.1",
+              "kind": "heading",
+              "box": [
+                195,
+                523,
+                493,
+                571
+              ],
+              "confidence": 0.9921
+            },
+            {
+              "text": "AVALIACAO",
+              "kind": "heading",
+              "box": [
+                191,
+                590,
+                565,
+                663
+              ],
+              "confidence": 0.9722
+            },
+            {
+              "text": "Paciente atendido aposeventoautomobilistico,consciente eorientado,sem alteracoesneurologicas",
+              "kind": "paragraph",
+              "box": [
+                190,
+                719,
+                2268,
+                781
+              ],
+              "confidence": 0.965
+            },
+            {
+              "text": "agudas aoexame inicial.",
+              "kind": "paragraph",
+              "box": [
+                193,
+                793,
+                711,
+                846
+              ],
+              "confidence": 0.9594
+            },
+            {
+              "text": "Recomendadoafastamentodasatividadeshabituaispor30dias.",
+              "kind": "paragraph",
+              "box": [
+                191,
+                868,
+                1532,
+                926
+              ],
+              "confidence": 0.989
+            },
+            {
+              "text": "Solicitadoretornoambulatorial emquinzediasparareavaliacaoclinica.",
+              "kind": "paragraph",
+              "box": [
+                191,
+                944,
+                1655,
+                1006
+              ],
+              "confidence": 0.9722
+            },
+            {
+              "text": "Pagina1de1",
+              "kind": "paragraph",
+              "box": [
+                191,
+                1020,
+                399,
+                1062
+              ],
+              "confidence": 0.9855
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AV-2026-4407-apolice",
+      "kind": "apolice",
+      "claim_id": "AV-2026-4407",
+      "meta": {
+        "image": "pages/AV-2026-4407-apolice.png"
+      },
+      "pages": [
+        {
+          "number": 1,
+          "width": 2480,
+          "height": 3508,
+          "blocks": [
+            {
+              "text": "APOLICEDESEGURODEAUTOMOVEL",
+              "kind": "heading",
+              "box": [
+                190,
+                190,
+                1363,
+                258
+              ],
+              "confidence": 0.9871
+            },
+            {
+              "text": "Apolice:2026.100137",
+              "kind": "field",
+              "box": [
+                188,
+                307,
+                641,
+                366
+              ],
+              "confidence": 0.9823
+            },
+            {
+              "text": "Segurado:HelenaVilarinho",
+              "kind": "field",
+              "box": [
+                186,
+                390,
+                757,
+                447
+              ],
+              "confidence": 0.9774
+            },
+            {
+              "text": "Vigencia:01/01/2026a31/12/2026",
+              "kind": "footer",
+              "box": [
+                186,
+                470,
+                915,
+                526
+              ],
+              "confidence": 0.9874
+            },
+            {
+              "text": "COBERTURASCONTRATADAS",
+              "kind": "heading",
+              "box": [
+                193,
+                558,
+                1121,
+                611
+              ],
+              "confidence": 0.99
+            },
+            {
+              "text": "ColisaoecapotamentoLimiteR$95.000,00FranquiaR$5.100,00",
+              "kind": "table_row",
+              "box": [
+                188,
+                668,
+                1558,
+                723
+              ],
+              "confidence": 0.9714
+            },
+            {
+              "text": "IncendioerouboLimiteR$95.000,00FranquiaR$0,00",
+              "kind": "table_row",
+              "box": [
+                188,
+                747,
+                1340,
+                800
+              ],
+              "confidence": 0.9538
+            },
+            {
+              "text": "DanosaterceirosLimiteR$47.500,00FranquiaR$2.550,00",
+              "kind": "table_row",
+              "box": [
+                190,
+                827,
+                1442,
+                873
+              ],
+              "confidence": 0.969
+            },
+            {
+              "text": "EXCLUSOES",
+              "kind": "heading",
+              "box": [
+                188,
+                894,
+                574,
+                965
+              ],
+              "confidence": 0.989
+            },
+            {
+              "text": "Nao estao cobertosos danosocorridos quandoocondutorestiver semhabilitacaovalidanadata do",
+              "kind": "paragraph",
+              "box": [
+                184,
+                1014,
+                2252,
+                1069
+              ],
+              "confidence": 0.9614
+            },
+            {
+              "text": "evento,bem comoosdecorrentesdeuso doveiculoem competicao.",
+              "kind": "paragraph",
+              "box": [
+                188,
+                1087,
+                1611,
+                1143
+              ],
+              "confidence": 0.9675
+            },
+            {
+              "text": "Pagina1de1",
+              "kind": "paragraph",
+              "box": [
+                184,
+                1159,
+                396,
+                1211
+              ],
+              "confidence": 0.9896
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AV-2026-4414-aviso_de_sinistro",
+      "kind": "aviso_de_sinistro",
+      "claim_id": "AV-2026-4414",
+      "meta": {
+        "image": "pages/AV-2026-4414-aviso_de_sinistro.png"
+      },
+      "pages": [
+        {
+          "number": 1,
+          "width": 2480,
+          "height": 3508,
+          "blocks": [
+            {
+              "text": "AVISODESINISTRO",
+              "kind": "heading",
+              "box": [
+                197,
+                199,
+                792,
+                252
+              ],
+              "confidence": 0.9891
+            },
+            {
+              "text": "Numerodoaviso:AV-2026-4414",
+              "kind": "field",
+              "box": [
+                190,
+                307,
+                870,
+                358
+              ],
+              "confidence": 0.9928
+            },
+            {
+              "text": "Apolice:2026.100274",
+              "kind": "field",
+              "box": [
+                191,
+                381,
+                644,
+                434
+              ],
+              "confidence": 0.9938
+            },
+            {
+              "text": "Segurado:Rafael Caldeira",
+              "kind": "field",
+              "box": [
+                188,
+                457,
+                743,
+                519
+              ],
+              "confidence": 0.983
+            },
+            {
+              "text": "CPF:565.464.420-46",
+              "kind": "heading",
+              "box": [
+                193,
+                542,
+                637,
+                588
+              ],
+              "confidence": 0.9862
+            },
+            {
+              "text": "Datadosinistro:03/03/2026",
+              "kind": "footer",
+              "box": [
+                190,
+                615,
+                778,
+                666
+              ],
+              "confidence": 0.9921
+            },
+            {
+              "text": "Local:VilaSerena-Zetalandia",
+              "kind": "field",
+              "box": [
+                188,
+                686,
+                826,
+                737
+              ],
+              "confidence": 0.9906
+            },
+            {
+              "text": "Placa:ZCG2C24",
+              "kind": "field",
+              "box": [
+                190,
+                756,
+                544,
+                809
+              ],
+              "confidence": 0.9804
+            },
+            {
+              "text": "Veiculo:Sedamedio2.0,ano2019",
+              "kind": "field",
+              "box": [
+                186,
+                829,
+                922,
+                884
+              ],
+              "confidence": 0.9795
+            },
+            {
+              "text": "Natureza doevento:capotamento",
+              "kind": "field",
+              "box": [
+                188,
+                908,
+                894,
+                963
+              ],
+              "confidence": 0.9806
+            },
+            {
+              "text": "DESCRICAODOSEGURADO",
+              "kind": "heading",
+              "box": [
+                193,
+                990,
+                1046,
+                1053
+              ],
+              "confidence": 0.9872
+            },
+            {
+              "text": "Segundo o condutor,houve perda de aderencia na alca de acesso da rodovia sob chuva, seguida de",
+              "kind": "paragraph",
+              "box": [
+                191,
+                1115,
+                2279,
+                1172
+              ],
+              "confidence": 0.9461
+            },
+            {
+              "text": "capotamentolateralsobreocanteiro.",
+              "kind": "paragraph",
+              "box": [
+                193,
+                1189,
+                963,
+                1241
+              ],
+              "confidence": 0.9921
+            },
+            {
+              "text": "Oseguradodeclaraqueasinformacoesacimasaoverdadeiraseautoriza aseguradora asolicitar",
+              "kind": "paragraph",
+              "box": [
+                191,
+                1267,
+                2210,
+                1319
+              ],
+              "confidence": 0.982
+            },
+            {
+              "text": "documentoscomplementaresparaaregulacaodosinistro.",
+              "kind": "paragraph",
+              "box": [
+                188,
+                1338,
+                1400,
+                1393
+              ],
+              "confidence": 0.993
+            },
+            {
+              "text": "Documentogeradoem03/03/2026-pagina1/1",
+              "kind": "footer",
+              "box": [
+                191,
+                1414,
+                875,
+                1455
+              ],
+              "confidence": 0.9925
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AV-2026-4414-boletim_de_ocorrencia",
+      "kind": "boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4414",
+      "meta": {
+        "image": "pages/AV-2026-4414-boletim_de_ocorrencia.png"
+      },
+      "pages": [
+        {
+          "number": 1,
+          "width": 2480,
+          "height": 3508,
+          "blocks": [
+            {
+              "text": "BOLETIMDEOCORRENCIA",
+              "kind": "heading",
+              "box": [
+                186,
+                194,
+                1005,
+                258
+              ],
+              "confidence": 0.9919
+            },
+            {
+              "text": "Numero:BO-20263022",
+              "kind": "field",
+              "box": [
+                186,
+                311,
+                671,
+                364
+              ],
+              "confidence": 0.9773
+            },
+            {
+              "text": "Delegacia:2aCircunscricaodeVilaSerena",
+              "kind": "field",
+              "box": [
+                186,
+                385,
+                1074,
+                438
+              ],
+              "confidence": 0.9791
+            },
+            {
+              "text": "Datadofato:03/03/2026",
+              "kind": "footer",
+              "box": [
+                184,
+                463,
+                704,
+                518
+              ],
+              "confidence": 0.9911
+            },
+            {
+              "text": "Condutor:Rafael Caldeira",
+              "kind": "field",
+              "box": [
+                184,
+                535,
+                723,
+                592
+              ],
+              "confidence": 0.9776
+            },
+            {
+              "text": "Habilitacao: valida",
+              "kind": "field",
+              "box": [
+                183,
+                606,
+                570,
+                668
+              ],
+              "confidence": 0.9551
+            },
+            {
+              "text": "Veiculoenvolvido:placaZCG2C24",
+              "kind": "field",
+              "box": [
+                183,
+                691,
+                910,
+                744
+              ],
+              "confidence": 0.9783
+            },
+            {
+              "text": "RELATO",
+              "kind": "heading",
+              "box": [
+                186,
+                776,
+                447,
+                836
+              ],
+              "confidence": 0.9929
+            },
+            {
+              "text": "Segundo o condutor, houve perda de aderencia na alca de acesso da rodovia sob chuva, seguida de",
+              "kind": "paragraph",
+              "box": [
+                186,
+                882,
+                2273,
+                944
+              ],
+              "confidence": 0.9806
+            },
+            {
+              "text": "capotamentolateralsobreocanteiro.",
+              "kind": "paragraph",
+              "box": [
+                188,
+                958,
+                963,
+                1016
+              ],
+              "confidence": 0.9898
+            },
+            {
+              "text": "Naohouvevitima fatal.Ocondutorfoi encaminhadopara atendimentomedico derotina eoveiculo",
+              "kind": "paragraph",
+              "box": [
+                184,
+                1032,
+                2233,
+                1090
+              ],
+              "confidence": 0.9667
+            },
+            {
+              "text": "removidoporguinchocredenciado.",
+              "kind": "paragraph",
+              "box": [
+                186,
+                1106,
+                915,
+                1163
+              ],
+              "confidence": 0.994
+            },
+            {
+              "text": "Pagina1de1",
+              "kind": "paragraph",
+              "box": [
+                188,
+                1181,
+                396,
+                1223
+              ],
+              "confidence": 0.9833
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AV-2026-4414-orcamento_de_reparo",
+      "kind": "orcamento_de_reparo",
+      "claim_id": "AV-2026-4414",
+      "meta": {
+        "image": "pages/AV-2026-4414-orcamento_de_reparo.png"
+      },
+      "pages": [
+        {
+          "number": 1,
+          "width": 2480,
+          "height": 3508,
+          "blocks": [
+            {
+              "text": "ORCAMENTODEREPARO",
+              "kind": "heading",
+              "box": [
+                204,
+                187,
+                995,
+                258
+              ],
+              "confidence": 0.978
+            },
+            {
+              "text": "Oficina: Auto Center Exemplo",
+              "kind": "field",
+              "box": [
+                200,
+                305,
+                810,
+                373
+              ],
+              "confidence": 0.9761
+            },
+            {
+              "text": "Sinistro:AV-2026-4414",
+              "kind": "field",
+              "box": [
+                202,
+                396,
+                681,
+                443
+              ],
+              "confidence": 0.993
+            },
+            {
+              "text": "Placa:ZCG2C24",
+              "kind": "field",
+              "box": [
+                195,
+                463,
+                553,
+                518
+              ],
+              "confidence": 0.984
+            },
+            {
+              "text": "PECAS",
+              "kind": "heading",
+              "box": [
+                197,
+                539,
+                419,
+                606
+              ],
+              "confidence": 0.989
+            },
+            {
+              "text": "Para-choque dianteiro 1 un R$ 2.100,00",
+              "kind": "table_row",
+              "box": [
+                195,
+                659,
+                1028,
+                726
+              ],
+              "confidence": 0.9781
+            },
+            {
+              "text": "Farol direito 1 unR$ 1.480,00",
+              "kind": "table_row",
+              "box": [
+                191,
+                737,
+                817,
+                795
+              ],
+              "confidence": 0.9524
+            },
+            {
+              "text": "MAO DEOBRA",
+              "kind": "heading",
+              "box": [
+                197,
+                808,
+                649,
+                887
+              ],
+              "confidence": 0.9243
+            },
+            {
+              "text": "Servicos de funilaria e pintura 1 un R$ 1.986,67",
+              "kind": "table_row",
+              "box": [
+                193,
+                922,
+                1183,
+                999
+              ],
+              "confidence": 0.998
+            },
+            {
+              "text": "TOTAIS",
+              "kind": "heading",
+              "box": [
+                190,
+                1004,
+                429,
+                1075
+              ],
+              "confidence": 0.9927
+            },
+            {
+              "text": "Subtotal de pecas R$ 3.580,00",
+              "kind": "table_row",
+              "box": [
+                195,
+                1124,
+                838,
+                1182
+              ],
+              "confidence": 0.948
+            },
+            {
+              "text": "SubtotaldemaodeobraR$1.986,67",
+              "kind": "table_row",
+              "box": [
+                191,
+                1202,
+                975,
+                1258
+              ],
+              "confidence": 0.9817
+            },
+            {
+              "text": "Total geral R$ 5.566,67",
+              "kind": "table_row",
+              "box": [
+                191,
+                1278,
+                686,
+                1336
+              ],
+              "confidence": 0.9473
+            },
+            {
+              "text": "Orcamento valido por 15 dias. Pecas sujeitas a confirmacao de disponibilidade junto ao fornecedor.",
+              "kind": "table_row",
+              "box": [
+                193,
+                1354,
+                2243,
+                1425
+              ],
+              "confidence": 0.9858
+            },
+            {
+              "text": "Pagina 1 de1",
+              "kind": "footer",
+              "box": [
+                188,
+                1425,
+                401,
+                1476
+              ],
+              "confidence": 0.9081
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AV-2026-4414-laudo_medico",
+      "kind": "laudo_medico",
+      "claim_id": "AV-2026-4414",
+      "meta": {
+        "image": "pages/AV-2026-4414-laudo_medico.png"
+      },
+      "pages": [
+        {
+          "number": 1,
+          "width": 2480,
+          "height": 3508,
+          "blocks": [
+            {
+              "text": "LAUDO MEDICO",
+              "kind": "heading",
+              "box": [
+                184,
+                192,
+                671,
+                259
+              ],
+              "confidence": 0.9631
+            },
+            {
+              "text": "Paciente:RafaelCaldeira",
+              "kind": "field",
+              "box": [
+                183,
+                309,
+                715,
+                366
+              ],
+              "confidence": 0.9821
+            },
+            {
+              "text": "CPF:565.464.420-46",
+              "kind": "heading",
+              "box": [
+                184,
+                383,
+                634,
+                434
+              ],
+              "confidence": 0.9872
+            },
+            {
+              "text": "Datadoatendimento:03/03/2026",
+              "kind": "footer",
+              "box": [
+                184,
+                456,
+                880,
+                505
+              ],
+              "confidence": 0.9903
+            },
+            {
+              "text": "CID-10:S82.1",
+              "kind": "heading",
+              "box": [
+                186,
+                530,
+                484,
+                578
+              ],
+              "confidence": 0.9943
+            },
+            {
+              "text": "AVALIACAO",
+              "kind": "heading",
+              "box": [
+                183,
+                595,
+                558,
+                670
+              ],
+              "confidence": 0.9702
+            },
+            {
+              "text": "agudas ao exame inicial.",
+              "kind": "paragraph",
+              "box": [
+                186,
+                795,
+                702,
+                854
+              ],
+              "confidence": 0.9882
+            },
+            {
+              "text": "Recomendadoafastamentodasatividadeshabituaispor15dias.",
+              "kind": "paragraph",
+              "box": [
+                184,
+                873,
+                1528,
+                928
+              ],
+              "confidence": 0.9933
+            },
+            {
+              "text": "Solicitadoretornoambulatorial emquinzediasparareavaliacaoclinica.",
+              "kind": "paragraph",
+              "box": [
+                184,
+                949,
+                1653,
+                1006
+              ],
+              "confidence": 0.9849
+            },
+            {
+              "text": "Pagina1de1",
+              "kind": "paragraph",
+              "box": [
+                186,
+                1025,
+                394,
+                1067
+              ],
+              "confidence": 0.9842
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AV-2026-4414-apolice",
+      "kind": "apolice",
+      "claim_id": "AV-2026-4414",
+      "meta": {
+        "image": "pages/AV-2026-4414-apolice.png"
+      },
+      "pages": [
+        {
+          "number": 1,
+          "width": 2480,
+          "height": 3508,
+          "blocks": [
+            {
+              "text": "APOLICEDESEGURODEAUTOMOVEL",
+              "kind": "heading",
+              "box": [
+                197,
+                189,
+                1368,
+                256
+              ],
+              "confidence": 0.9897
+            },
+            {
+              "text": "Apolice:2026.100274",
+              "kind": "field",
+              "box": [
+                195,
+                307,
+                648,
+                360
+              ],
+              "confidence": 0.9878
+            },
+            {
+              "text": "Segurado:Rafael Caldeira",
+              "kind": "field",
+              "box": [
+                193,
+                388,
+                743,
+                442
+              ],
+              "confidence": 0.9531
+            },
+            {
+              "text": "Vigencia:01/01/2026a31/12/2026",
+              "kind": "footer",
+              "box": [
+                193,
+                468,
+                919,
+                521
+              ],
+              "confidence": 0.9857
+            },
+            {
+              "text": "COBERTURASCONTRATADAS",
+              "kind": "heading",
+              "box": [
+                195,
+                553,
+                1129,
+                615
+              ],
+              "confidence": 0.9865
+            },
+            {
+              "text": "ColisaoecapotamentoLimiteR$80.000,00FranquiaR$3.400,00",
+              "kind": "table_row",
+              "box": [
+                193,
+                666,
+                1562,
+                721
+              ],
+              "confidence": 0.9674
+            },
+            {
+              "text": "IncendioerouboLimiteR$80.000,00FranquiaR$0,00",
+              "kind": "table_row",
+              "box": [
+                190,
+                742,
+                1345,
+                799
+              ],
+              "confidence": 0.9369
+            },
+            {
+              "text": "DanosaterceirosLimiteR$40.000,00FranquiaR$1.700,00",
+              "kind": "table_row",
+              "box": [
+                191,
+                818,
+                1449,
+                877
+              ],
+              "confidence": 0.9671
+            },
+            {
+              "text": "EXCLUSOES",
+              "kind": "heading",
+              "box": [
+                193,
+                891,
+                577,
+                961
+              ],
+              "confidence": 0.9886
+            },
+            {
+              "text": "Naoestaocobertosos danosocorridosquandoocondutorestiversemhabilitacaovalidana datado",
+              "kind": "paragraph",
+              "box": [
+                188,
+                1013,
+                2254,
+                1069
+              ],
+              "confidence": 0.9792
+            },
+            {
+              "text": "evento,bemcomo osdecorrentesde uso doveiculo emcompeticao.",
+              "kind": "paragraph",
+              "box": [
+                188,
+                1082,
+                1613,
+                1145
+              ],
+              "confidence": 0.9524
+            },
+            {
+              "text": "Pagina1de1",
+              "kind": "paragraph",
+              "box": [
+                191,
+                1159,
+                396,
+                1202
+              ],
+              "confidence": 0.987
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AV-2026-4421-aviso_de_sinistro",
+      "kind": "aviso_de_sinistro",
+      "claim_id": "AV-2026-4421",
+      "meta": {
+        "image": "pages/AV-2026-4421-aviso_de_sinistro.png"
+      },
+      "pages": [
+        {
+          "number": 1,
+          "width": 2480,
+          "height": 3508,
+          "blocks": [
+            {
+              "text": "AVISODESINISTRO",
+              "kind": "heading",
+              "box": [
+                200,
+                198,
+                797,
+                251
+              ],
+              "confidence": 0.9887
+            },
+            {
+              "text": "Numerodoaviso:AV-2026-4421",
+              "kind": "field",
+              "box": [
+                193,
+                302,
+                871,
+                362
+              ],
+              "confidence": 0.9907
+            },
+            {
+              "text": "Apolice:2026.100411",
+              "kind": "field",
+              "box": [
+                199,
+                381,
+                648,
+                429
+              ],
+              "confidence": 0.9849
+            },
+            {
+              "text": "Segurado:TerezaBastos",
+              "kind": "field",
+              "box": [
+                197,
+                459,
+                725,
+                512
+              ],
+              "confidence": 0.9917
+            },
+            {
+              "text": "CPF:879.269.553-21",
+              "kind": "heading",
+              "box": [
+                197,
+                542,
+                641,
+                588
+              ],
+              "confidence": 0.9831
+            },
+            {
+              "text": "Datadosinistro:04/04/2026",
+              "kind": "footer",
+              "box": [
+                193,
+                613,
+                778,
+                663
+              ],
+              "confidence": 0.9922
+            },
+            {
+              "text": "Local: Campo do Meio-Zetalandia",
+              "kind": "field",
+              "box": [
+                188,
+                680,
+                919,
+                742
+              ],
+              "confidence": 0.964
+            },
+            {
+              "text": "Placa:ZDJ3D31",
+              "kind": "field",
+              "box": [
+                193,
+                763,
+                535,
+                816
+              ],
+              "confidence": 0.972
+            },
+            {
+              "text": "Veiculo:Utilitarioleve,ano2022",
+              "kind": "field",
+              "box": [
+                188,
+                832,
+                863,
+                892
+              ],
+              "confidence": 0.9735
+            },
+            {
+              "text": "Naturezadoevento:alagamento",
+              "kind": "field",
+              "box": [
+                190,
+                914,
+                870,
+                970
+              ],
+              "confidence": 0.9934
+            },
+            {
+              "text": "DESCRICAODOSEGURADO",
+              "kind": "heading",
+              "box": [
+                195,
+                999,
+                1051,
+                1060
+              ],
+              "confidence": 0.9895
+            },
+            {
+              "text": "Oveiculofoi surpreendidoporelevacaorapida donivel daagua emviapublica,atingindo o",
+              "kind": "paragraph",
+              "box": [
+                191,
+                1122,
+                2078,
+                1182
+              ],
+              "confidence": 0.9686
+            },
+            {
+              "text": "compartimentodomotor.",
+              "kind": "paragraph",
+              "box": [
+                191,
+                1195,
+                711,
+                1250
+              ],
+              "confidence": 0.9961
+            },
+            {
+              "text": "O segurado declara que as informacoes acima sao verdadeiras e autoriza a seguradora a solicitar",
+              "kind": "paragraph",
+              "box": [
+                190,
+                1271,
+                2215,
+                1334
+              ],
+              "confidence": 0.9586
+            },
+            {
+              "text": "documentos complementarespara aregulacao do sinistro.",
+              "kind": "paragraph",
+              "box": [
+                188,
+                1343,
+                1403,
+                1405
+              ],
+              "confidence": 0.9766
+            },
+            {
+              "text": "Documentogeradoem04/04/2026-pagina1/1",
+              "kind": "footer",
+              "box": [
+                188,
+                1416,
+                877,
+                1465
+              ],
+              "confidence": 0.9824
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AV-2026-4421-boletim_de_ocorrencia",
+      "kind": "boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4421",
+      "meta": {
+        "image": "pages/AV-2026-4421-boletim_de_ocorrencia.png"
+      },
+      "pages": [
+        {
+          "number": 1,
+          "width": 2480,
+          "height": 3508,
+          "blocks": [
+            {
+              "text": "BOLETIMDEOCORRENCIA",
+              "kind": "heading",
+              "box": [
+                184,
+                194,
+                1003,
+                258
+              ],
+              "confidence": 0.9929
+            },
+            {
+              "text": "Numero:BO-20263033",
+              "kind": "field",
+              "box": [
+                183,
+                305,
+                667,
+                369
+              ],
+              "confidence": 0.9867
+            },
+            {
+              "text": "Delegacia:2aCircunscricaodeCampodoMeio",
+              "kind": "field",
+              "box": [
+                184,
+                381,
+                1158,
+                438
+              ],
+              "confidence": 0.992
+            },
+            {
+              "text": "Datadofato:04/04/2026",
+              "kind": "footer",
+              "box": [
+                186,
+                468,
+                701,
+                516
+              ],
+              "confidence": 0.9888
+            },
+            {
+              "text": "Condutor:TerezaBastos",
+              "kind": "field",
+              "box": [
+                186,
+                541,
+                702,
+                588
+              ],
+              "confidence": 0.9932
+            },
+            {
+              "text": "Habilitacao:valida",
+              "kind": "field",
+              "box": [
+                183,
+                611,
+                567,
+                664
+              ],
+              "confidence": 0.9582
+            },
+            {
+              "text": "Veiculoenvolvido:placaZDJ3D31",
+              "kind": "field",
+              "box": [
+                181,
+                689,
+                896,
+                744
+              ],
+              "confidence": 0.9714
+            },
+            {
+              "text": "RELATO",
+              "kind": "heading",
+              "box": [
+                183,
+                774,
+                445,
+                838
+              ],
+              "confidence": 0.9925
+            },
+            {
+              "text": "Oveiculofoi surpreendidoporelevacaorapida donivel da agua emviapublica,atingindoo",
+              "kind": "paragraph",
+              "box": [
+                186,
+                882,
+                2071,
+                942
+              ],
+              "confidence": 0.9651
+            },
+            {
+              "text": "compartimento domotor.",
+              "kind": "paragraph",
+              "box": [
+                184,
+                960,
+                709,
+                1016
+              ],
+              "confidence": 0.9535
+            },
+            {
+              "text": "Naohouvevitima fatal.Ocondutorfoiencaminhadoparaatendimentomedicoderotinaeoveiculo",
+              "kind": "paragraph",
+              "box": [
+                184,
+                1030,
+                2231,
+                1090
+              ],
+              "confidence": 0.9866
+            },
+            {
+              "text": "removidoporguinchocredenciado.",
+              "kind": "paragraph",
+              "box": [
+                184,
+                1106,
+                915,
+                1165
+              ],
+              "confidence": 0.9928
+            },
+            {
+              "text": "Pagina1de1",
+              "kind": "paragraph",
+              "box": [
+                186,
+                1179,
+                396,
+                1227
+              ],
+              "confidence": 0.9869
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AV-2026-4421-orcamento_de_reparo",
+      "kind": "orcamento_de_reparo",
+      "claim_id": "AV-2026-4421",
+      "meta": {
+        "image": "pages/AV-2026-4421-orcamento_de_reparo.png"
+      },
+      "pages": [
+        {
+          "number": 1,
+          "width": 2480,
+          "height": 3508,
+          "blocks": [
+            {
+              "text": "ORCAMENTODEREPARO",
+              "kind": "heading",
+              "box": [
+                193,
+                192,
+                981,
+                261
+              ],
+              "confidence": 0.9787
+            },
+            {
+              "text": "Oficina:ReparacaoFicticiaLtda",
+              "kind": "field",
+              "box": [
+                191,
+                321,
+                850,
+                374
+              ],
+              "confidence": 0.9859
+            },
+            {
+              "text": "Sinistro:AV-2026-4421",
+              "kind": "field",
+              "box": [
+                190,
+                403,
+                669,
+                450
+              ],
+              "confidence": 0.994
+            },
+            {
+              "text": "Placa:ZDJ3D31",
+              "kind": "field",
+              "box": [
+                186,
+                472,
+                528,
+                525
+              ],
+              "confidence": 0.978
+            },
+            {
+              "text": "PECAS",
+              "kind": "heading",
+              "box": [
+                186,
+                548,
+                410,
+                615
+              ],
+              "confidence": 0.9882
+            },
+            {
+              "text": "Para-choque dianteiro 1 un R$ 2.100,00",
+              "kind": "table_row",
+              "box": [
+                188,
+                671,
+                1021,
+                723
+              ],
+              "confidence": 0.9487
+            },
+            {
+              "text": "Farol direito1 unR$ 1.480,00",
+              "kind": "table_row",
+              "box": [
+                186,
+                749,
+                808,
+                800
+              ],
+              "confidence": 0.9597
+            },
+            {
+              "text": "MAO DE OBRA",
+              "kind": "heading",
+              "box": [
+                188,
+                818,
+                642,
+                891
+              ],
+              "confidence": 0.9059
+            },
+            {
+              "text": "Servicos de funilaria e pintura 1 un R$ 1.065,14",
+              "kind": "table_row",
+              "box": [
+                190,
+                937,
+                1178,
+                995
+              ],
+              "confidence": 0.948
+            },
+            {
+              "text": "TOTAIS",
+              "kind": "heading",
+              "box": [
+                186,
+                1018,
+                424,
+                1083
+              ],
+              "confidence": 0.9913
+            },
+            {
+              "text": "Subtotal depecasR$3.580,00",
+              "kind": "table_row",
+              "box": [
+                190,
+                1135,
+                833,
+                1188
+              ],
+              "confidence": 0.9769
+            },
+            {
+              "text": "SubtotaldemaodeobraR$1.065,14",
+              "kind": "table_row",
+              "box": [
+                190,
+                1212,
+                968,
+                1262
+              ],
+              "confidence": 0.9764
+            },
+            {
+              "text": "TotalgeralR$4.645,14",
+              "kind": "table_row",
+              "box": [
+                188,
+                1290,
+                681,
+                1338
+              ],
+              "confidence": 0.9711
+            },
+            {
+              "text": "Orcamento valido por 15 dias. Pecas sujeitas a confirmacao de disponibilidade junto ao fornecedor.",
+              "kind": "table_row",
+              "box": [
+                190,
+                1361,
+                2240,
+                1421
+              ],
+              "confidence": 0.9819
+            },
+            {
+              "text": "Pagina 1de1",
+              "kind": "footer",
+              "box": [
+                188,
+                1435,
+                398,
+                1483
+              ],
+              "confidence": 0.9331
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AV-2026-4421-laudo_medico",
+      "kind": "laudo_medico",
+      "claim_id": "AV-2026-4421",
+      "meta": {
+        "image": "pages/AV-2026-4421-laudo_medico.png"
+      },
+      "pages": [
+        {
+          "number": 1,
+          "width": 2480,
+          "height": 3508,
+          "blocks": [
+            {
+              "text": "LAUDO MEDICO",
+              "kind": "heading",
+              "box": [
+                199,
+                185,
+                681,
+                254
+              ],
+              "confidence": 0.955
+            },
+            {
+              "text": "Paciente:Tereza Bastos",
+              "kind": "field",
+              "box": [
+                193,
+                302,
+                704,
+                358
+              ],
+              "confidence": 0.9756
+            },
+            {
+              "text": "CPF:879.269.553-21",
+              "kind": "heading",
+              "box": [
+                197,
+                380,
+                642,
+                426
+              ],
+              "confidence": 0.9848
+            },
+            {
+              "text": "Datadoatendimento:04/04/2026",
+              "kind": "footer",
+              "box": [
+                193,
+                450,
+                889,
+                500
+              ],
+              "confidence": 0.9915
+            },
+            {
+              "text": "CID-10:S82.1",
+              "kind": "heading",
+              "box": [
+                195,
+                523,
+                493,
+                571
+              ],
+              "confidence": 0.9932
+            },
+            {
+              "text": "AVALIACAO",
+              "kind": "heading",
+              "box": [
+                193,
+                590,
+                565,
+                663
+              ],
+              "confidence": 0.9665
+            },
+            {
+              "text": "Paciente atendido apos evento automobilistico,consciente e orientado,sem alteracoesneurologicas",
+              "kind": "paragraph",
+              "box": [
+                191,
+                717,
+                2268,
+                781
+              ],
+              "confidence": 0.9608
+            },
+            {
+              "text": "agudas ao exame inicial.",
+              "kind": "paragraph",
+              "box": [
+                191,
+                790,
+                711,
+                846
+              ],
+              "confidence": 0.9861
+            },
+            {
+              "text": "Naohouvenecessidadedeafastamentodasatividadeshabituais.",
+              "kind": "paragraph",
+              "box": [
+                190,
+                866,
+                1555,
+                926
+              ],
+              "confidence": 0.9937
+            },
+            {
+              "text": "Solicitadoretornoambulatorial emquinzediasparareavaliacaoclinica.",
+              "kind": "paragraph",
+              "box": [
+                191,
+                935,
+                1659,
+                995
+              ],
+              "confidence": 0.974
+            },
+            {
+              "text": "Pagina1de1",
+              "kind": "paragraph",
+              "box": [
+                191,
+                1007,
+                403,
+                1055
+              ],
+              "confidence": 0.9441
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AV-2026-4421-apolice",
+      "kind": "apolice",
+      "claim_id": "AV-2026-4421",
+      "meta": {
+        "image": "pages/AV-2026-4421-apolice.png"
+      },
+      "pages": [
+        {
+          "number": 1,
+          "width": 2480,
+          "height": 3508,
+          "blocks": [
+            {
+              "text": "APOLICEDESEGURODEAUTOMOVEL",
+              "kind": "heading",
+              "box": [
+                193,
+                192,
+                1366,
+                256
+              ],
+              "confidence": 0.9898
+            },
+            {
+              "text": "Apolice:2026.100411",
+              "kind": "field",
+              "box": [
+                190,
+                307,
+                642,
+                366
+              ],
+              "confidence": 0.9802
+            },
+            {
+              "text": "Segurado:TerezaBastos",
+              "kind": "field",
+              "box": [
+                190,
+                392,
+                720,
+                445
+              ],
+              "confidence": 0.9916
+            },
+            {
+              "text": "Vigencia:01/01/2026a31/12/2026",
+              "kind": "footer",
+              "box": [
+                188,
+                468,
+                919,
+                525
+              ],
+              "confidence": 0.9896
+            },
+            {
+              "text": "COBERTURASCONTRATADAS",
+              "kind": "heading",
+              "box": [
+                195,
+                558,
+                1123,
+                611
+              ],
+              "confidence": 0.9909
+            },
+            {
+              "text": "ColisaoecapotamentoLimiteR$95.000,00FranquiaR$2.800,00",
+              "kind": "table_row",
+              "box": [
+                191,
+                670,
+                1558,
+                721
+              ],
+              "confidence": 0.9634
+            },
+            {
+              "text": "IncendioerouboLimiteR$95.000,00FranquiaR$0,00",
+              "kind": "table_row",
+              "box": [
+                188,
+                747,
+                1343,
+                799
+              ],
+              "confidence": 0.9428
+            },
+            {
+              "text": "DanosaterceirosLimiteR$47.500,00FranquiaR$1.400,00",
+              "kind": "table_row",
+              "box": [
+                190,
+                823,
+                1447,
+                875
+              ],
+              "confidence": 0.9684
+            },
+            {
+              "text": "EXCLUSOES",
+              "kind": "heading",
+              "box": [
+                190,
+                891,
+                577,
+                968
+              ],
+              "confidence": 0.987
+            },
+            {
+              "text": "Naoestaocobertososdanosocorridosquandoocondutorestiversemhabilitacaovalidanadatado",
+              "kind": "paragraph",
+              "box": [
+                188,
+                1016,
+                2254,
+                1067
+              ],
+              "confidence": 0.988
+            },
+            {
+              "text": "evento,bemcomoosdecorrentesdeusodoveiculoemcompeticao.",
+              "kind": "paragraph",
+              "box": [
+                190,
+                1090,
+                1611,
+                1142
+              ],
+              "confidence": 0.9895
+            },
+            {
+              "text": "Pagina1de1",
+              "kind": "paragraph",
+              "box": [
+                188,
+                1159,
+                396,
+                1207
+              ],
+              "confidence": 0.9891
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AV-2026-4428-aviso_de_sinistro",
+      "kind": "aviso_de_sinistro",
+      "claim_id": "AV-2026-4428",
+      "meta": {
+        "image": "pages/AV-2026-4428-aviso_de_sinistro.png"
+      },
+      "pages": [
+        {
+          "number": 1,
+          "width": 2480,
+          "height": 3508,
+          "blocks": [
+            {
+              "text": "AVISODESINISTRO",
+              "kind": "heading",
+              "box": [
+                193,
+                199,
+                792,
+                252
+              ],
+              "confidence": 0.9869
+            },
+            {
+              "text": "Numerodoaviso:AV-2026-4428",
+              "kind": "field",
+              "box": [
+                188,
+                305,
+                870,
+                360
+              ],
+              "confidence": 0.9931
+            },
+            {
+              "text": "Apolice:2026.100548",
+              "kind": "field",
+              "box": [
+                188,
+                380,
+                648,
+                438
+              ],
+              "confidence": 0.986
+            },
+            {
+              "text": "Segurado:Gustavo Quintela",
+              "kind": "field",
+              "box": [
+                191,
+                463,
+                780,
+                516
+              ],
+              "confidence": 0.9762
+            },
+            {
+              "text": "CPF:129.781.209-43",
+              "kind": "heading",
+              "box": [
+                193,
+                544,
+                639,
+                590
+              ],
+              "confidence": 0.9882
+            },
+            {
+              "text": "Datadosinistro:05/05/2026",
+              "kind": "footer",
+              "box": [
+                190,
+                615,
+                775,
+                664
+              ],
+              "confidence": 0.9912
+            },
+            {
+              "text": "Local:NovaAurora-Zetalandia",
+              "kind": "field",
+              "box": [
+                186,
+                687,
+                848,
+                739
+              ],
+              "confidence": 0.9915
+            },
+            {
+              "text": "Placa:ZEM4E48",
+              "kind": "field",
+              "box": [
+                190,
+                756,
+                544,
+                809
+              ],
+              "confidence": 0.9789
+            },
+            {
+              "text": "Veiculo:SUV compacto 1.4,ano2020",
+              "kind": "field",
+              "box": [
+                186,
+                829,
+                982,
+                884
+              ],
+              "confidence": 0.9524
+            },
+            {
+              "text": "Naturezadoevento:colisaolateralemcruzamento",
+              "kind": "field",
+              "box": [
+                190,
+                912,
+                1240,
+                963
+              ],
+              "confidence": 0.9848
+            },
+            {
+              "text": "DESCRICAODOSEGURADO",
+              "kind": "heading",
+              "box": [
+                193,
+                984,
+                1051,
+                1048
+              ],
+              "confidence": 0.9853
+            },
+            {
+              "text": "O condutorinformou que cruzava aviapreferencial com sinalizacaosemaforica intermitentequando",
+              "kind": "paragraph",
+              "box": [
+                190,
+                1108,
+                2251,
+                1163
+              ],
+              "confidence": 0.9665
+            },
+            {
+              "text": "foi atingido na lateral direita.",
+              "kind": "paragraph",
+              "box": [
+                186,
+                1181,
+                778,
+                1235
+              ],
+              "confidence": 0.9663
+            },
+            {
+              "text": "O segurado declara que as informacoesacima saoverdadeiras e autoriza a seguradora asolicitar",
+              "kind": "paragraph",
+              "box": [
+                190,
+                1258,
+                2212,
+                1313
+              ],
+              "confidence": 0.9485
+            },
+            {
+              "text": "documentoscomplementaresparaaregulacaodosinistro.",
+              "kind": "paragraph",
+              "box": [
+                191,
+                1333,
+                1396,
+                1384
+              ],
+              "confidence": 0.9946
+            },
+            {
+              "text": "Documentogeradoem05/05/2026-pagina1/1",
+              "kind": "footer",
+              "box": [
+                190,
+                1405,
+                877,
+                1451
+              ],
+              "confidence": 0.9944
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AV-2026-4428-boletim_de_ocorrencia",
+      "kind": "boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4428",
+      "meta": {
+        "image": "pages/AV-2026-4428-boletim_de_ocorrencia.png"
+      },
+      "pages": [
+        {
+          "number": 1,
+          "width": 2480,
+          "height": 3508,
+          "blocks": [
+            {
+              "text": "BOLETIMDEOCORRENCIA",
+              "kind": "heading",
+              "box": [
+                204,
+                189,
+                1021,
+                251
+              ],
+              "confidence": 0.9926
+            },
+            {
+              "text": "Numero:BO-20263044",
+              "kind": "field",
+              "box": [
+                199,
+                298,
+                685,
+                357
+              ],
+              "confidence": 0.9828
+            },
+            {
+              "text": "Delegacia:2aCircunscricaodeNovaAurora",
+              "kind": "field",
+              "box": [
+                199,
+                371,
+                1111,
+                436
+              ],
+              "confidence": 0.9896
+            },
+            {
+              "text": "Datadofato:05/05/2026",
+              "kind": "footer",
+              "box": [
+                199,
+                454,
+                718,
+                510
+              ],
+              "confidence": 0.9915
+            },
+            {
+              "text": "Condutor:GustavoQuintela",
+              "kind": "field",
+              "box": [
+                197,
+                526,
+                778,
+                583
+              ],
+              "confidence": 0.9945
+            },
+            {
+              "text": "Habilitacao:vencidahamaisde30dias",
+              "kind": "field",
+              "box": [
+                197,
+                602,
+                1023,
+                657
+              ],
+              "confidence": 0.9848
+            },
+            {
+              "text": "Veiculoenvolvido:placaZEM4E48",
+              "kind": "field",
+              "box": [
+                195,
+                680,
+                921,
+                744
+              ],
+              "confidence": 0.9839
+            },
+            {
+              "text": "RELATO",
+              "kind": "heading",
+              "box": [
+                199,
+                769,
+                456,
+                829
+              ],
+              "confidence": 0.9924
+            },
+            {
+              "text": "O condutor informou que cruzava a via preferencial com sinalizacao semaforica intermitente quando",
+              "kind": "paragraph",
+              "box": [
+                195,
+                875,
+                2261,
+                953
+              ],
+              "confidence": 0.9768
+            },
+            {
+              "text": "foi atingidona lateral direita.",
+              "kind": "paragraph",
+              "box": [
+                191,
+                951,
+                785,
+                1009
+              ],
+              "confidence": 0.9633
+            },
+            {
+              "text": "Naohouvevitimafatal.Ocondutorfoi encaminhadopara atendimentomedico derotina eoveiculo",
+              "kind": "paragraph",
+              "box": [
+                191,
+                1029,
+                2238,
+                1096
+              ],
+              "confidence": 0.9716
+            },
+            {
+              "text": "removidoporguinchocredenciado.",
+              "kind": "paragraph",
+              "box": [
+                193,
+                1103,
+                922,
+                1158
+              ],
+              "confidence": 0.995
+            },
+            {
+              "text": "Pagina1de1",
+              "kind": "paragraph",
+              "box": [
+                193,
+                1175,
+                401,
+                1218
+              ],
+              "confidence": 0.9855
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AV-2026-4428-orcamento_de_reparo",
+      "kind": "orcamento_de_reparo",
+      "claim_id": "AV-2026-4428",
+      "meta": {
+        "image": "pages/AV-2026-4428-orcamento_de_reparo.png"
+      },
+      "pages": [
+        {
+          "number": 1,
+          "width": 2480,
+          "height": 3508,
+          "blocks": [
+            {
+              "text": "ORCAMENTODEREPARO",
+              "kind": "heading",
+              "box": [
+                184,
+                196,
+                975,
+                266
+              ],
+              "confidence": 0.9846
+            },
+            {
+              "text": "Oficina:OficinaModelo",
+              "kind": "field",
+              "box": [
+                184,
+                323,
+                665,
+                376
+              ],
+              "confidence": 0.9863
+            },
+            {
+              "text": "Sinistro:AV-2026-4428",
+              "kind": "field",
+              "box": [
+                181,
+                392,
+                667,
+                449
+              ],
+              "confidence": 0.9924
+            },
+            {
+              "text": "Placa:ZEM4E48",
+              "kind": "field",
+              "box": [
+                177,
+                465,
+                537,
+                521
+              ],
+              "confidence": 0.9821
+            },
+            {
+              "text": "PECAS",
+              "kind": "heading",
+              "box": [
+                179,
+                539,
+                405,
+                611
+              ],
+              "confidence": 0.9873
+            },
+            {
+              "text": "Para-choquedianteiro1unR$2.100,00",
+              "kind": "table_row",
+              "box": [
+                183,
+                663,
+                1016,
+                717
+              ],
+              "confidence": 0.9752
+            },
+            {
+              "text": "Paralamaesquerdo1unR$1.690,00",
+              "kind": "table_row",
+              "box": [
+                181,
+                739,
+                965,
+                797
+              ],
+              "confidence": 0.9759
+            },
+            {
+              "text": "MAODEOBRA",
+              "kind": "heading",
+              "box": [
+                184,
+                816,
+                637,
+                885
+              ],
+              "confidence": 0.9828
+            },
+            {
+              "text": "Servicos de funilaria e pintura 1 un R$ 1.148,14",
+              "kind": "table_row",
+              "box": [
+                184,
+                930,
+                1174,
+                993
+              ],
+              "confidence": 0.9666
+            },
+            {
+              "text": "TOTAIS",
+              "kind": "heading",
+              "box": [
+                183,
+                1011,
+                420,
+                1076
+              ],
+              "confidence": 0.9917
+            },
+            {
+              "text": "Subtotal depecasR$3.790,00",
+              "kind": "table_row",
+              "box": [
+                188,
+                1129,
+                829,
+                1182
+              ],
+              "confidence": 0.9552
+            },
+            {
+              "text": "Subtotal demaodeobraR$1.148,14",
+              "kind": "table_row",
+              "box": [
+                188,
+                1204,
+                966,
+                1260
+              ],
+              "confidence": 0.9637
+            },
+            {
+              "text": "TotalgeralR$4.938,14",
+              "kind": "table_row",
+              "box": [
+                184,
+                1281,
+                681,
+                1338
+              ],
+              "confidence": 0.9587
+            },
+            {
+              "text": "Orcamento valido por 15 dias. Pecas sujeitas a confirmacao de disponibilidade junto ao fornecedor.",
+              "kind": "table_row",
+              "box": [
+                186,
+                1345,
+                2240,
+                1419
+              ],
+              "confidence": 0.9874
+            },
+            {
+              "text": "Pagina1de1",
+              "kind": "paragraph",
+              "box": [
+                186,
+                1432,
+                396,
+                1479
+              ],
+              "confidence": 0.9853
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AV-2026-4428-laudo_medico",
+      "kind": "laudo_medico",
+      "claim_id": "AV-2026-4428",
+      "meta": {
+        "image": "pages/AV-2026-4428-laudo_medico.png"
+      },
+      "pages": [
+        {
+          "number": 1,
+          "width": 2480,
+          "height": 3508,
+          "blocks": [
+            {
+              "text": "LAUDOMEDICO",
+              "kind": "heading",
+              "box": [
+                202,
+                187,
+                683,
+                252
+              ],
+              "confidence": 0.9875
+            },
+            {
+              "text": "Paciente:GustavoQuintela",
+              "kind": "field",
+              "box": [
+                195,
+                302,
+                766,
+                360
+              ],
+              "confidence": 0.9891
+            },
+            {
+              "text": "CPF:129.781.209-43",
+              "kind": "heading",
+              "box": [
+                199,
+                381,
+                646,
+                427
+              ],
+              "confidence": 0.9874
+            },
+            {
+              "text": "Datadoatendimento:05/05/2026",
+              "kind": "footer",
+              "box": [
+                193,
+                449,
+                891,
+                503
+              ],
+              "confidence": 0.993
+            },
+            {
+              "text": "CID-10:S13.4",
+              "kind": "heading",
+              "box": [
+                195,
+                525,
+                496,
+                572
+              ],
+              "confidence": 0.9915
+            },
+            {
+              "text": "AVALIACAO",
+              "kind": "heading",
+              "box": [
+                193,
+                592,
+                565,
+                664
+              ],
+              "confidence": 0.9697
+            },
+            {
+              "text": "Paciente atendido apos evento automobilistico,consciente eorientado,sem alteracoesneurologicas",
+              "kind": "paragraph",
+              "box": [
+                191,
+                719,
+                2268,
+                785
+              ],
+              "confidence": 0.9648
+            },
+            {
+              "text": "agudas ao exame inicial.",
+              "kind": "paragraph",
+              "box": [
+                197,
+                795,
+                713,
+                848
+              ],
+              "confidence": 0.9697
+            },
+            {
+              "text": "Recomendadoafastamentodasatividadeshabituaispor15dias.",
+              "kind": "paragraph",
+              "box": [
+                193,
+                871,
+                1530,
+                926
+              ],
+              "confidence": 0.9923
+            },
+            {
+              "text": "Solicitadoretornoambulatorial emquinzediasparareavaliacaoclinica.",
+              "kind": "paragraph",
+              "box": [
+                191,
+                945,
+                1659,
+                1007
+              ],
+              "confidence": 0.9849
+            },
+            {
+              "text": "Pagina1de1",
+              "kind": "paragraph",
+              "box": [
+                190,
+                1016,
+                401,
+                1067
+              ],
+              "confidence": 0.9862
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AV-2026-4428-apolice",
+      "kind": "apolice",
+      "claim_id": "AV-2026-4428",
+      "meta": {
+        "image": "pages/AV-2026-4428-apolice.png"
+      },
+      "pages": [
+        {
+          "number": 1,
+          "width": 2480,
+          "height": 3508,
+          "blocks": [
+            {
+              "text": "APOLICEDESEGURODEAUTOMOVEL",
+              "kind": "heading",
+              "box": [
+                197,
+                189,
+                1368,
+                256
+              ],
+              "confidence": 0.9899
+            },
+            {
+              "text": "Apolice:2026.100548",
+              "kind": "field",
+              "box": [
+                195,
+                307,
+                649,
+                360
+              ],
+              "confidence": 0.9868
+            },
+            {
+              "text": "Segurado:GustavoQuintela",
+              "kind": "field",
+              "box": [
+                193,
+                390,
+                783,
+                443
+              ],
+              "confidence": 0.9911
+            },
+            {
+              "text": "Vigencia:01/01/2026a31/12/2026",
+              "kind": "footer",
+              "box": [
+                193,
+                470,
+                921,
+                523
+              ],
+              "confidence": 0.9857
+            },
+            {
+              "text": "COBERTURASCONTRATADAS",
+              "kind": "heading",
+              "box": [
+                195,
+                553,
+                1129,
+                615
+              ],
+              "confidence": 0.9869
+            },
+            {
+              "text": "ColisaoecapotamentoLimiteR$80.000,00FranquiaR$4.200,00",
+              "kind": "table_row",
+              "box": [
+                193,
+                670,
+                1560,
+                721
+              ],
+              "confidence": 0.9574
+            },
+            {
+              "text": "IncendioerouboLimiteR$80.000,00FranquiaR$0,00",
+              "kind": "table_row",
+              "box": [
+                190,
+                742,
+                1345,
+                799
+              ],
+              "confidence": 0.9334
+            },
+            {
+              "text": "DanosaterceirosLimiteR$40.000,00FranquiaR$2.100,00",
+              "kind": "table_row",
+              "box": [
+                191,
+                818,
+                1449,
+                877
+              ],
+              "confidence": 0.9693
+            },
+            {
+              "text": "EXCLUSOES",
+              "kind": "heading",
+              "box": [
+                193,
+                891,
+                577,
+                961
+              ],
+              "confidence": 0.9873
+            },
+            {
+              "text": "Naoestaocobertosos danosocorridosquandoocondutorestiversemhabilitacaovalidana datado",
+              "kind": "paragraph",
+              "box": [
+                188,
+                1013,
+                2254,
+                1069
+              ],
+              "confidence": 0.982
+            },
+            {
+              "text": "evento,bem como osdecorrentes de uso doveiculo em competicao.",
+              "kind": "paragraph",
+              "box": [
+                188,
+                1082,
+                1613,
+                1145
+              ],
+              "confidence": 0.9476
+            },
+            {
+              "text": "Pagina1de1",
+              "kind": "paragraph",
+              "box": [
+                191,
+                1159,
+                396,
+                1202
+              ],
+              "confidence": 0.9883
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AV-2026-4435-aviso_de_sinistro",
+      "kind": "aviso_de_sinistro",
+      "claim_id": "AV-2026-4435",
+      "meta": {
+        "image": "pages/AV-2026-4435-aviso_de_sinistro.png"
+      },
+      "pages": [
+        {
+          "number": 1,
+          "width": 2480,
+          "height": 3508,
+          "blocks": [
+            {
+              "text": "AVISODESINISTRO",
+              "kind": "heading",
+              "box": [
+                184,
+                198,
+                787,
+                259
+              ],
+              "confidence": 0.9855
+            },
+            {
+              "text": "Numerodoaviso:AV-2026-4435",
+              "kind": "field",
+              "box": [
+                183,
+                309,
+                863,
+                364
+              ],
+              "confidence": 0.9905
+            },
+            {
+              "text": "Apolice:2026.100685",
+              "kind": "field",
+              "box": [
+                183,
+                383,
+                639,
+                440
+              ],
+              "confidence": 0.9891
+            },
+            {
+              "text": "Segurado:Nadia Moraes",
+              "kind": "field",
+              "box": [
+                183,
+                465,
+                702,
+                521
+              ],
+              "confidence": 0.9714
+            },
+            {
+              "text": "CPF:850.425.037-84",
+              "kind": "heading",
+              "box": [
+                184,
+                546,
+                634,
+                597
+              ],
+              "confidence": 0.9876
+            },
+            {
+              "text": "Datadosinistro:06/06/2026",
+              "kind": "footer",
+              "box": [
+                184,
+                618,
+                771,
+                668
+              ],
+              "confidence": 0.9932
+            },
+            {
+              "text": "Local:PortodasAguas-Zetalandia",
+              "kind": "field",
+              "box": [
+                179,
+                686,
+                926,
+                744
+              ],
+              "confidence": 0.9902
+            },
+            {
+              "text": "Placa:ZFP5F55",
+              "kind": "field",
+              "box": [
+                183,
+                769,
+                526,
+                825
+              ],
+              "confidence": 0.9782
+            },
+            {
+              "text": "Veiculo:Hatch compacto1.0,ano2021",
+              "kind": "field",
+              "box": [
+                181,
+                841,
+                1002,
+                896
+              ],
+              "confidence": 0.9726
+            },
+            {
+              "text": "Natureza doevento:colisao traseira",
+              "kind": "field",
+              "box": [
+                184,
+                921,
+                933,
+                977
+              ],
+              "confidence": 0.976
+            },
+            {
+              "text": "DESCRICAODOSEGURADO",
+              "kind": "heading",
+              "box": [
+                186,
+                995,
+                1046,
+                1062
+              ],
+              "confidence": 0.9852
+            },
+            {
+              "text": "Ocondutorrelatouquetrafegavapelaviamarginal quandooveiculoafrentefreoubruscamente,nao",
+              "kind": "paragraph",
+              "box": [
+                186,
+                1115,
+                2279,
+                1177
+              ],
+              "confidence": 0.9799
+            },
+            {
+              "text": "havendoespacoparaevitaro impactona traseira.",
+              "kind": "paragraph",
+              "box": [
+                183,
+                1189,
+                1225,
+                1251
+              ],
+              "confidence": 0.9614
+            },
+            {
+              "text": "Osegurado declara que as informacoes acima sao verdadeiras e autoriza a seguradora a solicitar",
+              "kind": "paragraph",
+              "box": [
+                190,
+                1264,
+                2208,
+                1329
+              ],
+              "confidence": 0.9536
+            },
+            {
+              "text": "documentoscomplementaresparaaregulacaodosinistro.",
+              "kind": "paragraph",
+              "box": [
+                186,
+                1342,
+                1398,
+                1400
+              ],
+              "confidence": 0.9933
+            },
+            {
+              "text": "Documentogeradoem06/06/2026-pagina1/1",
+              "kind": "footer",
+              "box": [
+                186,
+                1414,
+                873,
+                1464
+              ],
+              "confidence": 0.9927
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AV-2026-4435-boletim_de_ocorrencia",
+      "kind": "boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4435",
+      "meta": {
+        "image": "pages/AV-2026-4435-boletim_de_ocorrencia.png"
+      },
+      "pages": [
+        {
+          "number": 1,
+          "width": 2480,
+          "height": 3508,
+          "blocks": [
+            {
+              "text": "BOLETIMDEOCORRENCIA",
+              "kind": "heading",
+              "box": [
+                193,
+                192,
+                1012,
+                256
+              ],
+              "confidence": 0.9897
+            },
+            {
+              "text": "Numero:BO-20263055",
+              "kind": "field",
+              "box": [
+                190,
+                307,
+                674,
+                360
+              ],
+              "confidence": 0.9841
+            },
+            {
+              "text": "Delegacia: 2a Circunscricao de Porto das Aguas",
+              "kind": "heading",
+              "box": [
+                186,
+                373,
+                1183,
+                442
+              ],
+              "confidence": 0.9655
+            },
+            {
+              "text": "Datadofato:06/06/2026",
+              "kind": "footer",
+              "box": [
+                191,
+                465,
+                706,
+                512
+              ],
+              "confidence": 0.9917
+            },
+            {
+              "text": "Condutor:NadiaMoraes",
+              "kind": "field",
+              "box": [
+                191,
+                537,
+                697,
+                585
+              ],
+              "confidence": 0.9897
+            },
+            {
+              "text": "Habilitacao:valida",
+              "kind": "field",
+              "box": [
+                188,
+                606,
+                568,
+                659
+              ],
+              "confidence": 0.9608
+            },
+            {
+              "text": "Veiculoenvolvido:placaZFP5F55",
+              "kind": "field",
+              "box": [
+                183,
+                684,
+                903,
+                744
+              ],
+              "confidence": 0.9855
+            },
+            {
+              "text": "RELATO",
+              "kind": "heading",
+              "box": [
+                190,
+                776,
+                447,
+                831
+              ],
+              "confidence": 0.994
+            },
+            {
+              "text": "O condutor relatou que trafegava pela via marginal quando o veiculo a frente freou bruscamente, nao",
+              "kind": "paragraph",
+              "box": [
+                188,
+                882,
+                2282,
+                942
+              ],
+              "confidence": 0.9834
+            },
+            {
+              "text": "havendoespacoparaevitaroimpactonatraseira.",
+              "kind": "paragraph",
+              "box": [
+                186,
+                960,
+                1225,
+                1013
+              ],
+              "confidence": 0.9922
+            },
+            {
+              "text": "Naohouvevitima fatal.Ocondutorfoi encaminhadoparaatendimentomedicoderotina eoveiculo",
+              "kind": "paragraph",
+              "box": [
+                184,
+                1034,
+                2233,
+                1087
+              ],
+              "confidence": 0.975
+            },
+            {
+              "text": "removidoporguinchocredenciado.",
+              "kind": "paragraph",
+              "box": [
+                190,
+                1108,
+                921,
+                1159
+              ],
+              "confidence": 0.9946
+            },
+            {
+              "text": "Pagina1de1",
+              "kind": "paragraph",
+              "box": [
+                188,
+                1177,
+                398,
+                1225
+              ],
+              "confidence": 0.9847
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AV-2026-4435-orcamento_de_reparo",
+      "kind": "orcamento_de_reparo",
+      "claim_id": "AV-2026-4435",
+      "meta": {
+        "image": "pages/AV-2026-4435-orcamento_de_reparo.png"
+      },
+      "pages": [
+        {
+          "number": 1,
+          "width": 2480,
+          "height": 3508,
+          "blocks": [
+            {
+              "text": "ORCAMENTODEREPARO",
+              "kind": "heading",
+              "box": [
+                190,
+                198,
+                977,
+                259
+              ],
+              "confidence": 0.9866
+            },
+            {
+              "text": "Oficina:AutoCenterExemplo",
+              "kind": "field",
+              "box": [
+                186,
+                318,
+                799,
+                376
+              ],
+              "confidence": 0.9799
+            },
+            {
+              "text": "Sinistro:AV-2026-4435",
+              "kind": "field",
+              "box": [
+                188,
+                403,
+                671,
+                450
+              ],
+              "confidence": 0.993
+            },
+            {
+              "text": "Placa:ZFP5F55",
+              "kind": "field",
+              "box": [
+                186,
+                472,
+                526,
+                525
+              ],
+              "confidence": 0.9789
+            },
+            {
+              "text": "PECAS",
+              "kind": "heading",
+              "box": [
+                183,
+                548,
+                408,
+                615
+              ],
+              "confidence": 0.9874
+            },
+            {
+              "text": "Para-choquedianteiro1unR$2.100,00",
+              "kind": "table_row",
+              "box": [
+                188,
+                671,
+                1019,
+                723
+              ],
+              "confidence": 0.9741
+            },
+            {
+              "text": "Capo1unR$3.250,00",
+              "kind": "table_row",
+              "box": [
+                190,
+                747,
+                674,
+                804
+              ],
+              "confidence": 0.9422
+            },
+            {
+              "text": "MAODEOBRA",
+              "kind": "heading",
+              "box": [
+                188,
+                820,
+                641,
+                892
+              ],
+              "confidence": 0.983
+            },
+            {
+              "text": "Servicos de funilaria e pintura 1 un R$ 1.035,20",
+              "kind": "table_row",
+              "box": [
+                184,
+                935,
+                1176,
+                1000
+              ],
+              "confidence": 0.971
+            },
+            {
+              "text": "TOTAIS",
+              "kind": "heading",
+              "box": [
+                184,
+                1020,
+                424,
+                1085
+              ],
+              "confidence": 0.9913
+            },
+            {
+              "text": "Subtotal depecasR$5.350,00",
+              "kind": "table_row",
+              "box": [
+                190,
+                1136,
+                831,
+                1189
+              ],
+              "confidence": 0.9531
+            },
+            {
+              "text": "Subtotal demaodeobraR$1.035,20",
+              "kind": "table_row",
+              "box": [
+                190,
+                1214,
+                968,
+                1265
+              ],
+              "confidence": 0.969
+            },
+            {
+              "text": "TotalgeralR$6.385,20",
+              "kind": "table_row",
+              "box": [
+                186,
+                1290,
+                681,
+                1343
+              ],
+              "confidence": 0.9642
+            },
+            {
+              "text": "Orcamento valido por 15 dias.Pecas sujeitas a confirmacao de disponibilidade junto ao fornecedor.",
+              "kind": "table_row",
+              "box": [
+                190,
+                1361,
+                2238,
+                1423
+              ],
+              "confidence": 0.9516
+            },
+            {
+              "text": "Pagina1de1",
+              "kind": "paragraph",
+              "box": [
+                188,
+                1437,
+                398,
+                1485
+              ],
+              "confidence": 0.9843
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AV-2026-4435-laudo_medico",
+      "kind": "laudo_medico",
+      "claim_id": "AV-2026-4435",
+      "meta": {
+        "image": "pages/AV-2026-4435-laudo_medico.png"
+      },
+      "pages": [
+        {
+          "number": 1,
+          "width": 2480,
+          "height": 3508,
+          "blocks": [
+            {
+              "text": "LAUDO MEDICO",
+              "kind": "heading",
+              "box": [
+                202,
+                183,
+                686,
+                252
+              ],
+              "confidence": 0.9513
+            },
+            {
+              "text": "Paciente:NadiaMoraes",
+              "kind": "field",
+              "box": [
+                197,
+                300,
+                699,
+                357
+              ],
+              "confidence": 0.9898
+            },
+            {
+              "text": "CPF:850.425.037-84",
+              "kind": "heading",
+              "box": [
+                202,
+                378,
+                649,
+                424
+              ],
+              "confidence": 0.9857
+            },
+            {
+              "text": "Datadoatendimento:06/06/2026",
+              "kind": "footer",
+              "box": [
+                197,
+                445,
+                894,
+                500
+              ],
+              "confidence": 0.9927
+            },
+            {
+              "text": "CID-10:S42.2",
+              "kind": "heading",
+              "box": [
+                199,
+                519,
+                496,
+                567
+              ],
+              "confidence": 0.9933
+            },
+            {
+              "text": "AVALIACAO",
+              "kind": "heading",
+              "box": [
+                195,
+                588,
+                568,
+                659
+              ],
+              "confidence": 0.9702
+            },
+            {
+              "text": "Paciente atendido apos evento automobilistico,consciente e orientado,sem alteracoesneurologicas",
+              "kind": "paragraph",
+              "box": [
+                195,
+                716,
+                2270,
+                785
+              ],
+              "confidence": 0.9578
+            },
+            {
+              "text": "agudas aoexame inicial.",
+              "kind": "paragraph",
+              "box": [
+                199,
+                792,
+                715,
+                845
+              ],
+              "confidence": 0.9712
+            },
+            {
+              "text": "Recomendadoafastamentodasatividadeshabituaispor15dias.",
+              "kind": "paragraph",
+              "box": [
+                195,
+                864,
+                1534,
+                926
+              ],
+              "confidence": 0.9923
+            },
+            {
+              "text": "Solicitadoretornoambulatorial emquinzediasparareavaliacaoclinica.",
+              "kind": "paragraph",
+              "box": [
+                193,
+                942,
+                1660,
+                1006
+              ],
+              "confidence": 0.9837
+            },
+            {
+              "text": "Pagina1de1",
+              "kind": "paragraph",
+              "box": [
+                191,
+                1014,
+                403,
+                1062
+              ],
+              "confidence": 0.9851
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AV-2026-4435-apolice",
+      "kind": "apolice",
+      "claim_id": "AV-2026-4435",
+      "meta": {
+        "image": "pages/AV-2026-4435-apolice.png"
+      },
+      "pages": [
+        {
+          "number": 1,
+          "width": 2480,
+          "height": 3508,
+          "blocks": [
+            {
+              "text": "APOLICEDESEGURODEAUTOMOVEL",
+              "kind": "heading",
+              "box": [
+                184,
+                192,
+                1359,
+                261
+              ],
+              "confidence": 0.9885
+            },
+            {
+              "text": "Apolice:2026.100685",
+              "kind": "field",
+              "box": [
+                184,
+                311,
+                637,
+                369
+              ],
+              "confidence": 0.9873
+            },
+            {
+              "text": "Segurado:NadiaMoraes",
+              "kind": "field",
+              "box": [
+                183,
+                394,
+                702,
+                452
+              ],
+              "confidence": 0.99
+            },
+            {
+              "text": "Vigencia:01/01/2026a31/12/2026",
+              "kind": "footer",
+              "box": [
+                183,
+                470,
+                912,
+                530
+              ],
+              "confidence": 0.9865
+            },
+            {
+              "text": "COBERTURASCONTRATADAS",
+              "kind": "heading",
+              "box": [
+                186,
+                556,
+                1120,
+                618
+              ],
+              "confidence": 0.9866
+            },
+            {
+              "text": "ColisaoecapotamentoLimiteR$80.000,00FranquiaR$3.400,00",
+              "kind": "table_row",
+              "box": [
+                184,
+                668,
+                1553,
+                726
+              ],
+              "confidence": 0.9696
+            },
+            {
+              "text": "IncendioerouboLimiteR$80.0o0,00FranquiaR$0,00",
+              "kind": "table_row",
+              "box": [
+                183,
+                746,
+                1336,
+                804
+              ],
+              "confidence": 0.9368
+            },
+            {
+              "text": "DanosaterceirosLimiteR$40.000,00FranquiaR$1.700,00",
+              "kind": "table_row",
+              "box": [
+                184,
+                823,
+                1440,
+                880
+              ],
+              "confidence": 0.9712
+            },
+            {
+              "text": "EXCLUSOES",
+              "kind": "heading",
+              "box": [
+                184,
+                898,
+                570,
+                968
+              ],
+              "confidence": 0.99
+            },
+            {
+              "text": "Naoestaocobertos os danosocorridosquandoocondutorestiversemhabilitacaovalidana data do",
+              "kind": "paragraph",
+              "box": [
+                183,
+                1009,
+                2251,
+                1075
+              ],
+              "confidence": 0.971
+            },
+            {
+              "text": "evento,bemcomoosdecorrentesdeusodoveiculoemcompeticao.",
+              "kind": "paragraph",
+              "box": [
+                184,
+                1087,
+                1609,
+                1147
+              ],
+              "confidence": 0.9891
+            },
+            {
+              "text": "Pagina1de1",
+              "kind": "paragraph",
+              "box": [
+                188,
+                1168,
+                394,
+                1211
+              ],
+              "confidence": 0.9869
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AV-2026-4442-aviso_de_sinistro",
+      "kind": "aviso_de_sinistro",
+      "claim_id": "AV-2026-4442",
+      "meta": {
+        "image": "pages/AV-2026-4442-aviso_de_sinistro.png"
+      },
+      "pages": [
+        {
+          "number": 1,
+          "width": 2480,
+          "height": 3508,
+          "blocks": [
+            {
+              "text": "AVISODESINISTRO",
+              "kind": "heading",
+              "box": [
+                181,
+                201,
+                782,
+                263
+              ],
+              "confidence": 0.9849
+            },
+            {
+              "text": "Numerodoaviso:AV-2026-4442",
+              "kind": "field",
+              "box": [
+                179,
+                311,
+                859,
+                367
+              ],
+              "confidence": 0.9894
+            },
+            {
+              "text": "Apolice:2026.100822",
+              "kind": "field",
+              "box": [
+                181,
+                383,
+                635,
+                443
+              ],
+              "confidence": 0.9924
+            },
+            {
+              "text": "Segurado: Otavio Trindade",
+              "kind": "field",
+              "box": [
+                181,
+                463,
+                741,
+                525
+              ],
+              "confidence": 0.962
+            },
+            {
+              "text": "CPF:999.091.624-26",
+              "kind": "heading",
+              "box": [
+                181,
+                546,
+                630,
+                599
+              ],
+              "confidence": 0.9903
+            },
+            {
+              "text": "Datadosinistro:07/07/2026",
+              "kind": "footer",
+              "box": [
+                181,
+                618,
+                767,
+                671
+              ],
+              "confidence": 0.9922
+            },
+            {
+              "text": "Local:VilaSerena-Zetalandia",
+              "kind": "field",
+              "box": [
+                177,
+                687,
+                820,
+                747
+              ],
+              "confidence": 0.989
+            },
+            {
+              "text": "Placa:ZGS6G62",
+              "kind": "field",
+              "box": [
+                181,
+                762,
+                540,
+                818
+              ],
+              "confidence": 0.9819
+            },
+            {
+              "text": "Veiculo:Seda medio2.0,ano2019",
+              "kind": "field",
+              "box": [
+                177,
+                832,
+                915,
+                889
+              ],
+              "confidence": 0.9697
+            },
+            {
+              "text": "Natureza do evento:capotamento",
+              "kind": "field",
+              "box": [
+                179,
+                910,
+                889,
+                974
+              ],
+              "confidence": 0.9807
+            },
+            {
+              "text": "DESCRICAODOSEGURADO",
+              "kind": "heading",
+              "box": [
+                184,
+                991,
+                1042,
+                1062
+              ],
+              "confidence": 0.9877
+            },
+            {
+              "text": "Segundo o condutor,houve perda de aderencia na alca de acesso darodovia sob chuva,seguida de",
+              "kind": "paragraph",
+              "box": [
+                184,
+                1108,
+                2272,
+                1179
+              ],
+              "confidence": 0.944
+            },
+            {
+              "text": "capotamentolateralsobreocanteiro.",
+              "kind": "paragraph",
+              "box": [
+                188,
+                1193,
+                961,
+                1251
+              ],
+              "confidence": 0.9895
+            },
+            {
+              "text": "Oseguradodeclaraque asinformacoes acimasaoverdadeirase autoriza aseguradoraasolicitar",
+              "kind": "paragraph",
+              "box": [
+                190,
+                1258,
+                2208,
+                1327
+              ],
+              "confidence": 0.974
+            },
+            {
+              "text": "documentoscomplementaresparaaregulacaodosinistro.",
+              "kind": "paragraph",
+              "box": [
+                186,
+                1338,
+                1398,
+                1400
+              ],
+              "confidence": 0.9933
+            },
+            {
+              "text": "Documentogeradoem07/07/2026-pagina1/1",
+              "kind": "footer",
+              "box": [
+                184,
+                1412,
+                873,
+                1465
+              ],
+              "confidence": 0.9935
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AV-2026-4442-boletim_de_ocorrencia",
+      "kind": "boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4442",
+      "meta": {
+        "image": "pages/AV-2026-4442-boletim_de_ocorrencia.png"
+      },
+      "pages": [
+        {
+          "number": 1,
+          "width": 2480,
+          "height": 3508,
+          "blocks": [
+            {
+              "text": "BOLETIMDEOCORRENCIA",
+              "kind": "heading",
+              "box": [
+                200,
+                194,
+                1014,
+                252
+              ],
+              "confidence": 0.9915
+            },
+            {
+              "text": "Numero:BO-20263066",
+              "kind": "field",
+              "box": [
+                193,
+                302,
+                681,
+                358
+              ],
+              "confidence": 0.9784
+            },
+            {
+              "text": "Delegacia:2a CircunscricaodeVilaSerena",
+              "kind": "field",
+              "box": [
+                195,
+                374,
+                1085,
+                436
+              ],
+              "confidence": 0.9747
+            },
+            {
+              "text": "Datadofato:07/07/2026",
+              "kind": "footer",
+              "box": [
+                197,
+                459,
+                713,
+                509
+              ],
+              "confidence": 0.991
+            },
+            {
+              "text": "Condutor:OtavioTrindade",
+              "kind": "field",
+              "box": [
+                195,
+                533,
+                743,
+                581
+              ],
+              "confidence": 0.9945
+            },
+            {
+              "text": "Habilitacao:valida",
+              "kind": "field",
+              "box": [
+                193,
+                604,
+                575,
+                657
+              ],
+              "confidence": 0.978
+            },
+            {
+              "text": "Veiculoenvolvido:placaZGS6G62",
+              "kind": "field",
+              "box": [
+                190,
+                682,
+                919,
+                740
+              ],
+              "confidence": 0.9834
+            },
+            {
+              "text": "RELATO",
+              "kind": "heading",
+              "box": [
+                193,
+                769,
+                454,
+                829
+              ],
+              "confidence": 0.9931
+            },
+            {
+              "text": "Segundo o condutor, houve perda de aderencia na alca de acesso da rodovia sob chuva, seguida de",
+              "kind": "paragraph",
+              "box": [
+                193,
+                873,
+                2284,
+                951
+              ],
+              "confidence": 0.9946
+            },
+            {
+              "text": "capotamentolateralsobreocanteiro.",
+              "kind": "paragraph",
+              "box": [
+                195,
+                956,
+                970,
+                1009
+              ],
+              "confidence": 0.9873
+            },
+            {
+              "text": "Naohouvevitima fatal.Ocondutorfoi encaminhadopara atendimentomedico derotina eoveiculo",
+              "kind": "paragraph",
+              "box": [
+                190,
+                1030,
+                2236,
+                1090
+              ],
+              "confidence": 0.9701
+            },
+            {
+              "text": "removidoporguinchocredenciado.",
+              "kind": "paragraph",
+              "box": [
+                193,
+                1106,
+                921,
+                1158
+              ],
+              "confidence": 0.9945
+            },
+            {
+              "text": "Pagina1de1",
+              "kind": "paragraph",
+              "box": [
+                190,
+                1170,
+                401,
+                1221
+              ],
+              "confidence": 0.9878
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AV-2026-4442-orcamento_de_reparo",
+      "kind": "orcamento_de_reparo",
+      "claim_id": "AV-2026-4442",
+      "meta": {
+        "image": "pages/AV-2026-4442-orcamento_de_reparo.png"
+      },
+      "pages": [
+        {
+          "number": 1,
+          "width": 2480,
+          "height": 3508,
+          "blocks": [
+            {
+              "text": "ORCAMENTODEREPARO",
+              "kind": "heading",
+              "box": [
+                207,
+                189,
+                995,
+                252
+              ],
+              "confidence": 0.9899
+            },
+            {
+              "text": "Oficina:Reparacao Ficticia Ltda",
+              "kind": "field",
+              "box": [
+                200,
+                307,
+                863,
+                373
+              ],
+              "confidence": 0.9636
+            },
+            {
+              "text": "Sinistro:AV-2026-4442",
+              "kind": "field",
+              "box": [
+                199,
+                390,
+                686,
+                447
+              ],
+              "confidence": 0.9943
+            },
+            {
+              "text": "Placa:ZGS6G62",
+              "kind": "field",
+              "box": [
+                195,
+                463,
+                554,
+                518
+              ],
+              "confidence": 0.9872
+            },
+            {
+              "text": "PECAS",
+              "kind": "heading",
+              "box": [
+                197,
+                539,
+                419,
+                606
+              ],
+              "confidence": 0.9887
+            },
+            {
+              "text": "Vidro para-brisa 1 un R$ 980,00",
+              "kind": "table_row",
+              "box": [
+                195,
+                661,
+                863,
+                723
+              ],
+              "confidence": 0.9771
+            },
+            {
+              "text": "Airbagdocondutor1unR$4.320,00",
+              "kind": "table_row",
+              "box": [
+                197,
+                739,
+                966,
+                799
+              ],
+              "confidence": 0.9807
+            },
+            {
+              "text": "Capo 1 un R$ 3.250,00",
+              "kind": "table_row",
+              "box": [
+                199,
+                815,
+                683,
+                871
+              ],
+              "confidence": 0.8816
+            },
+            {
+              "text": "Paralamaesquerdo1unR$1.690,00",
+              "kind": "table_row",
+              "box": [
+                193,
+                892,
+                975,
+                951
+              ],
+              "confidence": 0.9767
+            },
+            {
+              "text": "MAODEOBRA",
+              "kind": "heading",
+              "box": [
+                199,
+                967,
+                648,
+                1039
+              ],
+              "confidence": 0.9805
+            },
+            {
+              "text": "Servicos de funilaria e pintura 1 unR$ 1.117,45",
+              "kind": "table_row",
+              "box": [
+                193,
+                1083,
+                1181,
+                1151
+              ],
+              "confidence": 0.9495
+            },
+            {
+              "text": "TOTAIS",
+              "kind": "heading",
+              "box": [
+                188,
+                1165,
+                429,
+                1230
+              ],
+              "confidence": 0.99
+            },
+            {
+              "text": "Subtotal de pecasR$ 10.240,00",
+              "kind": "table_row",
+              "box": [
+                193,
+                1280,
+                863,
+                1340
+              ],
+              "confidence": 0.9562
+            },
+            {
+              "text": "SubtotaldemaodeobraR$1.117,45",
+              "kind": "table_row",
+              "box": [
+                193,
+                1361,
+                972,
+                1414
+              ],
+              "confidence": 0.9781
+            },
+            {
+              "text": "Total geral R$ 11.357,45",
+              "kind": "table_row",
+              "box": [
+                190,
+                1433,
+                709,
+                1492
+              ],
+              "confidence": 0.9354
+            },
+            {
+              "text": "Orcamento valido por 15 dias. Pecas sujeitas a confirmacao de disponibilidade junto ao fornecedor.",
+              "kind": "table_row",
+              "box": [
+                190,
+                1509,
+                2240,
+                1582
+              ],
+              "confidence": 0.9806
+            },
+            {
+              "text": "Pagina1de1",
+              "kind": "paragraph",
+              "box": [
+                186,
+                1580,
+                399,
+                1633
+              ],
+              "confidence": 0.9823
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AV-2026-4442-laudo_medico",
+      "kind": "laudo_medico",
+      "claim_id": "AV-2026-4442",
+      "meta": {
+        "image": "pages/AV-2026-4442-laudo_medico.png"
+      },
+      "pages": [
+        {
+          "number": 1,
+          "width": 2480,
+          "height": 3508,
+          "blocks": [
+            {
+              "text": "LAUDO MEDICO",
+              "kind": "heading",
+              "box": [
+                181,
+                194,
+                665,
+                263
+              ],
+              "confidence": 0.9529
+            },
+            {
+              "text": "Paciente:OtavioTrindade",
+              "kind": "field",
+              "box": [
+                177,
+                311,
+                720,
+                367
+              ],
+              "confidence": 0.9873
+            },
+            {
+              "text": "CPF:999.091.624-26",
+              "kind": "heading",
+              "box": [
+                181,
+                385,
+                630,
+                436
+              ],
+              "confidence": 0.9891
+            },
+            {
+              "text": "Datadoatendimento:07/07/2026",
+              "kind": "footer",
+              "box": [
+                179,
+                456,
+                877,
+                509
+              ],
+              "confidence": 0.9923
+            },
+            {
+              "text": "CID-10:S82.1",
+              "kind": "heading",
+              "box": [
+                181,
+                526,
+                482,
+                585
+              ],
+              "confidence": 0.9922
+            },
+            {
+              "text": "AVALIACAO",
+              "kind": "heading",
+              "box": [
+                179,
+                594,
+                556,
+                675
+              ],
+              "confidence": 0.9728
+            },
+            {
+              "text": "Paciente atendido apos evento automobilistico,consciente eorientado,sem alteracoesneurologicas",
+              "kind": "paragraph",
+              "box": [
+                181,
+                717,
+                2258,
+                781
+              ],
+              "confidence": 0.9573
+            },
+            {
+              "text": "agudas ao exame inicial.",
+              "kind": "paragraph",
+              "box": [
+                184,
+                797,
+                701,
+                857
+              ],
+              "confidence": 0.9768
+            },
+            {
+              "text": "Recomendadoafastamentodasatividadeshabituaispor45dias.",
+              "kind": "paragraph",
+              "box": [
+                184,
+                873,
+                1527,
+                930
+              ],
+              "confidence": 0.9922
+            },
+            {
+              "text": "Solicitadoretornoambulatorial emquinzediasparareavaliacaoclinica.",
+              "kind": "paragraph",
+              "box": [
+                183,
+                949,
+                1648,
+                1007
+              ],
+              "confidence": 0.9831
+            },
+            {
+              "text": "Pagina1de1",
+              "kind": "paragraph",
+              "box": [
+                183,
+                1030,
+                392,
+                1073
+              ],
+              "confidence": 0.9878
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AV-2026-4442-apolice",
+      "kind": "apolice",
+      "claim_id": "AV-2026-4442",
+      "meta": {
+        "image": "pages/AV-2026-4442-apolice.png"
+      },
+      "pages": [
+        {
+          "number": 1,
+          "width": 2480,
+          "height": 3508,
+          "blocks": [
+            {
+              "text": "APOLICEDESEGURODEAUTOMOVEL",
+              "kind": "heading",
+              "box": [
+                193,
+                187,
+                1370,
+                259
+              ],
+              "confidence": 0.9879
+            },
+            {
+              "text": "Apolice:2026.100822",
+              "kind": "field",
+              "box": [
+                193,
+                309,
+                648,
+                362
+              ],
+              "confidence": 0.9859
+            },
+            {
+              "text": "Segurado:OtavioTrindade",
+              "kind": "field",
+              "box": [
+                191,
+                390,
+                752,
+                443
+              ],
+              "confidence": 0.9916
+            },
+            {
+              "text": "Vigencia:01/01/2026a31/12/2026",
+              "kind": "footer",
+              "box": [
+                191,
+                472,
+                919,
+                525
+              ],
+              "confidence": 0.9866
+            },
+            {
+              "text": "COBERTURASCONTRATADAS",
+              "kind": "heading",
+              "box": [
+                193,
+                555,
+                1129,
+                615
+              ],
+              "confidence": 0.9874
+            },
+            {
+              "text": "ColisaoecapotamentoLimiteR$60.000,00FranquiaR$3.400,00",
+              "kind": "table_row",
+              "box": [
+                193,
+                670,
+                1560,
+                721
+              ],
+              "confidence": 0.9666
+            },
+            {
+              "text": "IncendioerouboLimiteR$60.000,00FranquiaR$0,00",
+              "kind": "table_row",
+              "box": [
+                188,
+                744,
+                1343,
+                799
+              ],
+              "confidence": 0.9468
+            },
+            {
+              "text": "DanosaterceirosLimiteR$30.000,00FranquiaR$1.700,00",
+              "kind": "table_row",
+              "box": [
+                190,
+                820,
+                1447,
+                875
+              ],
+              "confidence": 0.9683
+            },
+            {
+              "text": "EXCLUSOES",
+              "kind": "heading",
+              "box": [
+                191,
+                891,
+                575,
+                963
+              ],
+              "confidence": 0.9886
+            },
+            {
+              "text": "Nao estao cobertos os danos ocorridos quando ocondutor estiversem habilitacaovalidana data do",
+              "kind": "paragraph",
+              "box": [
+                186,
+                1013,
+                2254,
+                1069
+              ],
+              "confidence": 0.9295
+            },
+            {
+              "text": "evento,bem como osdecorrentes de uso doveiculo em competicao.",
+              "kind": "paragraph",
+              "box": [
+                188,
+                1083,
+                1611,
+                1145
+              ],
+              "confidence": 0.9478
+            },
+            {
+              "text": "Pagina1de1",
+              "kind": "paragraph",
+              "box": [
+                191,
+                1161,
+                396,
+                1204
+              ],
+              "confidence": 0.9862
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AV-2026-4449-aviso_de_sinistro",
+      "kind": "aviso_de_sinistro",
+      "claim_id": "AV-2026-4449",
+      "meta": {
+        "image": "pages/AV-2026-4449-aviso_de_sinistro.png"
+      },
+      "pages": [
+        {
+          "number": 1,
+          "width": 2480,
+          "height": 3508,
+          "blocks": [
+            {
+              "text": "AVISODESINISTRO",
+              "kind": "heading",
+              "box": [
+                197,
+                199,
+                792,
+                252
+              ],
+              "confidence": 0.9905
+            },
+            {
+              "text": "Numerodoaviso:AV-2026-4449",
+              "kind": "field",
+              "box": [
+                191,
+                307,
+                870,
+                358
+              ],
+              "confidence": 0.9911
+            },
+            {
+              "text": "Apolice:2026.100959",
+              "kind": "field",
+              "box": [
+                191,
+                381,
+                648,
+                434
+              ],
+              "confidence": 0.9919
+            },
+            {
+              "text": "Segurado:BeatrizPecanha",
+              "kind": "field",
+              "box": [
+                193,
+                463,
+                760,
+                516
+              ],
+              "confidence": 0.9872
+            },
+            {
+              "text": "CPF:742.194.376-68",
+              "kind": "heading",
+              "box": [
+                193,
+                544,
+                639,
+                592
+              ],
+              "confidence": 0.9889
+            },
+            {
+              "text": "Datadosinistro:08/08/2026",
+              "kind": "footer",
+              "box": [
+                191,
+                618,
+                776,
+                664
+              ],
+              "confidence": 0.9932
+            },
+            {
+              "text": "Local:Campo do Meio-Zetalandia",
+              "kind": "field",
+              "box": [
+                184,
+                684,
+                917,
+                744
+              ],
+              "confidence": 0.9611
+            },
+            {
+              "text": "Placa:ZHV7H79",
+              "kind": "field",
+              "box": [
+                190,
+                767,
+                540,
+                820
+              ],
+              "confidence": 0.9642
+            },
+            {
+              "text": "Veiculo:Utilitarioleve,ano2022",
+              "kind": "field",
+              "box": [
+                188,
+                841,
+                859,
+                891
+              ],
+              "confidence": 0.9696
+            },
+            {
+              "text": "Natureza doevento:alagamento",
+              "kind": "field",
+              "box": [
+                188,
+                917,
+                868,
+                974
+              ],
+              "confidence": 0.9759
+            },
+            {
+              "text": "DESCRICAODOSEGURADO",
+              "kind": "heading",
+              "box": [
+                197,
+                1002,
+                1046,
+                1060
+              ],
+              "confidence": 0.9908
+            },
+            {
+              "text": "Oveiculofoi surpreendidoporelevacaorapida donivel daagua emviapublica,atingindoo",
+              "kind": "paragraph",
+              "box": [
+                190,
+                1126,
+                2076,
+                1182
+              ],
+              "confidence": 0.9684
+            },
+            {
+              "text": "compartimentodomotor.",
+              "kind": "paragraph",
+              "box": [
+                195,
+                1202,
+                709,
+                1250
+              ],
+              "confidence": 0.9938
+            },
+            {
+              "text": "Osegurado declara que asinformacoesacima saoverdadeirase autoriza aseguradora asolicitar",
+              "kind": "paragraph",
+              "box": [
+                191,
+                1276,
+                2212,
+                1331
+              ],
+              "confidence": 0.9539
+            },
+            {
+              "text": "documentoscomplementaresparaaregulacaodosinistro.",
+              "kind": "paragraph",
+              "box": [
+                188,
+                1349,
+                1400,
+                1403
+              ],
+              "confidence": 0.9931
+            },
+            {
+              "text": "Documentogeradoem08/08/2026-pagina1/1",
+              "kind": "footer",
+              "box": [
+                188,
+                1419,
+                877,
+                1467
+              ],
+              "confidence": 0.9908
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AV-2026-4449-boletim_de_ocorrencia",
+      "kind": "boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4449",
+      "meta": {
+        "image": "pages/AV-2026-4449-boletim_de_ocorrencia.png"
+      },
+      "pages": [
+        {
+          "number": 1,
+          "width": 2480,
+          "height": 3508,
+          "blocks": [
+            {
+              "text": "BOLETIMDEOCORRENCIA",
+              "kind": "heading",
+              "box": [
+                186,
+                190,
+                1007,
+                258
+              ],
+              "confidence": 0.9924
+            },
+            {
+              "text": "Numero:BO-20263077",
+              "kind": "field",
+              "box": [
+                188,
+                307,
+                671,
+                360
+              ],
+              "confidence": 0.9729
+            },
+            {
+              "text": "Delegacia:2aCircunscricaodeCampodoMeio",
+              "kind": "field",
+              "box": [
+                184,
+                380,
+                1164,
+                440
+              ],
+              "confidence": 0.9845
+            },
+            {
+              "text": "Datadofato:08/08/2026",
+              "kind": "footer",
+              "box": [
+                188,
+                465,
+                704,
+                512
+              ],
+              "confidence": 0.9916
+            },
+            {
+              "text": "Condutor:BeatrizPecanha",
+              "kind": "field",
+              "box": [
+                188,
+                537,
+                745,
+                590
+              ],
+              "confidence": 0.9874
+            },
+            {
+              "text": "Habilitacao:valida",
+              "kind": "field",
+              "box": [
+                184,
+                620,
+                568,
+                673
+              ],
+              "confidence": 0.9877
+            },
+            {
+              "text": "Veiculoenvolvido:placaZHV7H79",
+              "kind": "field",
+              "box": [
+                186,
+                700,
+                907,
+                753
+              ],
+              "confidence": 0.9732
+            },
+            {
+              "text": "RELATO",
+              "kind": "heading",
+              "box": [
+                188,
+                785,
+                445,
+                845
+              ],
+              "confidence": 0.9939
+            },
+            {
+              "text": "Oveiculofoi surpreendidoporelevacaorapidadonivel daagua emviapublica,atingindoo",
+              "kind": "paragraph",
+              "box": [
+                188,
+                896,
+                2076,
+                951
+              ],
+              "confidence": 0.9703
+            },
+            {
+              "text": "compartimentodomotor.",
+              "kind": "paragraph",
+              "box": [
+                190,
+                972,
+                708,
+                1021
+              ],
+              "confidence": 0.9896
+            },
+            {
+              "text": "Naohouvevitimafatal.Ocondutorfoiencaminhadoparaatendimentomedicoderotinaeoveiculo",
+              "kind": "paragraph",
+              "box": [
+                186,
+                1043,
+                2231,
+                1099
+              ],
+              "confidence": 0.9872
+            },
+            {
+              "text": "removidoporguinchocredenciado.",
+              "kind": "paragraph",
+              "box": [
+                186,
+                1117,
+                915,
+                1174
+              ],
+              "confidence": 0.9947
+            },
+            {
+              "text": "Pagina1de1",
+              "kind": "paragraph",
+              "box": [
+                186,
+                1189,
+                398,
+                1237
+              ],
+              "confidence": 0.9869
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AV-2026-4449-orcamento_de_reparo",
+      "kind": "orcamento_de_reparo",
+      "claim_id": "AV-2026-4449",
+      "meta": {
+        "image": "pages/AV-2026-4449-orcamento_de_reparo.png"
+      },
+      "pages": [
+        {
+          "number": 1,
+          "width": 2480,
+          "height": 3508,
+          "blocks": [
+            {
+              "text": "ORCAMENTODEREPARO",
+              "kind": "heading",
+              "box": [
+                199,
+                198,
+                984,
+                256
+              ],
+              "confidence": 0.9865
+            },
+            {
+              "text": "Oficina:Oficina Modelo",
+              "kind": "field",
+              "box": [
+                191,
+                314,
+                674,
+                371
+              ],
+              "confidence": 0.9836
+            },
+            {
+              "text": "Sinistro:AV-2026-4449",
+              "kind": "field",
+              "box": [
+                193,
+                390,
+                672,
+                438
+              ],
+              "confidence": 0.9939
+            },
+            {
+              "text": "Placa:ZHV7H79",
+              "kind": "field",
+              "box": [
+                190,
+                459,
+                542,
+                512
+              ],
+              "confidence": 0.9737
+            },
+            {
+              "text": "PECAS",
+              "kind": "heading",
+              "box": [
+                188,
+                532,
+                412,
+                602
+              ],
+              "confidence": 0.9894
+            },
+            {
+              "text": "Paralamaesquerdo1unR$1.690,00",
+              "kind": "table_row",
+              "box": [
+                190,
+                657,
+                970,
+                714
+              ],
+              "confidence": 0.9784
+            },
+            {
+              "text": "Airbag do condutor 1 un R$ 4.320,00",
+              "kind": "table_row",
+              "box": [
+                190,
+                735,
+                959,
+                792
+              ],
+              "confidence": 0.9645
+            },
+            {
+              "text": "Para-choquedianteiro1unR$2.100,00",
+              "kind": "table_row",
+              "box": [
+                190,
+                811,
+                1023,
+                866
+              ],
+              "confidence": 0.98
+            },
+            {
+              "text": "Capo1unR$3.250,00",
+              "kind": "table_row",
+              "box": [
+                193,
+                891,
+                679,
+                944
+              ],
+              "confidence": 0.9458
+            },
+            {
+              "text": "MAO DE OBRA",
+              "kind": "heading",
+              "box": [
+                191,
+                961,
+                642,
+                1032
+              ],
+              "confidence": 0.9158
+            },
+            {
+              "text": "Servicosdefunilariaepintura1unR$1.261,70",
+              "kind": "table_row",
+              "box": [
+                193,
+                1083,
+                1176,
+                1136
+              ],
+              "confidence": 0.9738
+            },
+            {
+              "text": "TOTAIS",
+              "kind": "heading",
+              "box": [
+                186,
+                1161,
+                426,
+                1227
+              ],
+              "confidence": 0.9897
+            },
+            {
+              "text": "Subtotal de pecas R$ 11.360,00",
+              "kind": "table_row",
+              "box": [
+                188,
+                1273,
+                863,
+                1336
+              ],
+              "confidence": 0.9901
+            },
+            {
+              "text": "SubtotaldemaodeobraR$1.261,70",
+              "kind": "table_row",
+              "box": [
+                191,
+                1356,
+                970,
+                1407
+              ],
+              "confidence": 0.9727
+            },
+            {
+              "text": "Total geral R$ 12.621,70",
+              "kind": "table_row",
+              "box": [
+                186,
+                1430,
+                708,
+                1487
+              ],
+              "confidence": 0.9641
+            },
+            {
+              "text": "Orcamento valido por 15 dias. Pecas sujeitas a confirmacao de disponibilidade junto ao fornecedor.",
+              "kind": "table_row",
+              "box": [
+                191,
+                1508,
+                2240,
+                1564
+              ],
+              "confidence": 0.9693
+            },
+            {
+              "text": "Pagina 1de1",
+              "kind": "footer",
+              "box": [
+                188,
+                1578,
+                399,
+                1626
+              ],
+              "confidence": 0.9632
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AV-2026-4449-laudo_medico",
+      "kind": "laudo_medico",
+      "claim_id": "AV-2026-4449",
+      "meta": {
+        "image": "pages/AV-2026-4449-laudo_medico.png"
+      },
+      "pages": [
+        {
+          "number": 1,
+          "width": 2480,
+          "height": 3508,
+          "blocks": [
+            {
+              "text": "LAUDO MEDICO",
+              "kind": "heading",
+              "box": [
+                184,
+                192,
+                671,
+                261
+              ],
+              "confidence": 0.9673
+            },
+            {
+              "text": "Paciente: Beatriz Pecanha",
+              "kind": "field",
+              "box": [
+                181,
+                307,
+                732,
+                369
+              ],
+              "confidence": 0.9886
+            },
+            {
+              "text": "CPF:742.194.376-68",
+              "kind": "heading",
+              "box": [
+                186,
+                394,
+                635,
+                445
+              ],
+              "confidence": 0.9875
+            },
+            {
+              "text": "Datadoatendimento:08/08/2026",
+              "kind": "footer",
+              "box": [
+                184,
+                466,
+                882,
+                516
+              ],
+              "confidence": 0.9911
+            },
+            {
+              "text": "CID-10:S13.4",
+              "kind": "heading",
+              "box": [
+                186,
+                537,
+                486,
+                588
+              ],
+              "confidence": 0.9903
+            },
+            {
+              "text": "AVALIACAO",
+              "kind": "heading",
+              "box": [
+                183,
+                602,
+                558,
+                682
+              ],
+              "confidence": 0.9711
+            },
+            {
+              "text": "Paciente atendido apos evento automobilistico, consciente e orientado, sem alteracoes neurologicas",
+              "kind": "paragraph",
+              "box": [
+                181,
+                728,
+                2261,
+                792
+              ],
+              "confidence": 0.9775
+            },
+            {
+              "text": "agudasaoexameinicial.",
+              "kind": "paragraph",
+              "box": [
+                186,
+                806,
+                702,
+                864
+              ],
+              "confidence": 0.9819
+            },
+            {
+              "text": "Naohouvenecessidadedeafastamentodasatividadeshabituais.",
+              "kind": "paragraph",
+              "box": [
+                184,
+                884,
+                1541,
+                935
+              ],
+              "confidence": 0.9931
+            },
+            {
+              "text": "Solicitadoretornoambulatorialemquinzediasparareavaliacaoclinica.",
+              "kind": "paragraph",
+              "box": [
+                184,
+                951,
+                1653,
+                1006
+              ],
+              "confidence": 0.9888
+            },
+            {
+              "text": "Pagina1de1",
+              "kind": "paragraph",
+              "box": [
+                186,
+                1027,
+                394,
+                1069
+              ],
+              "confidence": 0.984
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AV-2026-4449-apolice",
+      "kind": "apolice",
+      "claim_id": "AV-2026-4449",
+      "meta": {
+        "image": "pages/AV-2026-4449-apolice.png"
+      },
+      "pages": [
+        {
+          "number": 1,
+          "width": 2480,
+          "height": 3508,
+          "blocks": [
+            {
+              "text": "APOLICEDESEGURODEAUTOMOVEL",
+              "kind": "heading",
+              "box": [
+                186,
+                192,
+                1361,
+                259
+              ],
+              "confidence": 0.9878
+            },
+            {
+              "text": "Apolice:2026.100959",
+              "kind": "field",
+              "box": [
+                184,
+                307,
+                641,
+                369
+              ],
+              "confidence": 0.985
+            },
+            {
+              "text": "Segurado:Beatriz Pecanha",
+              "kind": "field",
+              "box": [
+                184,
+                392,
+                757,
+                450
+              ],
+              "confidence": 0.9706
+            },
+            {
+              "text": "Vigencia:01/01/2026a31/12/2026",
+              "kind": "footer",
+              "box": [
+                184,
+                473,
+                914,
+                530
+              ],
+              "confidence": 0.9739
+            },
+            {
+              "text": "COBERTURASCONTRATADAS",
+              "kind": "heading",
+              "box": [
+                191,
+                562,
+                1121,
+                615
+              ],
+              "confidence": 0.9894
+            },
+            {
+              "text": "ColisaoecapotamentoLimiteR$80.000,00FranquiaR$4.200,00",
+              "kind": "table_row",
+              "box": [
+                186,
+                668,
+                1555,
+                726
+              ],
+              "confidence": 0.9712
+            },
+            {
+              "text": "IncendioerouboLimiteR$80.000,00FranquiaR$0,00",
+              "kind": "table_row",
+              "box": [
+                183,
+                746,
+                1338,
+                802
+              ],
+              "confidence": 0.9391
+            },
+            {
+              "text": "Danosa terceirosLimiteR$40.000,00FranquiaR$2.100,00",
+              "kind": "table_row",
+              "box": [
+                186,
+                825,
+                1444,
+                878
+              ],
+              "confidence": 0.9716
+            },
+            {
+              "text": "EXCLUSOES",
+              "kind": "heading",
+              "box": [
+                186,
+                896,
+                572,
+                968
+              ],
+              "confidence": 0.9889
+            },
+            {
+              "text": "Naoestao cobertos os danos ocorridos quando o condutor estiver sem habilitacaovalida na data do",
+              "kind": "paragraph",
+              "box": [
+                184,
+                1013,
+                2252,
+                1073
+              ],
+              "confidence": 0.9394
+            },
+            {
+              "text": "evento,bem comoosdecorrentesdeuso doveiculoem competicao.",
+              "kind": "paragraph",
+              "box": [
+                186,
+                1089,
+                1609,
+                1145
+              ],
+              "confidence": 0.968
+            },
+            {
+              "text": "Pagina1de1",
+              "kind": "paragraph",
+              "box": [
+                188,
+                1166,
+                394,
+                1209
+              ],
+              "confidence": 0.9872
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AV-2026-4456-aviso_de_sinistro",
+      "kind": "aviso_de_sinistro",
+      "claim_id": "AV-2026-4456",
+      "meta": {
+        "image": "pages/AV-2026-4456-aviso_de_sinistro.png"
+      },
+      "pages": [
+        {
+          "number": 1,
+          "width": 2480,
+          "height": 3508,
+          "blocks": [
+            {
+              "text": "AVISODESINISTRO",
+              "kind": "heading",
+              "box": [
+                202,
+                189,
+                801,
+                252
+              ],
+              "confidence": 0.9867
+            },
+            {
+              "text": "Numerodoaviso:AV-2026-4456",
+              "kind": "field",
+              "box": [
+                197,
+                300,
+                878,
+                358
+              ],
+              "confidence": 0.9917
+            },
+            {
+              "text": "Apolice:2026.101096",
+              "kind": "field",
+              "box": [
+                200,
+                376,
+                655,
+                429
+              ],
+              "confidence": 0.986
+            },
+            {
+              "text": "Segurado:LeandroArruda",
+              "kind": "field",
+              "box": [
+                200,
+                454,
+                748,
+                507
+              ],
+              "confidence": 0.9908
+            },
+            {
+              "text": "CPF:357.416.658-48",
+              "kind": "heading",
+              "box": [
+                197,
+                532,
+                648,
+                590
+              ],
+              "confidence": 0.9876
+            },
+            {
+              "text": "Datadosinistro:09/09/2026",
+              "kind": "footer",
+              "box": [
+                197,
+                610,
+                783,
+                661
+              ],
+              "confidence": 0.9926
+            },
+            {
+              "text": "Local:NovaAurora-Zetalandia",
+              "kind": "field",
+              "box": [
+                191,
+                682,
+                852,
+                733
+              ],
+              "confidence": 0.9921
+            },
+            {
+              "text": "Placa:ZIY8186",
+              "kind": "field",
+              "box": [
+                193,
+                751,
+                507,
+                804
+              ],
+              "confidence": 0.9573
+            },
+            {
+              "text": "Veiculo:SUVcompacto1.4,ano2020",
+              "kind": "field",
+              "box": [
+                191,
+                823,
+                988,
+                882
+              ],
+              "confidence": 0.9797
+            },
+            {
+              "text": "Naturezadoevento:colisaolateralemcruzamento",
+              "kind": "field",
+              "box": [
+                195,
+                905,
+                1245,
+                963
+              ],
+              "confidence": 0.9911
+            },
+            {
+              "text": "DESCRICAODOSEGURADO",
+              "kind": "heading",
+              "box": [
+                197,
+                977,
+                1055,
+                1044
+              ],
+              "confidence": 0.9846
+            },
+            {
+              "text": "O condutor informou que cruzava a via preferencial com sinalizacao semaforica intermitente quando",
+              "kind": "paragraph",
+              "box": [
+                193,
+                1101,
+                2258,
+                1172
+              ],
+              "confidence": 0.9685
+            },
+            {
+              "text": "foi atingidonalateral direita.",
+              "kind": "paragraph",
+              "box": [
+                190,
+                1175,
+                780,
+                1234
+              ],
+              "confidence": 0.9701
+            },
+            {
+              "text": "O segurado declara que as informacoes acima sao verdadeiras e autoriza a seguradora a solicitar",
+              "kind": "paragraph",
+              "box": [
+                190,
+                1251,
+                2215,
+                1320
+              ],
+              "confidence": 0.9747
+            },
+            {
+              "text": "documentoscomplementaresparaaregulacaodosinistro.",
+              "kind": "paragraph",
+              "box": [
+                191,
+                1326,
+                1400,
+                1386
+              ],
+              "confidence": 0.9932
+            },
+            {
+              "text": "Documentogeradoem09/09/2026-pagina1/1",
+              "kind": "footer",
+              "box": [
+                191,
+                1400,
+                875,
+                1446
+              ],
+              "confidence": 0.9935
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AV-2026-4456-boletim_de_ocorrencia",
+      "kind": "boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4456",
+      "meta": {
+        "image": "pages/AV-2026-4456-boletim_de_ocorrencia.png"
+      },
+      "pages": [
+        {
+          "number": 1,
+          "width": 2480,
+          "height": 3508,
+          "blocks": [
+            {
+              "text": "BOLETIMDEOCORRENCIA",
+              "kind": "heading",
+              "box": [
+                193,
+                192,
+                1011,
+                254
+              ],
+              "confidence": 0.9926
+            },
+            {
+              "text": "Numero:BO-20263088",
+              "kind": "field",
+              "box": [
+                191,
+                307,
+                672,
+                355
+              ],
+              "confidence": 0.9805
+            },
+            {
+              "text": "Delegacia:2aCircunscricaodeNovaAurora",
+              "kind": "field",
+              "box": [
+                191,
+                381,
+                1099,
+                434
+              ],
+              "confidence": 0.9916
+            },
+            {
+              "text": "Datadofato:09/09/2026",
+              "kind": "footer",
+              "box": [
+                191,
+                465,
+                708,
+                510
+              ],
+              "confidence": 0.9933
+            },
+            {
+              "text": "Condutor:LeandroArruda",
+              "kind": "field",
+              "box": [
+                193,
+                537,
+                734,
+                583
+              ],
+              "confidence": 0.9924
+            },
+            {
+              "text": "Habilitacao:vencidahamaisde30dias",
+              "kind": "field",
+              "box": [
+                190,
+                608,
+                1014,
+                659
+              ],
+              "confidence": 0.9851
+            },
+            {
+              "text": "Veiculoenvolvido:placaZiY8l86",
+              "kind": "field",
+              "box": [
+                186,
+                686,
+                871,
+                740
+              ],
+              "confidence": 0.9514
+            },
+            {
+              "text": "RELATO",
+              "kind": "heading",
+              "box": [
+                190,
+                772,
+                450,
+                832
+              ],
+              "confidence": 0.9936
+            },
+            {
+              "text": "O condutor informou que cruzava a via preferencial com sinalizacao semaforica intermitente quando",
+              "kind": "paragraph",
+              "box": [
+                188,
+                880,
+                2254,
+                942
+              ],
+              "confidence": 0.9763
+            },
+            {
+              "text": "foi atingidonalateraldireita.",
+              "kind": "paragraph",
+              "box": [
+                188,
+                960,
+                780,
+                1011
+              ],
+              "confidence": 0.9776
+            },
+            {
+              "text": "Naohouvevitima fatal.Ocondutorfoiencaminhadopara atendimentomedicoderotinaeoveiculo",
+              "kind": "paragraph",
+              "box": [
+                188,
+                1036,
+                2235,
+                1087
+              ],
+              "confidence": 0.9799
+            },
+            {
+              "text": "removidoporguinchocredenciado.",
+              "kind": "paragraph",
+              "box": [
+                188,
+                1105,
+                919,
+                1159
+              ],
+              "confidence": 0.9938
+            },
+            {
+              "text": "Pagina1de1",
+              "kind": "paragraph",
+              "box": [
+                188,
+                1174,
+                398,
+                1227
+              ],
+              "confidence": 0.9856
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AV-2026-4456-orcamento_de_reparo",
+      "kind": "orcamento_de_reparo",
+      "claim_id": "AV-2026-4456",
+      "meta": {
+        "image": "pages/AV-2026-4456-orcamento_de_reparo.png"
+      },
+      "pages": [
+        {
+          "number": 1,
+          "width": 2480,
+          "height": 3508,
+          "blocks": [
+            {
+              "text": "ORCAMENTO DEREPARO",
+              "kind": "heading",
+              "box": [
+                202,
+                187,
+                995,
+                258
+              ],
+              "confidence": 0.9603
+            },
+            {
+              "text": "Oficina:Auto CenterExemplo",
+              "kind": "field",
+              "box": [
+                199,
+                307,
+                810,
+                373
+              ],
+              "confidence": 0.9812
+            },
+            {
+              "text": "Sinistro:AV-2026-4456",
+              "kind": "field",
+              "box": [
+                200,
+                396,
+                679,
+                443
+              ],
+              "confidence": 0.9929
+            },
+            {
+              "text": "Placa:ZIY8186",
+              "kind": "field",
+              "box": [
+                195,
+                461,
+                507,
+                518
+              ],
+              "confidence": 0.9682
+            },
+            {
+              "text": "PECAS",
+              "kind": "heading",
+              "box": [
+                191,
+                535,
+                419,
+                611
+              ],
+              "confidence": 0.9865
+            },
+            {
+              "text": "Capo 1 un R$ 3.250,00",
+              "kind": "table_row",
+              "box": [
+                195,
+                659,
+                685,
+                721
+              ],
+              "confidence": 0.9596
+            },
+            {
+              "text": "Farol direito1unR$1.480,00",
+              "kind": "table_row",
+              "box": [
+                191,
+                739,
+                815,
+                797
+              ],
+              "confidence": 0.971
+            },
+            {
+              "text": "Para-choquedianteiro1unR$2.100,00",
+              "kind": "table_row",
+              "box": [
+                195,
+                815,
+                1026,
+                873
+              ],
+              "confidence": 0.9734
+            },
+            {
+              "text": "Airbagdocondutor1unR$4.320,00",
+              "kind": "table_row",
+              "box": [
+                195,
+                892,
+                965,
+                947
+              ],
+              "confidence": 0.9778
+            },
+            {
+              "text": "MAODEOBRA",
+              "kind": "heading",
+              "box": [
+                197,
+                963,
+                648,
+                1037
+              ],
+              "confidence": 0.9846
+            },
+            {
+              "text": "Servicos de funilaria e pintura 1 unR$ 1.427,71",
+              "kind": "table_row",
+              "box": [
+                191,
+                1082,
+                1180,
+                1149
+              ],
+              "confidence": 0.9402
+            },
+            {
+              "text": "TOTAIS",
+              "kind": "heading",
+              "box": [
+                188,
+                1163,
+                429,
+                1228
+              ],
+              "confidence": 0.9904
+            },
+            {
+              "text": "Subtotal de pecasR$ 11.150,00",
+              "kind": "table_row",
+              "box": [
+                193,
+                1278,
+                863,
+                1338
+              ],
+              "confidence": 0.9557
+            },
+            {
+              "text": "SubtotaldemaodeobraR$1.427,71",
+              "kind": "table_row",
+              "box": [
+                193,
+                1359,
+                966,
+                1410
+              ],
+              "confidence": 0.9709
+            },
+            {
+              "text": "TotalgeralR$12.577,71",
+              "kind": "table_row",
+              "box": [
+                188,
+                1432,
+                704,
+                1488
+              ],
+              "confidence": 0.9652
+            },
+            {
+              "text": "Orcamento valido por 15 dias. Pecas sujeitas a confirmacao de disponibilidade junto ao fornecedor.",
+              "kind": "table_row",
+              "box": [
+                190,
+                1508,
+                2242,
+                1577
+              ],
+              "confidence": 0.9677
+            },
+            {
+              "text": "Pagina1de1",
+              "kind": "paragraph",
+              "box": [
+                186,
+                1578,
+                399,
+                1631
+              ],
+              "confidence": 0.9825
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AV-2026-4456-laudo_medico",
+      "kind": "laudo_medico",
+      "claim_id": "AV-2026-4456",
+      "meta": {
+        "image": "pages/AV-2026-4456-laudo_medico.png"
+      },
+      "pages": [
+        {
+          "number": 1,
+          "width": 2480,
+          "height": 3508,
+          "blocks": [
+            {
+              "text": "LAUDO MEDICO",
+              "kind": "heading",
+              "box": [
+                184,
+                190,
+                671,
+                261
+              ],
+              "confidence": 0.9681
+            },
+            {
+              "text": "Paciente:LeandroArruda",
+              "kind": "field",
+              "box": [
+                184,
+                311,
+                716,
+                364
+              ],
+              "confidence": 0.9894
+            },
+            {
+              "text": "CPF:357.416.658-48",
+              "kind": "heading",
+              "box": [
+                183,
+                383,
+                634,
+                434
+              ],
+              "confidence": 0.9856
+            },
+            {
+              "text": "Datadoatendimento:09/09/2026",
+              "kind": "footer",
+              "box": [
+                183,
+                454,
+                882,
+                509
+              ],
+              "confidence": 0.991
+            },
+            {
+              "text": "CID-10:S82.1",
+              "kind": "heading",
+              "box": [
+                183,
+                525,
+                486,
+                581
+              ],
+              "confidence": 0.9918
+            },
+            {
+              "text": "AVALIACAO",
+              "kind": "heading",
+              "box": [
+                183,
+                595,
+                558,
+                670
+              ],
+              "confidence": 0.9731
+            },
+            {
+              "text": "Paciente atendido apos evento automobilistico,consciente eorientado,sem alteracoesneurologicas",
+              "kind": "paragraph",
+              "box": [
+                183,
+                721,
+                2259,
+                779
+              ],
+              "confidence": 0.9573
+            },
+            {
+              "text": "agudas ao exame inicial.",
+              "kind": "paragraph",
+              "box": [
+                184,
+                793,
+                704,
+                857
+              ],
+              "confidence": 0.9835
+            },
+            {
+              "text": "Recomendadoafastamentodasatividadeshabituaispor45dias.",
+              "kind": "paragraph",
+              "box": [
+                184,
+                873,
+                1528,
+                928
+              ],
+              "confidence": 0.993
+            },
+            {
+              "text": "Solicitadoretornoambulatorial emquinzediasparareavaliacaoclinica.",
+              "kind": "paragraph",
+              "box": [
+                184,
+                949,
+                1653,
+                1006
+              ],
+              "confidence": 0.9828
+            },
+            {
+              "text": "Pagina1de1",
+              "kind": "paragraph",
+              "box": [
+                186,
+                1027,
+                394,
+                1069
+              ],
+              "confidence": 0.9868
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AV-2026-4456-apolice",
+      "kind": "apolice",
+      "claim_id": "AV-2026-4456",
+      "meta": {
+        "image": "pages/AV-2026-4456-apolice.png"
+      },
+      "pages": [
+        {
+          "number": 1,
+          "width": 2480,
+          "height": 3508,
+          "blocks": [
+            {
+              "text": "APOLICEDESEGURODEAUTOMOVEL",
+              "kind": "heading",
+              "box": [
+                206,
+                180,
+                1380,
+                258
+              ],
+              "confidence": 0.987
+            },
+            {
+              "text": "Apolice:2026.101096",
+              "kind": "field",
+              "box": [
+                204,
+                302,
+                658,
+                355
+              ],
+              "confidence": 0.9864
+            },
+            {
+              "text": "Segurado: LeandroArruda",
+              "kind": "field",
+              "box": [
+                200,
+                380,
+                755,
+                440
+              ],
+              "confidence": 0.9723
+            },
+            {
+              "text": "Vigencia:01/01/2026a31/12/2026",
+              "kind": "footer",
+              "box": [
+                200,
+                465,
+                928,
+                518
+              ],
+              "confidence": 0.9855
+            },
+            {
+              "text": "COBERTURASCONTRATADAS",
+              "kind": "heading",
+              "box": [
+                202,
+                548,
+                1136,
+                613
+              ],
+              "confidence": 0.9856
+            },
+            {
+              "text": "ColisaoecapotamentoLimiteR$60.000,00FranquiaR$2.800,00",
+              "kind": "table_row",
+              "box": [
+                199,
+                661,
+                1567,
+                723
+              ],
+              "confidence": 0.9721
+            },
+            {
+              "text": "IncendioerouboLimiteR$60.000,00FranquiaR$0,00",
+              "kind": "table_row",
+              "box": [
+                195,
+                737,
+                1350,
+                800
+              ],
+              "confidence": 0.9521
+            },
+            {
+              "text": "DanosaterceirosLimiteR$30.000,00FranquiaR$1.400,00",
+              "kind": "table_row",
+              "box": [
+                197,
+                813,
+                1454,
+                877
+              ],
+              "confidence": 0.9652
+            },
+            {
+              "text": "EXCLUSOES",
+              "kind": "heading",
+              "box": [
+                200,
+                891,
+                579,
+                951
+              ],
+              "confidence": 0.9905
+            },
+            {
+              "text": "Nao estao cobertos os danos ocorridos quando ocondutor estiversem habilitacaovalida na data do",
+              "kind": "paragraph",
+              "box": [
+                191,
+                1007,
+                2258,
+                1076
+              ],
+              "confidence": 0.9399
+            },
+            {
+              "text": "evento, bem como os decorrentes de uso do veiculo em competicao.",
+              "kind": "paragraph",
+              "box": [
+                193,
+                1076,
+                1615,
+                1147
+              ],
+              "confidence": 0.9684
+            },
+            {
+              "text": "Pagina1de1",
+              "kind": "paragraph",
+              "box": [
+                195,
+                1152,
+                399,
+                1195
+              ],
+              "confidence": 0.987
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2213 @@
+{
+  "chunks": [
+    {
+      "id": "AV-2026-4407-aviso_de_sinistro#c01",
+      "document_id": "AV-2026-4407-aviso_de_sinistro",
+      "claim_id": "AV-2026-4407",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Numerodoaviso:AV-2026-4407\nApolice:2026.100137\nSegurado:HelenaVilarinho",
+      "headings": [
+        "AVISODESINISTRO"
+      ],
+      "confidence": 0.9867
+    },
+    {
+      "id": "AV-2026-4407-aviso_de_sinistro#c02",
+      "document_id": "AV-2026-4407-aviso_de_sinistro",
+      "claim_id": "AV-2026-4407",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Local:Porto das Aguas -Zetalandia\nPlaca:ZBD1B17\nVeiculo:Hatch compacto 1.0,ano2021\nNatureza do evento:colisao traseira",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:218.801.148-21"
+      ],
+      "confidence": 0.9605
+    },
+    {
+      "id": "AV-2026-4407-aviso_de_sinistro#c03",
+      "document_id": "AV-2026-4407-aviso_de_sinistro",
+      "claim_id": "AV-2026-4407",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "O condutor relatou que trafegava pela via marginal quando o veiculo a frente freou bruscamente, nao\nhavendo espacopara evitaro impactona traseira.\nO segurado declara que as informacoes acima sao verdadeiras e autoriza a seguradora a solicitar\ndocumentoscomplementaresparaaregulacaodosinistro.",
+      "headings": [
+        "AVISODESINISTRO",
+        "DESCRICAODOSEGURADO"
+      ],
+      "confidence": 0.9474
+    },
+    {
+      "id": "AV-2026-4407-boletim_de_ocorrencia#c01",
+      "document_id": "AV-2026-4407-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4407",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Numero:BO-20263011\nDelegacia:2aCircunscricaodePortodasAguas\nCondutor:Helena Vilarinho\nHabilitacao:valida\nVeiculoenvolvido:placaZBD1B17",
+      "headings": [
+        "BOLETIMDEOCORRENCIA"
+      ],
+      "confidence": 0.9713
+    },
+    {
+      "id": "AV-2026-4407-boletim_de_ocorrencia#c02",
+      "document_id": "AV-2026-4407-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4407",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "O condutor relatou que trafegava pela via marginal quando o veiculo a frente freou bruscamente, nao\nhavendoespacopara evitaro impactona traseira.\nNaohouvevitima fatal.Ocondutorfoiencaminhadopara atendimentomedicoderotinaeoveiculo\nremovidoporguinchocredenciado.\nPagina1de1",
+      "headings": [
+        "BOLETIMDEOCORRENCIA",
+        "RELATO"
+      ],
+      "confidence": 0.9473
+    },
+    {
+      "id": "AV-2026-4407-orcamento_de_reparo#c01",
+      "document_id": "AV-2026-4407-orcamento_de_reparo",
+      "claim_id": "AV-2026-4407",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Oficina:Oficina Modelo\nSinistro:AV-2026-4407\nPlaca:ZBD1B17",
+      "headings": [
+        "ORCAMENTODEREPARO"
+      ],
+      "confidence": 0.9717
+    },
+    {
+      "id": "AV-2026-4407-orcamento_de_reparo#c02",
+      "document_id": "AV-2026-4407-orcamento_de_reparo",
+      "claim_id": "AV-2026-4407",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Airbag docondutor1unR$4.320,00",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "PECAS"
+      ],
+      "confidence": 0.9684
+    },
+    {
+      "id": "AV-2026-4407-orcamento_de_reparo#c03",
+      "document_id": "AV-2026-4407-orcamento_de_reparo",
+      "claim_id": "AV-2026-4407",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Cap1unR$3.250,00",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "PECAS"
+      ],
+      "confidence": 0.9721
+    },
+    {
+      "id": "AV-2026-4407-orcamento_de_reparo#c04",
+      "document_id": "AV-2026-4407-orcamento_de_reparo",
+      "claim_id": "AV-2026-4407",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Paralamaesquerdo1unR$1.690,00",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "PECAS"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "AV-2026-4407-orcamento_de_reparo#c05",
+      "document_id": "AV-2026-4407-orcamento_de_reparo",
+      "claim_id": "AV-2026-4407",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Servicos de funilariaepintura1 unR$ 1.112,00",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "MAODEOBRA"
+      ],
+      "confidence": 0.9478
+    },
+    {
+      "id": "AV-2026-4407-orcamento_de_reparo#c06",
+      "document_id": "AV-2026-4407-orcamento_de_reparo",
+      "claim_id": "AV-2026-4407",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Subtotal depecasR$9.260,00",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "TOTAIS"
+      ],
+      "confidence": 0.9422
+    },
+    {
+      "id": "AV-2026-4407-orcamento_de_reparo#c07",
+      "document_id": "AV-2026-4407-orcamento_de_reparo",
+      "claim_id": "AV-2026-4407",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "SubtotaldemaodeobraR$1.112,00",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "TOTAIS"
+      ],
+      "confidence": 0.9741
+    },
+    {
+      "id": "AV-2026-4407-orcamento_de_reparo#c08",
+      "document_id": "AV-2026-4407-orcamento_de_reparo",
+      "claim_id": "AV-2026-4407",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "TotalgeralR$10.372,00",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "TOTAIS"
+      ],
+      "confidence": 0.9601
+    },
+    {
+      "id": "AV-2026-4407-orcamento_de_reparo#c09",
+      "document_id": "AV-2026-4407-orcamento_de_reparo",
+      "claim_id": "AV-2026-4407",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Orcamento valido por 15 dias.Pecas sujeitas a confirmacao de disponibilidade junto ao fornecedor.",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "TOTAIS"
+      ],
+      "confidence": 0.9651
+    },
+    {
+      "id": "AV-2026-4407-orcamento_de_reparo#c10",
+      "document_id": "AV-2026-4407-orcamento_de_reparo",
+      "claim_id": "AV-2026-4407",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Pagina1de1",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "TOTAIS"
+      ],
+      "confidence": 0.9859
+    },
+    {
+      "id": "AV-2026-4407-laudo_medico#c01",
+      "document_id": "AV-2026-4407-laudo_medico",
+      "claim_id": "AV-2026-4407",
+      "kind": "laudo_medico",
+      "page": 1,
+      "text": "Paciente:HelenaVilarinho",
+      "headings": [
+        "LAUDOMEDICO"
+      ],
+      "confidence": 0.9857
+    },
+    {
+      "id": "AV-2026-4407-laudo_medico#c02",
+      "document_id": "AV-2026-4407-laudo_medico",
+      "claim_id": "AV-2026-4407",
+      "kind": "laudo_medico",
+      "page": 1,
+      "text": "Paciente atendido aposeventoautomobilistico,consciente eorientado,sem alteracoesneurologicas\nagudas aoexame inicial.\nRecomendadoafastamentodasatividadeshabituaispor30dias.\nSolicitadoretornoambulatorial emquinzediasparareavaliacaoclinica.\nPagina1de1",
+      "headings": [
+        "LAUDOMEDICO",
+        "AVALIACAO"
+      ],
+      "confidence": 0.9594
+    },
+    {
+      "id": "AV-2026-4407-apolice#c01",
+      "document_id": "AV-2026-4407-apolice",
+      "claim_id": "AV-2026-4407",
+      "kind": "apolice",
+      "page": 1,
+      "text": "Apolice:2026.100137\nSegurado:HelenaVilarinho",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL"
+      ],
+      "confidence": 0.9774
+    },
+    {
+      "id": "AV-2026-4407-apolice#c02",
+      "document_id": "AV-2026-4407-apolice",
+      "claim_id": "AV-2026-4407",
+      "kind": "apolice",
+      "page": 1,
+      "text": "ColisaoecapotamentoLimiteR$95.000,00FranquiaR$5.100,00",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL",
+        "COBERTURASCONTRATADAS"
+      ],
+      "confidence": 0.9714
+    },
+    {
+      "id": "AV-2026-4407-apolice#c03",
+      "document_id": "AV-2026-4407-apolice",
+      "claim_id": "AV-2026-4407",
+      "kind": "apolice",
+      "page": 1,
+      "text": "IncendioerouboLimiteR$95.000,00FranquiaR$0,00",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL",
+        "COBERTURASCONTRATADAS"
+      ],
+      "confidence": 0.9538
+    },
+    {
+      "id": "AV-2026-4407-apolice#c04",
+      "document_id": "AV-2026-4407-apolice",
+      "claim_id": "AV-2026-4407",
+      "kind": "apolice",
+      "page": 1,
+      "text": "DanosaterceirosLimiteR$47.500,00FranquiaR$2.550,00",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL",
+        "COBERTURASCONTRATADAS"
+      ],
+      "confidence": 0.969
+    },
+    {
+      "id": "AV-2026-4407-apolice#c05",
+      "document_id": "AV-2026-4407-apolice",
+      "claim_id": "AV-2026-4407",
+      "kind": "apolice",
+      "page": 1,
+      "text": "Nao estao cobertosos danosocorridos quandoocondutorestiver semhabilitacaovalidanadata do\nevento,bem comoosdecorrentesdeuso doveiculoem competicao.\nPagina1de1",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL",
+        "EXCLUSOES"
+      ],
+      "confidence": 0.9614
+    },
+    {
+      "id": "AV-2026-4414-aviso_de_sinistro#c01",
+      "document_id": "AV-2026-4414-aviso_de_sinistro",
+      "claim_id": "AV-2026-4414",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Numerodoaviso:AV-2026-4414\nApolice:2026.100274\nSegurado:Rafael Caldeira",
+      "headings": [
+        "AVISODESINISTRO"
+      ],
+      "confidence": 0.983
+    },
+    {
+      "id": "AV-2026-4414-aviso_de_sinistro#c02",
+      "document_id": "AV-2026-4414-aviso_de_sinistro",
+      "claim_id": "AV-2026-4414",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Local:VilaSerena-Zetalandia\nPlaca:ZCG2C24\nVeiculo:Sedamedio2.0,ano2019\nNatureza doevento:capotamento",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:565.464.420-46"
+      ],
+      "confidence": 0.9795
+    },
+    {
+      "id": "AV-2026-4414-aviso_de_sinistro#c03",
+      "document_id": "AV-2026-4414-aviso_de_sinistro",
+      "claim_id": "AV-2026-4414",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Segundo o condutor,houve perda de aderencia na alca de acesso da rodovia sob chuva, seguida de\ncapotamentolateralsobreocanteiro.\nOseguradodeclaraqueasinformacoesacimasaoverdadeiraseautoriza aseguradora asolicitar\ndocumentoscomplementaresparaaregulacaodosinistro.",
+      "headings": [
+        "AVISODESINISTRO",
+        "DESCRICAODOSEGURADO"
+      ],
+      "confidence": 0.9461
+    },
+    {
+      "id": "AV-2026-4414-boletim_de_ocorrencia#c01",
+      "document_id": "AV-2026-4414-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4414",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Numero:BO-20263022\nDelegacia:2aCircunscricaodeVilaSerena\nCondutor:Rafael Caldeira\nHabilitacao: valida\nVeiculoenvolvido:placaZCG2C24",
+      "headings": [
+        "BOLETIMDEOCORRENCIA"
+      ],
+      "confidence": 0.9551
+    },
+    {
+      "id": "AV-2026-4414-boletim_de_ocorrencia#c02",
+      "document_id": "AV-2026-4414-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4414",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Segundo o condutor, houve perda de aderencia na alca de acesso da rodovia sob chuva, seguida de\ncapotamentolateralsobreocanteiro.\nNaohouvevitima fatal.Ocondutorfoi encaminhadopara atendimentomedico derotina eoveiculo\nremovidoporguinchocredenciado.\nPagina1de1",
+      "headings": [
+        "BOLETIMDEOCORRENCIA",
+        "RELATO"
+      ],
+      "confidence": 0.9667
+    },
+    {
+      "id": "AV-2026-4414-orcamento_de_reparo#c01",
+      "document_id": "AV-2026-4414-orcamento_de_reparo",
+      "claim_id": "AV-2026-4414",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Oficina: Auto Center Exemplo\nSinistro:AV-2026-4414\nPlaca:ZCG2C24",
+      "headings": [
+        "ORCAMENTODEREPARO"
+      ],
+      "confidence": 0.9761
+    },
+    {
+      "id": "AV-2026-4414-orcamento_de_reparo#c02",
+      "document_id": "AV-2026-4414-orcamento_de_reparo",
+      "claim_id": "AV-2026-4414",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Para-choque dianteiro 1 un R$ 2.100,00",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "PECAS"
+      ],
+      "confidence": 0.9781
+    },
+    {
+      "id": "AV-2026-4414-orcamento_de_reparo#c03",
+      "document_id": "AV-2026-4414-orcamento_de_reparo",
+      "claim_id": "AV-2026-4414",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Farol direito 1 unR$ 1.480,00",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "PECAS"
+      ],
+      "confidence": 0.9524
+    },
+    {
+      "id": "AV-2026-4414-orcamento_de_reparo#c04",
+      "document_id": "AV-2026-4414-orcamento_de_reparo",
+      "claim_id": "AV-2026-4414",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Servicos de funilaria e pintura 1 un R$ 1.986,67",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "MAO DEOBRA"
+      ],
+      "confidence": 0.998
+    },
+    {
+      "id": "AV-2026-4414-orcamento_de_reparo#c05",
+      "document_id": "AV-2026-4414-orcamento_de_reparo",
+      "claim_id": "AV-2026-4414",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Subtotal de pecas R$ 3.580,00",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "TOTAIS"
+      ],
+      "confidence": 0.948
+    },
+    {
+      "id": "AV-2026-4414-orcamento_de_reparo#c06",
+      "document_id": "AV-2026-4414-orcamento_de_reparo",
+      "claim_id": "AV-2026-4414",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "SubtotaldemaodeobraR$1.986,67",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "TOTAIS"
+      ],
+      "confidence": 0.9817
+    },
+    {
+      "id": "AV-2026-4414-orcamento_de_reparo#c07",
+      "document_id": "AV-2026-4414-orcamento_de_reparo",
+      "claim_id": "AV-2026-4414",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Total geral R$ 5.566,67",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "TOTAIS"
+      ],
+      "confidence": 0.9473
+    },
+    {
+      "id": "AV-2026-4414-orcamento_de_reparo#c08",
+      "document_id": "AV-2026-4414-orcamento_de_reparo",
+      "claim_id": "AV-2026-4414",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Orcamento valido por 15 dias. Pecas sujeitas a confirmacao de disponibilidade junto ao fornecedor.",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "TOTAIS"
+      ],
+      "confidence": 0.9858
+    },
+    {
+      "id": "AV-2026-4414-laudo_medico#c01",
+      "document_id": "AV-2026-4414-laudo_medico",
+      "claim_id": "AV-2026-4414",
+      "kind": "laudo_medico",
+      "page": 1,
+      "text": "Paciente:RafaelCaldeira",
+      "headings": [
+        "LAUDO MEDICO"
+      ],
+      "confidence": 0.9821
+    },
+    {
+      "id": "AV-2026-4414-laudo_medico#c02",
+      "document_id": "AV-2026-4414-laudo_medico",
+      "claim_id": "AV-2026-4414",
+      "kind": "laudo_medico",
+      "page": 1,
+      "text": "agudas ao exame inicial.\nRecomendadoafastamentodasatividadeshabituaispor15dias.\nSolicitadoretornoambulatorial emquinzediasparareavaliacaoclinica.\nPagina1de1",
+      "headings": [
+        "LAUDO MEDICO",
+        "AVALIACAO"
+      ],
+      "confidence": 0.9842
+    },
+    {
+      "id": "AV-2026-4414-apolice#c01",
+      "document_id": "AV-2026-4414-apolice",
+      "claim_id": "AV-2026-4414",
+      "kind": "apolice",
+      "page": 1,
+      "text": "Apolice:2026.100274\nSegurado:Rafael Caldeira",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL"
+      ],
+      "confidence": 0.9531
+    },
+    {
+      "id": "AV-2026-4414-apolice#c02",
+      "document_id": "AV-2026-4414-apolice",
+      "claim_id": "AV-2026-4414",
+      "kind": "apolice",
+      "page": 1,
+      "text": "ColisaoecapotamentoLimiteR$80.000,00FranquiaR$3.400,00",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL",
+        "COBERTURASCONTRATADAS"
+      ],
+      "confidence": 0.9674
+    },
+    {
+      "id": "AV-2026-4414-apolice#c03",
+      "document_id": "AV-2026-4414-apolice",
+      "claim_id": "AV-2026-4414",
+      "kind": "apolice",
+      "page": 1,
+      "text": "IncendioerouboLimiteR$80.000,00FranquiaR$0,00",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL",
+        "COBERTURASCONTRATADAS"
+      ],
+      "confidence": 0.9369
+    },
+    {
+      "id": "AV-2026-4414-apolice#c04",
+      "document_id": "AV-2026-4414-apolice",
+      "claim_id": "AV-2026-4414",
+      "kind": "apolice",
+      "page": 1,
+      "text": "DanosaterceirosLimiteR$40.000,00FranquiaR$1.700,00",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL",
+        "COBERTURASCONTRATADAS"
+      ],
+      "confidence": 0.9671
+    },
+    {
+      "id": "AV-2026-4414-apolice#c05",
+      "document_id": "AV-2026-4414-apolice",
+      "claim_id": "AV-2026-4414",
+      "kind": "apolice",
+      "page": 1,
+      "text": "Naoestaocobertosos danosocorridosquandoocondutorestiversemhabilitacaovalidana datado\nevento,bemcomo osdecorrentesde uso doveiculo emcompeticao.\nPagina1de1",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL",
+        "EXCLUSOES"
+      ],
+      "confidence": 0.9524
+    },
+    {
+      "id": "AV-2026-4421-aviso_de_sinistro#c01",
+      "document_id": "AV-2026-4421-aviso_de_sinistro",
+      "claim_id": "AV-2026-4421",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Numerodoaviso:AV-2026-4421\nApolice:2026.100411\nSegurado:TerezaBastos",
+      "headings": [
+        "AVISODESINISTRO"
+      ],
+      "confidence": 0.9849
+    },
+    {
+      "id": "AV-2026-4421-aviso_de_sinistro#c02",
+      "document_id": "AV-2026-4421-aviso_de_sinistro",
+      "claim_id": "AV-2026-4421",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Local: Campo do Meio-Zetalandia\nPlaca:ZDJ3D31\nVeiculo:Utilitarioleve,ano2022\nNaturezadoevento:alagamento",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:879.269.553-21"
+      ],
+      "confidence": 0.964
+    },
+    {
+      "id": "AV-2026-4421-aviso_de_sinistro#c03",
+      "document_id": "AV-2026-4421-aviso_de_sinistro",
+      "claim_id": "AV-2026-4421",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Oveiculofoi surpreendidoporelevacaorapida donivel daagua emviapublica,atingindo o\ncompartimentodomotor.\nO segurado declara que as informacoes acima sao verdadeiras e autoriza a seguradora a solicitar\ndocumentos complementarespara aregulacao do sinistro.",
+      "headings": [
+        "AVISODESINISTRO",
+        "DESCRICAODOSEGURADO"
+      ],
+      "confidence": 0.9586
+    },
+    {
+      "id": "AV-2026-4421-boletim_de_ocorrencia#c01",
+      "document_id": "AV-2026-4421-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4421",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Numero:BO-20263033\nDelegacia:2aCircunscricaodeCampodoMeio\nCondutor:TerezaBastos\nHabilitacao:valida\nVeiculoenvolvido:placaZDJ3D31",
+      "headings": [
+        "BOLETIMDEOCORRENCIA"
+      ],
+      "confidence": 0.9582
+    },
+    {
+      "id": "AV-2026-4421-boletim_de_ocorrencia#c02",
+      "document_id": "AV-2026-4421-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4421",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Oveiculofoi surpreendidoporelevacaorapida donivel da agua emviapublica,atingindoo\ncompartimento domotor.\nNaohouvevitima fatal.Ocondutorfoiencaminhadoparaatendimentomedicoderotinaeoveiculo\nremovidoporguinchocredenciado.\nPagina1de1",
+      "headings": [
+        "BOLETIMDEOCORRENCIA",
+        "RELATO"
+      ],
+      "confidence": 0.9535
+    },
+    {
+      "id": "AV-2026-4421-orcamento_de_reparo#c01",
+      "document_id": "AV-2026-4421-orcamento_de_reparo",
+      "claim_id": "AV-2026-4421",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Oficina:ReparacaoFicticiaLtda\nSinistro:AV-2026-4421\nPlaca:ZDJ3D31",
+      "headings": [
+        "ORCAMENTODEREPARO"
+      ],
+      "confidence": 0.978
+    },
+    {
+      "id": "AV-2026-4421-orcamento_de_reparo#c02",
+      "document_id": "AV-2026-4421-orcamento_de_reparo",
+      "claim_id": "AV-2026-4421",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Para-choque dianteiro 1 un R$ 2.100,00",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "PECAS"
+      ],
+      "confidence": 0.9487
+    },
+    {
+      "id": "AV-2026-4421-orcamento_de_reparo#c03",
+      "document_id": "AV-2026-4421-orcamento_de_reparo",
+      "claim_id": "AV-2026-4421",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Farol direito1 unR$ 1.480,00",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "PECAS"
+      ],
+      "confidence": 0.9597
+    },
+    {
+      "id": "AV-2026-4421-orcamento_de_reparo#c04",
+      "document_id": "AV-2026-4421-orcamento_de_reparo",
+      "claim_id": "AV-2026-4421",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Servicos de funilaria e pintura 1 un R$ 1.065,14",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "MAO DE OBRA"
+      ],
+      "confidence": 0.948
+    },
+    {
+      "id": "AV-2026-4421-orcamento_de_reparo#c05",
+      "document_id": "AV-2026-4421-orcamento_de_reparo",
+      "claim_id": "AV-2026-4421",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Subtotal depecasR$3.580,00",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "TOTAIS"
+      ],
+      "confidence": 0.9769
+    },
+    {
+      "id": "AV-2026-4421-orcamento_de_reparo#c06",
+      "document_id": "AV-2026-4421-orcamento_de_reparo",
+      "claim_id": "AV-2026-4421",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "SubtotaldemaodeobraR$1.065,14",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "TOTAIS"
+      ],
+      "confidence": 0.9764
+    },
+    {
+      "id": "AV-2026-4421-orcamento_de_reparo#c07",
+      "document_id": "AV-2026-4421-orcamento_de_reparo",
+      "claim_id": "AV-2026-4421",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "TotalgeralR$4.645,14",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "TOTAIS"
+      ],
+      "confidence": 0.9711
+    },
+    {
+      "id": "AV-2026-4421-orcamento_de_reparo#c08",
+      "document_id": "AV-2026-4421-orcamento_de_reparo",
+      "claim_id": "AV-2026-4421",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Orcamento valido por 15 dias. Pecas sujeitas a confirmacao de disponibilidade junto ao fornecedor.",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "TOTAIS"
+      ],
+      "confidence": 0.9819
+    },
+    {
+      "id": "AV-2026-4421-laudo_medico#c01",
+      "document_id": "AV-2026-4421-laudo_medico",
+      "claim_id": "AV-2026-4421",
+      "kind": "laudo_medico",
+      "page": 1,
+      "text": "Paciente:Tereza Bastos",
+      "headings": [
+        "LAUDO MEDICO"
+      ],
+      "confidence": 0.9756
+    },
+    {
+      "id": "AV-2026-4421-laudo_medico#c02",
+      "document_id": "AV-2026-4421-laudo_medico",
+      "claim_id": "AV-2026-4421",
+      "kind": "laudo_medico",
+      "page": 1,
+      "text": "Paciente atendido apos evento automobilistico,consciente e orientado,sem alteracoesneurologicas\nagudas ao exame inicial.\nNaohouvenecessidadedeafastamentodasatividadeshabituais.\nSolicitadoretornoambulatorial emquinzediasparareavaliacaoclinica.\nPagina1de1",
+      "headings": [
+        "LAUDO MEDICO",
+        "AVALIACAO"
+      ],
+      "confidence": 0.9441
+    },
+    {
+      "id": "AV-2026-4421-apolice#c01",
+      "document_id": "AV-2026-4421-apolice",
+      "claim_id": "AV-2026-4421",
+      "kind": "apolice",
+      "page": 1,
+      "text": "Apolice:2026.100411\nSegurado:TerezaBastos",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL"
+      ],
+      "confidence": 0.9802
+    },
+    {
+      "id": "AV-2026-4421-apolice#c02",
+      "document_id": "AV-2026-4421-apolice",
+      "claim_id": "AV-2026-4421",
+      "kind": "apolice",
+      "page": 1,
+      "text": "ColisaoecapotamentoLimiteR$95.000,00FranquiaR$2.800,00",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL",
+        "COBERTURASCONTRATADAS"
+      ],
+      "confidence": 0.9634
+    },
+    {
+      "id": "AV-2026-4421-apolice#c03",
+      "document_id": "AV-2026-4421-apolice",
+      "claim_id": "AV-2026-4421",
+      "kind": "apolice",
+      "page": 1,
+      "text": "IncendioerouboLimiteR$95.000,00FranquiaR$0,00",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL",
+        "COBERTURASCONTRATADAS"
+      ],
+      "confidence": 0.9428
+    },
+    {
+      "id": "AV-2026-4421-apolice#c04",
+      "document_id": "AV-2026-4421-apolice",
+      "claim_id": "AV-2026-4421",
+      "kind": "apolice",
+      "page": 1,
+      "text": "DanosaterceirosLimiteR$47.500,00FranquiaR$1.400,00",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL",
+        "COBERTURASCONTRATADAS"
+      ],
+      "confidence": 0.9684
+    },
+    {
+      "id": "AV-2026-4421-apolice#c05",
+      "document_id": "AV-2026-4421-apolice",
+      "claim_id": "AV-2026-4421",
+      "kind": "apolice",
+      "page": 1,
+      "text": "Naoestaocobertososdanosocorridosquandoocondutorestiversemhabilitacaovalidanadatado\nevento,bemcomoosdecorrentesdeusodoveiculoemcompeticao.\nPagina1de1",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL",
+        "EXCLUSOES"
+      ],
+      "confidence": 0.988
+    },
+    {
+      "id": "AV-2026-4428-aviso_de_sinistro#c01",
+      "document_id": "AV-2026-4428-aviso_de_sinistro",
+      "claim_id": "AV-2026-4428",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Numerodoaviso:AV-2026-4428\nApolice:2026.100548\nSegurado:Gustavo Quintela",
+      "headings": [
+        "AVISODESINISTRO"
+      ],
+      "confidence": 0.9762
+    },
+    {
+      "id": "AV-2026-4428-aviso_de_sinistro#c02",
+      "document_id": "AV-2026-4428-aviso_de_sinistro",
+      "claim_id": "AV-2026-4428",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Local:NovaAurora-Zetalandia\nPlaca:ZEM4E48\nVeiculo:SUV compacto 1.4,ano2020\nNaturezadoevento:colisaolateralemcruzamento",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:129.781.209-43"
+      ],
+      "confidence": 0.9524
+    },
+    {
+      "id": "AV-2026-4428-aviso_de_sinistro#c03",
+      "document_id": "AV-2026-4428-aviso_de_sinistro",
+      "claim_id": "AV-2026-4428",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "O condutorinformou que cruzava aviapreferencial com sinalizacaosemaforica intermitentequando\nfoi atingido na lateral direita.\nO segurado declara que as informacoesacima saoverdadeiras e autoriza a seguradora asolicitar\ndocumentoscomplementaresparaaregulacaodosinistro.",
+      "headings": [
+        "AVISODESINISTRO",
+        "DESCRICAODOSEGURADO"
+      ],
+      "confidence": 0.9485
+    },
+    {
+      "id": "AV-2026-4428-boletim_de_ocorrencia#c01",
+      "document_id": "AV-2026-4428-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4428",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Numero:BO-20263044\nDelegacia:2aCircunscricaodeNovaAurora\nCondutor:GustavoQuintela\nHabilitacao:vencidahamaisde30dias\nVeiculoenvolvido:placaZEM4E48",
+      "headings": [
+        "BOLETIMDEOCORRENCIA"
+      ],
+      "confidence": 0.9828
+    },
+    {
+      "id": "AV-2026-4428-boletim_de_ocorrencia#c02",
+      "document_id": "AV-2026-4428-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4428",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "O condutor informou que cruzava a via preferencial com sinalizacao semaforica intermitente quando\nfoi atingidona lateral direita.\nNaohouvevitimafatal.Ocondutorfoi encaminhadopara atendimentomedico derotina eoveiculo\nremovidoporguinchocredenciado.\nPagina1de1",
+      "headings": [
+        "BOLETIMDEOCORRENCIA",
+        "RELATO"
+      ],
+      "confidence": 0.9633
+    },
+    {
+      "id": "AV-2026-4428-orcamento_de_reparo#c01",
+      "document_id": "AV-2026-4428-orcamento_de_reparo",
+      "claim_id": "AV-2026-4428",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Oficina:OficinaModelo\nSinistro:AV-2026-4428\nPlaca:ZEM4E48",
+      "headings": [
+        "ORCAMENTODEREPARO"
+      ],
+      "confidence": 0.9821
+    },
+    {
+      "id": "AV-2026-4428-orcamento_de_reparo#c02",
+      "document_id": "AV-2026-4428-orcamento_de_reparo",
+      "claim_id": "AV-2026-4428",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Para-choquedianteiro1unR$2.100,00",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "PECAS"
+      ],
+      "confidence": 0.9752
+    },
+    {
+      "id": "AV-2026-4428-orcamento_de_reparo#c03",
+      "document_id": "AV-2026-4428-orcamento_de_reparo",
+      "claim_id": "AV-2026-4428",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Paralamaesquerdo1unR$1.690,00",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "PECAS"
+      ],
+      "confidence": 0.9759
+    },
+    {
+      "id": "AV-2026-4428-orcamento_de_reparo#c04",
+      "document_id": "AV-2026-4428-orcamento_de_reparo",
+      "claim_id": "AV-2026-4428",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Servicos de funilaria e pintura 1 un R$ 1.148,14",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "MAODEOBRA"
+      ],
+      "confidence": 0.9666
+    },
+    {
+      "id": "AV-2026-4428-orcamento_de_reparo#c05",
+      "document_id": "AV-2026-4428-orcamento_de_reparo",
+      "claim_id": "AV-2026-4428",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Subtotal depecasR$3.790,00",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "TOTAIS"
+      ],
+      "confidence": 0.9552
+    },
+    {
+      "id": "AV-2026-4428-orcamento_de_reparo#c06",
+      "document_id": "AV-2026-4428-orcamento_de_reparo",
+      "claim_id": "AV-2026-4428",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Subtotal demaodeobraR$1.148,14",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "TOTAIS"
+      ],
+      "confidence": 0.9637
+    },
+    {
+      "id": "AV-2026-4428-orcamento_de_reparo#c07",
+      "document_id": "AV-2026-4428-orcamento_de_reparo",
+      "claim_id": "AV-2026-4428",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "TotalgeralR$4.938,14",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "TOTAIS"
+      ],
+      "confidence": 0.9587
+    },
+    {
+      "id": "AV-2026-4428-orcamento_de_reparo#c08",
+      "document_id": "AV-2026-4428-orcamento_de_reparo",
+      "claim_id": "AV-2026-4428",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Orcamento valido por 15 dias. Pecas sujeitas a confirmacao de disponibilidade junto ao fornecedor.",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "TOTAIS"
+      ],
+      "confidence": 0.9874
+    },
+    {
+      "id": "AV-2026-4428-orcamento_de_reparo#c09",
+      "document_id": "AV-2026-4428-orcamento_de_reparo",
+      "claim_id": "AV-2026-4428",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Pagina1de1",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "TOTAIS"
+      ],
+      "confidence": 0.9853
+    },
+    {
+      "id": "AV-2026-4428-laudo_medico#c01",
+      "document_id": "AV-2026-4428-laudo_medico",
+      "claim_id": "AV-2026-4428",
+      "kind": "laudo_medico",
+      "page": 1,
+      "text": "Paciente:GustavoQuintela",
+      "headings": [
+        "LAUDOMEDICO"
+      ],
+      "confidence": 0.9891
+    },
+    {
+      "id": "AV-2026-4428-laudo_medico#c02",
+      "document_id": "AV-2026-4428-laudo_medico",
+      "claim_id": "AV-2026-4428",
+      "kind": "laudo_medico",
+      "page": 1,
+      "text": "Paciente atendido apos evento automobilistico,consciente eorientado,sem alteracoesneurologicas\nagudas ao exame inicial.\nRecomendadoafastamentodasatividadeshabituaispor15dias.\nSolicitadoretornoambulatorial emquinzediasparareavaliacaoclinica.\nPagina1de1",
+      "headings": [
+        "LAUDOMEDICO",
+        "AVALIACAO"
+      ],
+      "confidence": 0.9648
+    },
+    {
+      "id": "AV-2026-4428-apolice#c01",
+      "document_id": "AV-2026-4428-apolice",
+      "claim_id": "AV-2026-4428",
+      "kind": "apolice",
+      "page": 1,
+      "text": "Apolice:2026.100548\nSegurado:GustavoQuintela",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL"
+      ],
+      "confidence": 0.9868
+    },
+    {
+      "id": "AV-2026-4428-apolice#c02",
+      "document_id": "AV-2026-4428-apolice",
+      "claim_id": "AV-2026-4428",
+      "kind": "apolice",
+      "page": 1,
+      "text": "ColisaoecapotamentoLimiteR$80.000,00FranquiaR$4.200,00",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL",
+        "COBERTURASCONTRATADAS"
+      ],
+      "confidence": 0.9574
+    },
+    {
+      "id": "AV-2026-4428-apolice#c03",
+      "document_id": "AV-2026-4428-apolice",
+      "claim_id": "AV-2026-4428",
+      "kind": "apolice",
+      "page": 1,
+      "text": "IncendioerouboLimiteR$80.000,00FranquiaR$0,00",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL",
+        "COBERTURASCONTRATADAS"
+      ],
+      "confidence": 0.9334
+    },
+    {
+      "id": "AV-2026-4428-apolice#c04",
+      "document_id": "AV-2026-4428-apolice",
+      "claim_id": "AV-2026-4428",
+      "kind": "apolice",
+      "page": 1,
+      "text": "DanosaterceirosLimiteR$40.000,00FranquiaR$2.100,00",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL",
+        "COBERTURASCONTRATADAS"
+      ],
+      "confidence": 0.9693
+    },
+    {
+      "id": "AV-2026-4428-apolice#c05",
+      "document_id": "AV-2026-4428-apolice",
+      "claim_id": "AV-2026-4428",
+      "kind": "apolice",
+      "page": 1,
+      "text": "Naoestaocobertosos danosocorridosquandoocondutorestiversemhabilitacaovalidana datado\nevento,bem como osdecorrentes de uso doveiculo em competicao.\nPagina1de1",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL",
+        "EXCLUSOES"
+      ],
+      "confidence": 0.9476
+    },
+    {
+      "id": "AV-2026-4435-aviso_de_sinistro#c01",
+      "document_id": "AV-2026-4435-aviso_de_sinistro",
+      "claim_id": "AV-2026-4435",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Numerodoaviso:AV-2026-4435\nApolice:2026.100685\nSegurado:Nadia Moraes",
+      "headings": [
+        "AVISODESINISTRO"
+      ],
+      "confidence": 0.9714
+    },
+    {
+      "id": "AV-2026-4435-aviso_de_sinistro#c02",
+      "document_id": "AV-2026-4435-aviso_de_sinistro",
+      "claim_id": "AV-2026-4435",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Local:PortodasAguas-Zetalandia\nPlaca:ZFP5F55\nVeiculo:Hatch compacto1.0,ano2021\nNatureza doevento:colisao traseira",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:850.425.037-84"
+      ],
+      "confidence": 0.9726
+    },
+    {
+      "id": "AV-2026-4435-aviso_de_sinistro#c03",
+      "document_id": "AV-2026-4435-aviso_de_sinistro",
+      "claim_id": "AV-2026-4435",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Ocondutorrelatouquetrafegavapelaviamarginal quandooveiculoafrentefreoubruscamente,nao\nhavendoespacoparaevitaro impactona traseira.\nOsegurado declara que as informacoes acima sao verdadeiras e autoriza a seguradora a solicitar\ndocumentoscomplementaresparaaregulacaodosinistro.",
+      "headings": [
+        "AVISODESINISTRO",
+        "DESCRICAODOSEGURADO"
+      ],
+      "confidence": 0.9536
+    },
+    {
+      "id": "AV-2026-4435-boletim_de_ocorrencia#c01",
+      "document_id": "AV-2026-4435-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4435",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Numero:BO-20263055",
+      "headings": [
+        "BOLETIMDEOCORRENCIA"
+      ],
+      "confidence": 0.9841
+    },
+    {
+      "id": "AV-2026-4435-boletim_de_ocorrencia#c02",
+      "document_id": "AV-2026-4435-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4435",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Condutor:NadiaMoraes\nHabilitacao:valida\nVeiculoenvolvido:placaZFP5F55",
+      "headings": [
+        "BOLETIMDEOCORRENCIA",
+        "Delegacia: 2a Circunscricao de Porto das Aguas"
+      ],
+      "confidence": 0.9608
+    },
+    {
+      "id": "AV-2026-4435-boletim_de_ocorrencia#c03",
+      "document_id": "AV-2026-4435-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4435",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "O condutor relatou que trafegava pela via marginal quando o veiculo a frente freou bruscamente, nao\nhavendoespacoparaevitaroimpactonatraseira.\nNaohouvevitima fatal.Ocondutorfoi encaminhadoparaatendimentomedicoderotina eoveiculo\nremovidoporguinchocredenciado.\nPagina1de1",
+      "headings": [
+        "BOLETIMDEOCORRENCIA",
+        "RELATO"
+      ],
+      "confidence": 0.975
+    },
+    {
+      "id": "AV-2026-4435-orcamento_de_reparo#c01",
+      "document_id": "AV-2026-4435-orcamento_de_reparo",
+      "claim_id": "AV-2026-4435",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Oficina:AutoCenterExemplo\nSinistro:AV-2026-4435\nPlaca:ZFP5F55",
+      "headings": [
+        "ORCAMENTODEREPARO"
+      ],
+      "confidence": 0.9789
+    },
+    {
+      "id": "AV-2026-4435-orcamento_de_reparo#c02",
+      "document_id": "AV-2026-4435-orcamento_de_reparo",
+      "claim_id": "AV-2026-4435",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Para-choquedianteiro1unR$2.100,00",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "PECAS"
+      ],
+      "confidence": 0.9741
+    },
+    {
+      "id": "AV-2026-4435-orcamento_de_reparo#c03",
+      "document_id": "AV-2026-4435-orcamento_de_reparo",
+      "claim_id": "AV-2026-4435",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Capo1unR$3.250,00",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "PECAS"
+      ],
+      "confidence": 0.9422
+    },
+    {
+      "id": "AV-2026-4435-orcamento_de_reparo#c04",
+      "document_id": "AV-2026-4435-orcamento_de_reparo",
+      "claim_id": "AV-2026-4435",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Servicos de funilaria e pintura 1 un R$ 1.035,20",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "MAODEOBRA"
+      ],
+      "confidence": 0.971
+    },
+    {
+      "id": "AV-2026-4435-orcamento_de_reparo#c05",
+      "document_id": "AV-2026-4435-orcamento_de_reparo",
+      "claim_id": "AV-2026-4435",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Subtotal depecasR$5.350,00",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "TOTAIS"
+      ],
+      "confidence": 0.9531
+    },
+    {
+      "id": "AV-2026-4435-orcamento_de_reparo#c06",
+      "document_id": "AV-2026-4435-orcamento_de_reparo",
+      "claim_id": "AV-2026-4435",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Subtotal demaodeobraR$1.035,20",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "TOTAIS"
+      ],
+      "confidence": 0.969
+    },
+    {
+      "id": "AV-2026-4435-orcamento_de_reparo#c07",
+      "document_id": "AV-2026-4435-orcamento_de_reparo",
+      "claim_id": "AV-2026-4435",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "TotalgeralR$6.385,20",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "TOTAIS"
+      ],
+      "confidence": 0.9642
+    },
+    {
+      "id": "AV-2026-4435-orcamento_de_reparo#c08",
+      "document_id": "AV-2026-4435-orcamento_de_reparo",
+      "claim_id": "AV-2026-4435",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Orcamento valido por 15 dias.Pecas sujeitas a confirmacao de disponibilidade junto ao fornecedor.",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "TOTAIS"
+      ],
+      "confidence": 0.9516
+    },
+    {
+      "id": "AV-2026-4435-orcamento_de_reparo#c09",
+      "document_id": "AV-2026-4435-orcamento_de_reparo",
+      "claim_id": "AV-2026-4435",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Pagina1de1",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "TOTAIS"
+      ],
+      "confidence": 0.9843
+    },
+    {
+      "id": "AV-2026-4435-laudo_medico#c01",
+      "document_id": "AV-2026-4435-laudo_medico",
+      "claim_id": "AV-2026-4435",
+      "kind": "laudo_medico",
+      "page": 1,
+      "text": "Paciente:NadiaMoraes",
+      "headings": [
+        "LAUDO MEDICO"
+      ],
+      "confidence": 0.9898
+    },
+    {
+      "id": "AV-2026-4435-laudo_medico#c02",
+      "document_id": "AV-2026-4435-laudo_medico",
+      "claim_id": "AV-2026-4435",
+      "kind": "laudo_medico",
+      "page": 1,
+      "text": "Paciente atendido apos evento automobilistico,consciente e orientado,sem alteracoesneurologicas\nagudas aoexame inicial.\nRecomendadoafastamentodasatividadeshabituaispor15dias.\nSolicitadoretornoambulatorial emquinzediasparareavaliacaoclinica.\nPagina1de1",
+      "headings": [
+        "LAUDO MEDICO",
+        "AVALIACAO"
+      ],
+      "confidence": 0.9578
+    },
+    {
+      "id": "AV-2026-4435-apolice#c01",
+      "document_id": "AV-2026-4435-apolice",
+      "claim_id": "AV-2026-4435",
+      "kind": "apolice",
+      "page": 1,
+      "text": "Apolice:2026.100685\nSegurado:NadiaMoraes",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL"
+      ],
+      "confidence": 0.9873
+    },
+    {
+      "id": "AV-2026-4435-apolice#c02",
+      "document_id": "AV-2026-4435-apolice",
+      "claim_id": "AV-2026-4435",
+      "kind": "apolice",
+      "page": 1,
+      "text": "ColisaoecapotamentoLimiteR$80.000,00FranquiaR$3.400,00",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL",
+        "COBERTURASCONTRATADAS"
+      ],
+      "confidence": 0.9696
+    },
+    {
+      "id": "AV-2026-4435-apolice#c03",
+      "document_id": "AV-2026-4435-apolice",
+      "claim_id": "AV-2026-4435",
+      "kind": "apolice",
+      "page": 1,
+      "text": "IncendioerouboLimiteR$80.0o0,00FranquiaR$0,00",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL",
+        "COBERTURASCONTRATADAS"
+      ],
+      "confidence": 0.9368
+    },
+    {
+      "id": "AV-2026-4435-apolice#c04",
+      "document_id": "AV-2026-4435-apolice",
+      "claim_id": "AV-2026-4435",
+      "kind": "apolice",
+      "page": 1,
+      "text": "DanosaterceirosLimiteR$40.000,00FranquiaR$1.700,00",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL",
+        "COBERTURASCONTRATADAS"
+      ],
+      "confidence": 0.9712
+    },
+    {
+      "id": "AV-2026-4435-apolice#c05",
+      "document_id": "AV-2026-4435-apolice",
+      "claim_id": "AV-2026-4435",
+      "kind": "apolice",
+      "page": 1,
+      "text": "Naoestaocobertos os danosocorridosquandoocondutorestiversemhabilitacaovalidana data do\nevento,bemcomoosdecorrentesdeusodoveiculoemcompeticao.\nPagina1de1",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL",
+        "EXCLUSOES"
+      ],
+      "confidence": 0.971
+    },
+    {
+      "id": "AV-2026-4442-aviso_de_sinistro#c01",
+      "document_id": "AV-2026-4442-aviso_de_sinistro",
+      "claim_id": "AV-2026-4442",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Numerodoaviso:AV-2026-4442\nApolice:2026.100822\nSegurado: Otavio Trindade",
+      "headings": [
+        "AVISODESINISTRO"
+      ],
+      "confidence": 0.962
+    },
+    {
+      "id": "AV-2026-4442-aviso_de_sinistro#c02",
+      "document_id": "AV-2026-4442-aviso_de_sinistro",
+      "claim_id": "AV-2026-4442",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Local:VilaSerena-Zetalandia\nPlaca:ZGS6G62\nVeiculo:Seda medio2.0,ano2019\nNatureza do evento:capotamento",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:999.091.624-26"
+      ],
+      "confidence": 0.9697
+    },
+    {
+      "id": "AV-2026-4442-aviso_de_sinistro#c03",
+      "document_id": "AV-2026-4442-aviso_de_sinistro",
+      "claim_id": "AV-2026-4442",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Segundo o condutor,houve perda de aderencia na alca de acesso darodovia sob chuva,seguida de\ncapotamentolateralsobreocanteiro.\nOseguradodeclaraque asinformacoes acimasaoverdadeirase autoriza aseguradoraasolicitar\ndocumentoscomplementaresparaaregulacaodosinistro.",
+      "headings": [
+        "AVISODESINISTRO",
+        "DESCRICAODOSEGURADO"
+      ],
+      "confidence": 0.944
+    },
+    {
+      "id": "AV-2026-4442-boletim_de_ocorrencia#c01",
+      "document_id": "AV-2026-4442-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4442",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Numero:BO-20263066\nDelegacia:2a CircunscricaodeVilaSerena\nCondutor:OtavioTrindade\nHabilitacao:valida\nVeiculoenvolvido:placaZGS6G62",
+      "headings": [
+        "BOLETIMDEOCORRENCIA"
+      ],
+      "confidence": 0.9747
+    },
+    {
+      "id": "AV-2026-4442-boletim_de_ocorrencia#c02",
+      "document_id": "AV-2026-4442-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4442",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Segundo o condutor, houve perda de aderencia na alca de acesso da rodovia sob chuva, seguida de\ncapotamentolateralsobreocanteiro.\nNaohouvevitima fatal.Ocondutorfoi encaminhadopara atendimentomedico derotina eoveiculo\nremovidoporguinchocredenciado.\nPagina1de1",
+      "headings": [
+        "BOLETIMDEOCORRENCIA",
+        "RELATO"
+      ],
+      "confidence": 0.9701
+    },
+    {
+      "id": "AV-2026-4442-orcamento_de_reparo#c01",
+      "document_id": "AV-2026-4442-orcamento_de_reparo",
+      "claim_id": "AV-2026-4442",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Oficina:Reparacao Ficticia Ltda\nSinistro:AV-2026-4442\nPlaca:ZGS6G62",
+      "headings": [
+        "ORCAMENTODEREPARO"
+      ],
+      "confidence": 0.9636
+    },
+    {
+      "id": "AV-2026-4442-orcamento_de_reparo#c02",
+      "document_id": "AV-2026-4442-orcamento_de_reparo",
+      "claim_id": "AV-2026-4442",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Vidro para-brisa 1 un R$ 980,00",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "PECAS"
+      ],
+      "confidence": 0.9771
+    },
+    {
+      "id": "AV-2026-4442-orcamento_de_reparo#c03",
+      "document_id": "AV-2026-4442-orcamento_de_reparo",
+      "claim_id": "AV-2026-4442",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Airbagdocondutor1unR$4.320,00",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "PECAS"
+      ],
+      "confidence": 0.9807
+    },
+    {
+      "id": "AV-2026-4442-orcamento_de_reparo#c04",
+      "document_id": "AV-2026-4442-orcamento_de_reparo",
+      "claim_id": "AV-2026-4442",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Capo 1 un R$ 3.250,00",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "PECAS"
+      ],
+      "confidence": 0.8816
+    },
+    {
+      "id": "AV-2026-4442-orcamento_de_reparo#c05",
+      "document_id": "AV-2026-4442-orcamento_de_reparo",
+      "claim_id": "AV-2026-4442",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Paralamaesquerdo1unR$1.690,00",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "PECAS"
+      ],
+      "confidence": 0.9767
+    },
+    {
+      "id": "AV-2026-4442-orcamento_de_reparo#c06",
+      "document_id": "AV-2026-4442-orcamento_de_reparo",
+      "claim_id": "AV-2026-4442",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Servicos de funilaria e pintura 1 unR$ 1.117,45",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "MAODEOBRA"
+      ],
+      "confidence": 0.9495
+    },
+    {
+      "id": "AV-2026-4442-orcamento_de_reparo#c07",
+      "document_id": "AV-2026-4442-orcamento_de_reparo",
+      "claim_id": "AV-2026-4442",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Subtotal de pecasR$ 10.240,00",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "TOTAIS"
+      ],
+      "confidence": 0.9562
+    },
+    {
+      "id": "AV-2026-4442-orcamento_de_reparo#c08",
+      "document_id": "AV-2026-4442-orcamento_de_reparo",
+      "claim_id": "AV-2026-4442",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "SubtotaldemaodeobraR$1.117,45",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "TOTAIS"
+      ],
+      "confidence": 0.9781
+    },
+    {
+      "id": "AV-2026-4442-orcamento_de_reparo#c09",
+      "document_id": "AV-2026-4442-orcamento_de_reparo",
+      "claim_id": "AV-2026-4442",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Total geral R$ 11.357,45",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "TOTAIS"
+      ],
+      "confidence": 0.9354
+    },
+    {
+      "id": "AV-2026-4442-orcamento_de_reparo#c10",
+      "document_id": "AV-2026-4442-orcamento_de_reparo",
+      "claim_id": "AV-2026-4442",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Orcamento valido por 15 dias. Pecas sujeitas a confirmacao de disponibilidade junto ao fornecedor.",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "TOTAIS"
+      ],
+      "confidence": 0.9806
+    },
+    {
+      "id": "AV-2026-4442-orcamento_de_reparo#c11",
+      "document_id": "AV-2026-4442-orcamento_de_reparo",
+      "claim_id": "AV-2026-4442",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Pagina1de1",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "TOTAIS"
+      ],
+      "confidence": 0.9823
+    },
+    {
+      "id": "AV-2026-4442-laudo_medico#c01",
+      "document_id": "AV-2026-4442-laudo_medico",
+      "claim_id": "AV-2026-4442",
+      "kind": "laudo_medico",
+      "page": 1,
+      "text": "Paciente:OtavioTrindade",
+      "headings": [
+        "LAUDO MEDICO"
+      ],
+      "confidence": 0.9873
+    },
+    {
+      "id": "AV-2026-4442-laudo_medico#c02",
+      "document_id": "AV-2026-4442-laudo_medico",
+      "claim_id": "AV-2026-4442",
+      "kind": "laudo_medico",
+      "page": 1,
+      "text": "Paciente atendido apos evento automobilistico,consciente eorientado,sem alteracoesneurologicas\nagudas ao exame inicial.\nRecomendadoafastamentodasatividadeshabituaispor45dias.\nSolicitadoretornoambulatorial emquinzediasparareavaliacaoclinica.\nPagina1de1",
+      "headings": [
+        "LAUDO MEDICO",
+        "AVALIACAO"
+      ],
+      "confidence": 0.9573
+    },
+    {
+      "id": "AV-2026-4442-apolice#c01",
+      "document_id": "AV-2026-4442-apolice",
+      "claim_id": "AV-2026-4442",
+      "kind": "apolice",
+      "page": 1,
+      "text": "Apolice:2026.100822\nSegurado:OtavioTrindade",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL"
+      ],
+      "confidence": 0.9859
+    },
+    {
+      "id": "AV-2026-4442-apolice#c02",
+      "document_id": "AV-2026-4442-apolice",
+      "claim_id": "AV-2026-4442",
+      "kind": "apolice",
+      "page": 1,
+      "text": "ColisaoecapotamentoLimiteR$60.000,00FranquiaR$3.400,00",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL",
+        "COBERTURASCONTRATADAS"
+      ],
+      "confidence": 0.9666
+    },
+    {
+      "id": "AV-2026-4442-apolice#c03",
+      "document_id": "AV-2026-4442-apolice",
+      "claim_id": "AV-2026-4442",
+      "kind": "apolice",
+      "page": 1,
+      "text": "IncendioerouboLimiteR$60.000,00FranquiaR$0,00",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL",
+        "COBERTURASCONTRATADAS"
+      ],
+      "confidence": 0.9468
+    },
+    {
+      "id": "AV-2026-4442-apolice#c04",
+      "document_id": "AV-2026-4442-apolice",
+      "claim_id": "AV-2026-4442",
+      "kind": "apolice",
+      "page": 1,
+      "text": "DanosaterceirosLimiteR$30.000,00FranquiaR$1.700,00",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL",
+        "COBERTURASCONTRATADAS"
+      ],
+      "confidence": 0.9683
+    },
+    {
+      "id": "AV-2026-4442-apolice#c05",
+      "document_id": "AV-2026-4442-apolice",
+      "claim_id": "AV-2026-4442",
+      "kind": "apolice",
+      "page": 1,
+      "text": "Nao estao cobertos os danos ocorridos quando ocondutor estiversem habilitacaovalidana data do\nevento,bem como osdecorrentes de uso doveiculo em competicao.\nPagina1de1",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL",
+        "EXCLUSOES"
+      ],
+      "confidence": 0.9295
+    },
+    {
+      "id": "AV-2026-4449-aviso_de_sinistro#c01",
+      "document_id": "AV-2026-4449-aviso_de_sinistro",
+      "claim_id": "AV-2026-4449",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Numerodoaviso:AV-2026-4449\nApolice:2026.100959\nSegurado:BeatrizPecanha",
+      "headings": [
+        "AVISODESINISTRO"
+      ],
+      "confidence": 0.9872
+    },
+    {
+      "id": "AV-2026-4449-aviso_de_sinistro#c02",
+      "document_id": "AV-2026-4449-aviso_de_sinistro",
+      "claim_id": "AV-2026-4449",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Local:Campo do Meio-Zetalandia\nPlaca:ZHV7H79\nVeiculo:Utilitarioleve,ano2022\nNatureza doevento:alagamento",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:742.194.376-68"
+      ],
+      "confidence": 0.9611
+    },
+    {
+      "id": "AV-2026-4449-aviso_de_sinistro#c03",
+      "document_id": "AV-2026-4449-aviso_de_sinistro",
+      "claim_id": "AV-2026-4449",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Oveiculofoi surpreendidoporelevacaorapida donivel daagua emviapublica,atingindoo\ncompartimentodomotor.\nOsegurado declara que asinformacoesacima saoverdadeirase autoriza aseguradora asolicitar\ndocumentoscomplementaresparaaregulacaodosinistro.",
+      "headings": [
+        "AVISODESINISTRO",
+        "DESCRICAODOSEGURADO"
+      ],
+      "confidence": 0.9539
+    },
+    {
+      "id": "AV-2026-4449-boletim_de_ocorrencia#c01",
+      "document_id": "AV-2026-4449-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4449",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Numero:BO-20263077\nDelegacia:2aCircunscricaodeCampodoMeio\nCondutor:BeatrizPecanha\nHabilitacao:valida\nVeiculoenvolvido:placaZHV7H79",
+      "headings": [
+        "BOLETIMDEOCORRENCIA"
+      ],
+      "confidence": 0.9729
+    },
+    {
+      "id": "AV-2026-4449-boletim_de_ocorrencia#c02",
+      "document_id": "AV-2026-4449-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4449",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Oveiculofoi surpreendidoporelevacaorapidadonivel daagua emviapublica,atingindoo\ncompartimentodomotor.\nNaohouvevitimafatal.Ocondutorfoiencaminhadoparaatendimentomedicoderotinaeoveiculo\nremovidoporguinchocredenciado.\nPagina1de1",
+      "headings": [
+        "BOLETIMDEOCORRENCIA",
+        "RELATO"
+      ],
+      "confidence": 0.9703
+    },
+    {
+      "id": "AV-2026-4449-orcamento_de_reparo#c01",
+      "document_id": "AV-2026-4449-orcamento_de_reparo",
+      "claim_id": "AV-2026-4449",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Oficina:Oficina Modelo\nSinistro:AV-2026-4449\nPlaca:ZHV7H79",
+      "headings": [
+        "ORCAMENTODEREPARO"
+      ],
+      "confidence": 0.9737
+    },
+    {
+      "id": "AV-2026-4449-orcamento_de_reparo#c02",
+      "document_id": "AV-2026-4449-orcamento_de_reparo",
+      "claim_id": "AV-2026-4449",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Paralamaesquerdo1unR$1.690,00",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "PECAS"
+      ],
+      "confidence": 0.9784
+    },
+    {
+      "id": "AV-2026-4449-orcamento_de_reparo#c03",
+      "document_id": "AV-2026-4449-orcamento_de_reparo",
+      "claim_id": "AV-2026-4449",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Airbag do condutor 1 un R$ 4.320,00",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "PECAS"
+      ],
+      "confidence": 0.9645
+    },
+    {
+      "id": "AV-2026-4449-orcamento_de_reparo#c04",
+      "document_id": "AV-2026-4449-orcamento_de_reparo",
+      "claim_id": "AV-2026-4449",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Para-choquedianteiro1unR$2.100,00",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "PECAS"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "AV-2026-4449-orcamento_de_reparo#c05",
+      "document_id": "AV-2026-4449-orcamento_de_reparo",
+      "claim_id": "AV-2026-4449",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Capo1unR$3.250,00",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "PECAS"
+      ],
+      "confidence": 0.9458
+    },
+    {
+      "id": "AV-2026-4449-orcamento_de_reparo#c06",
+      "document_id": "AV-2026-4449-orcamento_de_reparo",
+      "claim_id": "AV-2026-4449",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Servicosdefunilariaepintura1unR$1.261,70",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "MAO DE OBRA"
+      ],
+      "confidence": 0.9738
+    },
+    {
+      "id": "AV-2026-4449-orcamento_de_reparo#c07",
+      "document_id": "AV-2026-4449-orcamento_de_reparo",
+      "claim_id": "AV-2026-4449",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Subtotal de pecas R$ 11.360,00",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "TOTAIS"
+      ],
+      "confidence": 0.9901
+    },
+    {
+      "id": "AV-2026-4449-orcamento_de_reparo#c08",
+      "document_id": "AV-2026-4449-orcamento_de_reparo",
+      "claim_id": "AV-2026-4449",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "SubtotaldemaodeobraR$1.261,70",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "TOTAIS"
+      ],
+      "confidence": 0.9727
+    },
+    {
+      "id": "AV-2026-4449-orcamento_de_reparo#c09",
+      "document_id": "AV-2026-4449-orcamento_de_reparo",
+      "claim_id": "AV-2026-4449",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Total geral R$ 12.621,70",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "TOTAIS"
+      ],
+      "confidence": 0.9641
+    },
+    {
+      "id": "AV-2026-4449-orcamento_de_reparo#c10",
+      "document_id": "AV-2026-4449-orcamento_de_reparo",
+      "claim_id": "AV-2026-4449",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Orcamento valido por 15 dias. Pecas sujeitas a confirmacao de disponibilidade junto ao fornecedor.",
+      "headings": [
+        "ORCAMENTODEREPARO",
+        "TOTAIS"
+      ],
+      "confidence": 0.9693
+    },
+    {
+      "id": "AV-2026-4449-laudo_medico#c01",
+      "document_id": "AV-2026-4449-laudo_medico",
+      "claim_id": "AV-2026-4449",
+      "kind": "laudo_medico",
+      "page": 1,
+      "text": "Paciente: Beatriz Pecanha",
+      "headings": [
+        "LAUDO MEDICO"
+      ],
+      "confidence": 0.9886
+    },
+    {
+      "id": "AV-2026-4449-laudo_medico#c02",
+      "document_id": "AV-2026-4449-laudo_medico",
+      "claim_id": "AV-2026-4449",
+      "kind": "laudo_medico",
+      "page": 1,
+      "text": "Paciente atendido apos evento automobilistico, consciente e orientado, sem alteracoes neurologicas\nagudasaoexameinicial.\nNaohouvenecessidadedeafastamentodasatividadeshabituais.\nSolicitadoretornoambulatorialemquinzediasparareavaliacaoclinica.\nPagina1de1",
+      "headings": [
+        "LAUDO MEDICO",
+        "AVALIACAO"
+      ],
+      "confidence": 0.9775
+    },
+    {
+      "id": "AV-2026-4449-apolice#c01",
+      "document_id": "AV-2026-4449-apolice",
+      "claim_id": "AV-2026-4449",
+      "kind": "apolice",
+      "page": 1,
+      "text": "Apolice:2026.100959\nSegurado:Beatriz Pecanha",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL"
+      ],
+      "confidence": 0.9706
+    },
+    {
+      "id": "AV-2026-4449-apolice#c02",
+      "document_id": "AV-2026-4449-apolice",
+      "claim_id": "AV-2026-4449",
+      "kind": "apolice",
+      "page": 1,
+      "text": "ColisaoecapotamentoLimiteR$80.000,00FranquiaR$4.200,00",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL",
+        "COBERTURASCONTRATADAS"
+      ],
+      "confidence": 0.9712
+    },
+    {
+      "id": "AV-2026-4449-apolice#c03",
+      "document_id": "AV-2026-4449-apolice",
+      "claim_id": "AV-2026-4449",
+      "kind": "apolice",
+      "page": 1,
+      "text": "IncendioerouboLimiteR$80.000,00FranquiaR$0,00",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL",
+        "COBERTURASCONTRATADAS"
+      ],
+      "confidence": 0.9391
+    },
+    {
+      "id": "AV-2026-4449-apolice#c04",
+      "document_id": "AV-2026-4449-apolice",
+      "claim_id": "AV-2026-4449",
+      "kind": "apolice",
+      "page": 1,
+      "text": "Danosa terceirosLimiteR$40.000,00FranquiaR$2.100,00",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL",
+        "COBERTURASCONTRATADAS"
+      ],
+      "confidence": 0.9716
+    },
+    {
+      "id": "AV-2026-4449-apolice#c05",
+      "document_id": "AV-2026-4449-apolice",
+      "claim_id": "AV-2026-4449",
+      "kind": "apolice",
+      "page": 1,
+      "text": "Naoestao cobertos os danos ocorridos quando o condutor estiver sem habilitacaovalida na data do\nevento,bem comoosdecorrentesdeuso doveiculoem competicao.\nPagina1de1",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL",
+        "EXCLUSOES"
+      ],
+      "confidence": 0.9394
+    },
+    {
+      "id": "AV-2026-4456-aviso_de_sinistro#c01",
+      "document_id": "AV-2026-4456-aviso_de_sinistro",
+      "claim_id": "AV-2026-4456",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Numerodoaviso:AV-2026-4456\nApolice:2026.101096\nSegurado:LeandroArruda",
+      "headings": [
+        "AVISODESINISTRO"
+      ],
+      "confidence": 0.986
+    },
+    {
+      "id": "AV-2026-4456-aviso_de_sinistro#c02",
+      "document_id": "AV-2026-4456-aviso_de_sinistro",
+      "claim_id": "AV-2026-4456",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "Local:NovaAurora-Zetalandia\nPlaca:ZIY8186\nVeiculo:SUVcompacto1.4,ano2020\nNaturezadoevento:colisaolateralemcruzamento",
+      "headings": [
+        "AVISODESINISTRO",
+        "CPF:357.416.658-48"
+      ],
+      "confidence": 0.9573
+    },
+    {
+      "id": "AV-2026-4456-aviso_de_sinistro#c03",
+      "document_id": "AV-2026-4456-aviso_de_sinistro",
+      "claim_id": "AV-2026-4456",
+      "kind": "aviso_de_sinistro",
+      "page": 1,
+      "text": "O condutor informou que cruzava a via preferencial com sinalizacao semaforica intermitente quando\nfoi atingidonalateral direita.\nO segurado declara que as informacoes acima sao verdadeiras e autoriza a seguradora a solicitar\ndocumentoscomplementaresparaaregulacaodosinistro.",
+      "headings": [
+        "AVISODESINISTRO",
+        "DESCRICAODOSEGURADO"
+      ],
+      "confidence": 0.9685
+    },
+    {
+      "id": "AV-2026-4456-boletim_de_ocorrencia#c01",
+      "document_id": "AV-2026-4456-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4456",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "Numero:BO-20263088\nDelegacia:2aCircunscricaodeNovaAurora\nCondutor:LeandroArruda\nHabilitacao:vencidahamaisde30dias\nVeiculoenvolvido:placaZiY8l86",
+      "headings": [
+        "BOLETIMDEOCORRENCIA"
+      ],
+      "confidence": 0.9514
+    },
+    {
+      "id": "AV-2026-4456-boletim_de_ocorrencia#c02",
+      "document_id": "AV-2026-4456-boletim_de_ocorrencia",
+      "claim_id": "AV-2026-4456",
+      "kind": "boletim_de_ocorrencia",
+      "page": 1,
+      "text": "O condutor informou que cruzava a via preferencial com sinalizacao semaforica intermitente quando\nfoi atingidonalateraldireita.\nNaohouvevitima fatal.Ocondutorfoiencaminhadopara atendimentomedicoderotinaeoveiculo\nremovidoporguinchocredenciado.\nPagina1de1",
+      "headings": [
+        "BOLETIMDEOCORRENCIA",
+        "RELATO"
+      ],
+      "confidence": 0.9763
+    },
+    {
+      "id": "AV-2026-4456-orcamento_de_reparo#c01",
+      "document_id": "AV-2026-4456-orcamento_de_reparo",
+      "claim_id": "AV-2026-4456",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Oficina:Auto CenterExemplo\nSinistro:AV-2026-4456\nPlaca:ZIY8186",
+      "headings": [
+        "ORCAMENTO DEREPARO"
+      ],
+      "confidence": 0.9682
+    },
+    {
+      "id": "AV-2026-4456-orcamento_de_reparo#c02",
+      "document_id": "AV-2026-4456-orcamento_de_reparo",
+      "claim_id": "AV-2026-4456",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Capo 1 un R$ 3.250,00",
+      "headings": [
+        "ORCAMENTO DEREPARO",
+        "PECAS"
+      ],
+      "confidence": 0.9596
+    },
+    {
+      "id": "AV-2026-4456-orcamento_de_reparo#c03",
+      "document_id": "AV-2026-4456-orcamento_de_reparo",
+      "claim_id": "AV-2026-4456",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Farol direito1unR$1.480,00",
+      "headings": [
+        "ORCAMENTO DEREPARO",
+        "PECAS"
+      ],
+      "confidence": 0.971
+    },
+    {
+      "id": "AV-2026-4456-orcamento_de_reparo#c04",
+      "document_id": "AV-2026-4456-orcamento_de_reparo",
+      "claim_id": "AV-2026-4456",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Para-choquedianteiro1unR$2.100,00",
+      "headings": [
+        "ORCAMENTO DEREPARO",
+        "PECAS"
+      ],
+      "confidence": 0.9734
+    },
+    {
+      "id": "AV-2026-4456-orcamento_de_reparo#c05",
+      "document_id": "AV-2026-4456-orcamento_de_reparo",
+      "claim_id": "AV-2026-4456",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Airbagdocondutor1unR$4.320,00",
+      "headings": [
+        "ORCAMENTO DEREPARO",
+        "PECAS"
+      ],
+      "confidence": 0.9778
+    },
+    {
+      "id": "AV-2026-4456-orcamento_de_reparo#c06",
+      "document_id": "AV-2026-4456-orcamento_de_reparo",
+      "claim_id": "AV-2026-4456",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Servicos de funilaria e pintura 1 unR$ 1.427,71",
+      "headings": [
+        "ORCAMENTO DEREPARO",
+        "MAODEOBRA"
+      ],
+      "confidence": 0.9402
+    },
+    {
+      "id": "AV-2026-4456-orcamento_de_reparo#c07",
+      "document_id": "AV-2026-4456-orcamento_de_reparo",
+      "claim_id": "AV-2026-4456",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Subtotal de pecasR$ 11.150,00",
+      "headings": [
+        "ORCAMENTO DEREPARO",
+        "TOTAIS"
+      ],
+      "confidence": 0.9557
+    },
+    {
+      "id": "AV-2026-4456-orcamento_de_reparo#c08",
+      "document_id": "AV-2026-4456-orcamento_de_reparo",
+      "claim_id": "AV-2026-4456",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "SubtotaldemaodeobraR$1.427,71",
+      "headings": [
+        "ORCAMENTO DEREPARO",
+        "TOTAIS"
+      ],
+      "confidence": 0.9709
+    },
+    {
+      "id": "AV-2026-4456-orcamento_de_reparo#c09",
+      "document_id": "AV-2026-4456-orcamento_de_reparo",
+      "claim_id": "AV-2026-4456",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "TotalgeralR$12.577,71",
+      "headings": [
+        "ORCAMENTO DEREPARO",
+        "TOTAIS"
+      ],
+      "confidence": 0.9652
+    },
+    {
+      "id": "AV-2026-4456-orcamento_de_reparo#c10",
+      "document_id": "AV-2026-4456-orcamento_de_reparo",
+      "claim_id": "AV-2026-4456",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Orcamento valido por 15 dias. Pecas sujeitas a confirmacao de disponibilidade junto ao fornecedor.",
+      "headings": [
+        "ORCAMENTO DEREPARO",
+        "TOTAIS"
+      ],
+      "confidence": 0.9677
+    },
+    {
+      "id": "AV-2026-4456-orcamento_de_reparo#c11",
+      "document_id": "AV-2026-4456-orcamento_de_reparo",
+      "claim_id": "AV-2026-4456",
+      "kind": "orcamento_de_reparo",
+      "page": 1,
+      "text": "Pagina1de1",
+      "headings": [
+        "ORCAMENTO DEREPARO",
+        "TOTAIS"
+      ],
+      "confidence": 0.9825
+    },
+    {
+      "id": "AV-2026-4456-laudo_medico#c01",
+      "document_id": "AV-2026-4456-laudo_medico",
+      "claim_id": "AV-2026-4456",
+      "kind": "laudo_medico",
+      "page": 1,
+      "text": "Paciente:LeandroArruda",
+      "headings": [
+        "LAUDO MEDICO"
+      ],
+      "confidence": 0.9894
+    },
+    {
+      "id": "AV-2026-4456-laudo_medico#c02",
+      "document_id": "AV-2026-4456-laudo_medico",
+      "claim_id": "AV-2026-4456",
+      "kind": "laudo_medico",
+      "page": 1,
+      "text": "Paciente atendido apos evento automobilistico,consciente eorientado,sem alteracoesneurologicas\nagudas ao exame inicial.\nRecomendadoafastamentodasatividadeshabituaispor45dias.\nSolicitadoretornoambulatorial emquinzediasparareavaliacaoclinica.\nPagina1de1",
+      "headings": [
+        "LAUDO MEDICO",
+        "AVALIACAO"
+      ],
+      "confidence": 0.9573
+    },
+    {
+      "id": "AV-2026-4456-apolice#c01",
+      "document_id": "AV-2026-4456-apolice",
+      "claim_id": "AV-2026-4456",
+      "kind": "apolice",
+      "page": 1,
+      "text": "Apolice:2026.101096\nSegurado: LeandroArruda",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL"
+      ],
+      "confidence": 0.9723
+    },
+    {
+      "id": "AV-2026-4456-apolice#c02",
+      "document_id": "AV-2026-4456-apolice",
+      "claim_id": "AV-2026-4456",
+      "kind": "apolice",
+      "page": 1,
+      "text": "ColisaoecapotamentoLimiteR$60.000,00FranquiaR$2.800,00",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL",
+        "COBERTURASCONTRATADAS"
+      ],
+      "confidence": 0.9721
+    },
+    {
+      "id": "AV-2026-4456-apolice#c03",
+      "document_id": "AV-2026-4456-apolice",
+      "claim_id": "AV-2026-4456",
+      "kind": "apolice",
+      "page": 1,
+      "text": "IncendioerouboLimiteR$60.000,00FranquiaR$0,00",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL",
+        "COBERTURASCONTRATADAS"
+      ],
+      "confidence": 0.9521
+    },
+    {
+      "id": "AV-2026-4456-apolice#c04",
+      "document_id": "AV-2026-4456-apolice",
+      "claim_id": "AV-2026-4456",
+      "kind": "apolice",
+      "page": 1,
+      "text": "DanosaterceirosLimiteR$30.000,00FranquiaR$1.400,00",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL",
+        "COBERTURASCONTRATADAS"
+      ],
+      "confidence": 0.9652
+    },
+    {
+      "id": "AV-2026-4456-apolice#c05",
+      "document_id": "AV-2026-4456-apolice",
+      "claim_id": "AV-2026-4456",
+      "kind": "apolice",
+      "page": 1,
+      "text": "Nao estao cobertos os danos ocorridos quando ocondutor estiversem habilitacaovalida na data do\nevento, bem como os decorrentes de uso do veiculo em competicao.\nPagina1de1",
+      "headings": [
+        "APOLICEDESEGURODEAUTOMOVEL",
+        "EXCLUSOES"
+      ],
+      "confidence": 0.9399
+    }
+  ]
+}

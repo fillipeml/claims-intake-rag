@@ -1,0 +1,404 @@
+{
+  "pages": [
+    {
+      "document": "AV-2026-4407-aviso_de_sinistro",
+      "kind": "aviso_de_sinistro",
+      "cer": 0.08463949843260188,
+      "wer": 0.6451612903225806,
+      "cer_accent_folded": 0.05642633228840126,
+      "layout_total": 16,
+      "layout_correct": 14,
+      "mean_confidence": 0.9785817673087266
+    },
+    {
+      "document": "AV-2026-4407-boletim_de_ocorrencia",
+      "kind": "boletim_de_ocorrencia",
+      "cer": 0.1191919191919192,
+      "wer": 0.7837837837837838,
+      "cer_accent_folded": 0.08282828282828283,
+      "layout_total": 13,
+      "layout_correct": 11,
+      "mean_confidence": 0.9823989175634009
+    },
+    {
+      "document": "AV-2026-4407-orcamento_de_reparo",
+      "kind": "orcamento_de_reparo",
+      "cer": 0.11946902654867257,
+      "wer": 0.8026315789473685,
+      "cer_accent_folded": 0.09292035398230089,
+      "layout_total": 16,
+      "layout_correct": 14,
+      "mean_confidence": 0.9738750025798794
+    },
+    {
+      "document": "AV-2026-4407-laudo_medico",
+      "kind": "laudo_medico",
+      "cer": 0.1134020618556701,
+      "wer": 0.92,
+      "cer_accent_folded": 0.08247422680412371,
+      "layout_total": 11,
+      "layout_correct": 7,
+      "mean_confidence": 0.9808664754658515
+    },
+    {
+      "document": "AV-2026-4407-apolice",
+      "kind": "apolice",
+      "cer": 0.14056224899598393,
+      "wer": 0.9866666666666667,
+      "cer_accent_folded": 0.10843373493975904,
+      "layout_total": 12,
+      "layout_correct": 10,
+      "mean_confidence": 0.9771624936381661
+    },
+    {
+      "document": "AV-2026-4414-aviso_de_sinistro",
+      "kind": "aviso_de_sinistro",
+      "cer": 0.11513157894736842,
+      "wer": 0.8314606741573034,
+      "cer_accent_folded": 0.08881578947368421,
+      "layout_total": 16,
+      "layout_correct": 14,
+      "mean_confidence": 0.9850602636775626
+    },
+    {
+      "document": "AV-2026-4414-boletim_de_ocorrencia",
+      "kind": "boletim_de_ocorrencia",
+      "cer": 0.10759493670886076,
+      "wer": 0.7605633802816901,
+      "cer_accent_folded": 0.0759493670886076,
+      "layout_total": 13,
+      "layout_correct": 11,
+      "mean_confidence": 0.9813611340578929
+    },
+    {
+      "document": "AV-2026-4414-orcamento_de_reparo",
+      "kind": "orcamento_de_reparo",
+      "cer": 0.057736720554272515,
+      "wer": 0.4084507042253521,
+      "cer_accent_folded": 0.03002309468822171,
+      "layout_total": 15,
+      "layout_correct": 14,
+      "mean_confidence": 0.9690937963509487
+    },
+    {
+      "document": "AV-2026-4414-laudo_medico",
+      "kind": "laudo_medico",
+      "cer": 0.3359173126614987,
+      "wer": 0.9,
+      "cer_accent_folded": 0.3178294573643411,
+      "layout_total": 10,
+      "layout_correct": 6,
+      "mean_confidence": 0.9837775411570908
+    },
+    {
+      "document": "AV-2026-4414-apolice",
+      "kind": "apolice",
+      "cer": 0.1448692152917505,
+      "wer": 0.9733333333333334,
+      "cer_accent_folded": 0.11267605633802817,
+      "layout_total": 12,
+      "layout_correct": 10,
+      "mean_confidence": 0.973453725188485
+    },
+    {
+      "document": "AV-2026-4421-aviso_de_sinistro",
+      "kind": "aviso_de_sinistro",
+      "cer": 0.10847457627118644,
+      "wer": 0.7674418604651163,
+      "cer_accent_folded": 0.07457627118644068,
+      "layout_total": 16,
+      "layout_correct": 14,
+      "mean_confidence": 0.981631066976237
+    },
+    {
+      "document": "AV-2026-4421-boletim_de_ocorrencia",
+      "kind": "boletim_de_ocorrencia",
+      "cer": 0.15350877192982457,
+      "wer": 0.9565217391304348,
+      "cer_accent_folded": 0.10964912280701754,
+      "layout_total": 13,
+      "layout_correct": 11,
+      "mean_confidence": 0.9815975364608899
+    },
+    {
+      "document": "AV-2026-4421-orcamento_de_reparo",
+      "kind": "orcamento_de_reparo",
+      "cer": 0.08695652173913043,
+      "wer": 0.5774647887323944,
+      "cer_accent_folded": 0.05263157894736842,
+      "layout_total": 15,
+      "layout_correct": 14,
+      "mean_confidence": 0.967853061609281
+    },
+    {
+      "document": "AV-2026-4421-laudo_medico",
+      "kind": "laudo_medico",
+      "cer": 0.10103626943005181,
+      "wer": 0.8,
+      "cer_accent_folded": 0.06735751295336788,
+      "layout_total": 11,
+      "layout_correct": 7,
+      "mean_confidence": 0.9750322854598138
+    },
+    {
+      "document": "AV-2026-4421-apolice",
+      "kind": "apolice",
+      "cer": 0.1595959595959596,
+      "wer": 1.0,
+      "cer_accent_folded": 0.12727272727272726,
+      "layout_total": 12,
+      "layout_correct": 10,
+      "mean_confidence": 0.9808722874197771
+    },
+    {
+      "document": "AV-2026-4428-aviso_de_sinistro",
+      "kind": "aviso_de_sinistro",
+      "cer": 0.10063897763578275,
+      "wer": 0.7727272727272727,
+      "cer_accent_folded": 0.07507987220447285,
+      "layout_total": 16,
+      "layout_correct": 14,
+      "mean_confidence": 0.9802952651350139
+    },
+    {
+      "document": "AV-2026-4428-boletim_de_ocorrencia",
+      "kind": "boletim_de_ocorrencia",
+      "cer": 0.11585365853658537,
+      "wer": 0.7916666666666666,
+      "cer_accent_folded": 0.08333333333333333,
+      "layout_total": 13,
+      "layout_correct": 11,
+      "mean_confidence": 0.9849406960509204
+    },
+    {
+      "document": "AV-2026-4428-orcamento_de_reparo",
+      "kind": "orcamento_de_reparo",
+      "cer": 0.10185185185185185,
+      "wer": 0.7,
+      "cer_accent_folded": 0.07407407407407407,
+      "layout_total": 15,
+      "layout_correct": 13,
+      "mean_confidence": 0.9783553694192916
+    },
+    {
+      "document": "AV-2026-4428-laudo_medico",
+      "kind": "laudo_medico",
+      "cer": 0.1056701030927835,
+      "wer": 0.86,
+      "cer_accent_folded": 0.07474226804123711,
+      "layout_total": 11,
+      "layout_correct": 7,
+      "mean_confidence": 0.9832941194212123
+    },
+    {
+      "document": "AV-2026-4428-apolice",
+      "kind": "apolice",
+      "cer": 0.14056224899598393,
+      "wer": 0.9466666666666667,
+      "cer_accent_folded": 0.10843373493975904,
+      "layout_total": 12,
+      "layout_correct": 10,
+      "mean_confidence": 0.9754778654325457
+    },
+    {
+      "document": "AV-2026-4435-aviso_de_sinistro",
+      "kind": "aviso_de_sinistro",
+      "cer": 0.11987381703470032,
+      "wer": 0.8387096774193549,
+      "cer_accent_folded": 0.08990536277602523,
+      "layout_total": 16,
+      "layout_correct": 14,
+      "mean_confidence": 0.9812838773642796
+    },
+    {
+      "document": "AV-2026-4435-boletim_de_ocorrencia",
+      "kind": "boletim_de_ocorrencia",
+      "cer": 0.11608961303462322,
+      "wer": 0.7567567567567568,
+      "cer_accent_folded": 0.07739307535641547,
+      "layout_total": 13,
+      "layout_correct": 10,
+      "mean_confidence": 0.9839095758611586
+    },
+    {
+      "document": "AV-2026-4435-orcamento_de_reparo",
+      "kind": "orcamento_de_reparo",
+      "cer": 0.10849056603773585,
+      "wer": 0.7142857142857143,
+      "cer_accent_folded": 0.07783018867924528,
+      "layout_total": 15,
+      "layout_correct": 13,
+      "mean_confidence": 0.9739748658587274
+    },
+    {
+      "document": "AV-2026-4435-laudo_medico",
+      "kind": "laudo_medico",
+      "cer": 0.10677083333333333,
+      "wer": 0.86,
+      "cer_accent_folded": 0.07291666666666667,
+      "layout_total": 11,
+      "layout_correct": 7,
+      "mean_confidence": 0.9793653792003902
+    },
+    {
+      "document": "AV-2026-4435-apolice",
+      "kind": "apolice",
+      "cer": 0.15587044534412955,
+      "wer": 0.96,
+      "cer_accent_folded": 0.1214574898785425,
+      "layout_total": 12,
+      "layout_correct": 10,
+      "mean_confidence": 0.979456114722523
+    },
+    {
+      "document": "AV-2026-4442-aviso_de_sinistro",
+      "kind": "aviso_de_sinistro",
+      "cer": 0.1118421052631579,
+      "wer": 0.8426966292134831,
+      "cer_accent_folded": 0.08388157894736842,
+      "layout_total": 16,
+      "layout_correct": 14,
+      "mean_confidence": 0.9821520925574357
+    },
+    {
+      "document": "AV-2026-4442-boletim_de_ocorrencia",
+      "kind": "boletim_de_ocorrencia",
+      "cer": 0.11181434599156118,
+      "wer": 0.7746478873239436,
+      "cer_accent_folded": 0.07805907172995781,
+      "layout_total": 13,
+      "layout_correct": 11,
+      "mean_confidence": 0.9860768705670583
+    },
+    {
+      "document": "AV-2026-4442-orcamento_de_reparo",
+      "kind": "orcamento_de_reparo",
+      "cer": 0.09109311740890688,
+      "wer": 0.5783132530120482,
+      "cer_accent_folded": 0.058704453441295545,
+      "layout_total": 17,
+      "layout_correct": 15,
+      "mean_confidence": 0.9701376569270316
+    },
+    {
+      "document": "AV-2026-4442-laudo_medico",
+      "kind": "laudo_medico",
+      "cer": 0.10594315245478036,
+      "wer": 0.84,
+      "cer_accent_folded": 0.07235142118863049,
+      "layout_total": 11,
+      "layout_correct": 7,
+      "mean_confidence": 0.9803411232342925
+    },
+    {
+      "document": "AV-2026-4442-apolice",
+      "kind": "apolice",
+      "cer": 0.12474849094567404,
+      "wer": 0.8533333333333334,
+      "cer_accent_folded": 0.09054325955734406,
+      "layout_total": 12,
+      "layout_correct": 10,
+      "mean_confidence": 0.9727794290609539
+    },
+    {
+      "document": "AV-2026-4449-aviso_de_sinistro",
+      "kind": "aviso_de_sinistro",
+      "cer": 0.13006756756756757,
+      "wer": 0.9418604651162791,
+      "cer_accent_folded": 0.0945945945945946,
+      "layout_total": 16,
+      "layout_correct": 14,
+      "mean_confidence": 0.9815290060628049
+    },
+    {
+      "document": "AV-2026-4449-boletim_de_ocorrencia",
+      "kind": "boletim_de_ocorrencia",
+      "cer": 0.16375545851528384,
+      "wer": 0.9855072463768116,
+      "cer_accent_folded": 0.11790393013100436,
+      "layout_total": 13,
+      "layout_correct": 11,
+      "mean_confidence": 0.9855637314105586
+    },
+    {
+      "document": "AV-2026-4449-orcamento_de_reparo",
+      "kind": "orcamento_de_reparo",
+      "cer": 0.0975609756097561,
+      "wer": 0.6463414634146342,
+      "cer_accent_folded": 0.07113821138211382,
+      "layout_total": 17,
+      "layout_correct": 16,
+      "mean_confidence": 0.9726211471765192
+    },
+    {
+      "document": "AV-2026-4449-laudo_medico",
+      "kind": "laudo_medico",
+      "cer": 0.10309278350515463,
+      "wer": 0.8,
+      "cer_accent_folded": 0.06701030927835051,
+      "layout_total": 11,
+      "layout_correct": 7,
+      "mean_confidence": 0.9837566053301806
+    },
+    {
+      "document": "AV-2026-4449-apolice",
+      "kind": "apolice",
+      "cer": 0.12474849094567404,
+      "wer": 0.84,
+      "cer_accent_folded": 0.09054325955734406,
+      "layout_total": 12,
+      "layout_correct": 10,
+      "mean_confidence": 0.9726727478707705
+    },
+    {
+      "document": "AV-2026-4456-aviso_de_sinistro",
+      "kind": "aviso_de_sinistro",
+      "cer": 0.09775641025641026,
+      "wer": 0.7045454545454546,
+      "cer_accent_folded": 0.07211538461538461,
+      "layout_total": 16,
+      "layout_correct": 14,
+      "mean_confidence": 0.9837569094967227
+    },
+    {
+      "document": "AV-2026-4456-boletim_de_ocorrencia",
+      "kind": "boletim_de_ocorrencia",
+      "cer": 0.12857142857142856,
+      "wer": 0.8194444444444444,
+      "cer_accent_folded": 0.09387755102040816,
+      "layout_total": 13,
+      "layout_correct": 11,
+      "mean_confidence": 0.9841291454655254
+    },
+    {
+      "document": "AV-2026-4456-orcamento_de_reparo",
+      "kind": "orcamento_de_reparo",
+      "cer": 0.10141987829614604,
+      "wer": 0.6987951807228916,
+      "cer_accent_folded": 0.07505070993914807,
+      "layout_total": 17,
+      "layout_correct": 15,
+      "mean_confidence": 0.972238919230267
+    },
+    {
+      "document": "AV-2026-4456-laudo_medico",
+      "kind": "laudo_medico",
+      "cer": 0.10362694300518134,
+      "wer": 0.84,
+      "cer_accent_folded": 0.07253886010362694,
+      "layout_total": 11,
+      "layout_correct": 7,
+      "mean_confidence": 0.9820428336913154
+    },
+    {
+      "document": "AV-2026-4456-apolice",
+      "kind": "apolice",
+      "cer": 0.11290322580645161,
+      "wer": 0.76,
+      "cer_accent_folded": 0.08064516129032258,
+      "layout_total": 12,
+      "layout_correct": 10,
+      "mean_confidence": 0.9743222028962067
+    }
+  ]
+}
