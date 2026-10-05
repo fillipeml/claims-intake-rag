@@ -30,9 +30,10 @@ jobs:
         with:
           python-version: ${{ matrix.python }}
 
-      # The dev extra only. The job has no model, no GPU and no network access to a model
-      # hub, which is the claim the README makes about the demo and the tests.
-      - run: pip install -e ".[dev]"
+      # dev and serve, so the store and the HTTP tests run here rather than skipping. Still
+      # no [models]: the job has no GPU and reaches no model hub, which is the claim the
+      # README makes about the demo and the tests.
+      - run: pip install -e ".[dev,serve]"
 
       - run: ruff check .
 
@@ -68,6 +69,51 @@ jobs:
             exit 1
           fi
           echo "ok"
+
+  container:
+    name: the image builds, starts, and answers
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      # Building proves it compiles. Running it and asking it a question proves the thing
+      # that actually breaks: an entry point that points at a module nobody imported, a
+      # corpus that is not in the image, a healthcheck that passes while the app is dead.
+      - name: Build
+        run: docker build -t claims-intake-rag:ci .
+
+      - name: Start
+        run: |
+          docker run -d --name claims -p 8000:8000 claims-intake-rag:ci
+          for attempt in $(seq 1 30); do
+            if curl -fsS http://127.0.0.1:8000/health > /dev/null 2>&1; then
+              echo "up after ${attempt}s"; exit 0
+            fi
+            sleep 1
+          done
+          echo "never became healthy"; docker logs claims; exit 1
+
+      - name: It serves the corpus it was built with
+        run: |
+          curl -fsS http://127.0.0.1:8000/health | tee health.json
+          python3 -c "import json;d=json.load(open('health.json'));assert d['claims']==8,d;assert d['chunks']>200,d"
+
+      - name: It streams an answer as Server-Sent Events
+        run: |
+          curl -fsS -N -X POST http://127.0.0.1:8000/claims/AV-2026-4407/ask             -H 'content-type: application/json'             -d '{"question":"quanto vai custar o conserto do veículo"}' | tee stream.txt
+          grep -q '^event: meta' stream.txt
+          grep -q '^event: done' stream.txt
+          grep -q 'ttft_ms' stream.txt
+
+      - name: It runs as a non-root user
+        run: |
+          test "$(docker exec claims id -u)" = "10001"
+
+      - name: Stop
+        if: always()
+        run: docker rm -f claims || true
 
   secrets:
     name: secret scan

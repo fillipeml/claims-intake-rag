@@ -47,6 +47,8 @@ dev = [
   "pytest>=8",
   "ruff>=0.6",
   "httpx>=0.27",
+  # The manifests are asserted by the suite, not only reviewed.
+  "pyyaml>=6",
 ]
 
 [project.scripts]

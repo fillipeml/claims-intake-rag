@@ -9,9 +9,10 @@ Every number below was produced by the command shown next to it and written here
 Nothing is estimated, and the results that went the wrong way are in here too — including four
 defects in my own work that the evaluation found and a code review would not have.
 
-> **Status: in progress.** Retrieval, the ablation and the refusal are measured. The HTTP
-> surface, the containers and the Qdrant path are written and not yet exercised; the section
-> at the end says so explicitly.
+> **Status: the pipeline is complete and measured.** OCR, layout, retrieval, the ablation, the
+> refusal threshold, the streaming endpoint and the containers are all exercised, and CI starts
+> the image and asks it a question rather than only building it. Still missing a README
+> screenshot and a published demo.
 
 ---
 
@@ -232,20 +233,69 @@ very much.
 
 ---
 
-## Not yet exercised
+## Serving it
 
-Written, typed and unit-tested, but never run against anything:
+One streaming endpoint, because the number a person feels is **time to first token** and a
+response that arrives whole can only report total time.
 
-- **The HTTP surface.** `answering.py` streams and measures time to first token; there is no
-  FastAPI app in front of it yet, so the TTFT figures below come from the CLI, in-process.
-- **The Qdrant path.** `store.py` is written against the real client in local mode, with
-  payload filtering. Nothing has upserted into it.
-- **Containers.** No Dockerfile, no compose file, no manifests.
+```bash
+uv run uvicorn claims_rag.app:app
+curl -N -X POST localhost:8000/claims/AV-2026-4407/ask   -H 'content-type: application/json'   -d '{"question":"quanto vai custar o conserto do veículo"}'
+```
 
-What *is* exercised: `uv run claims ask "..." --claim AV-2026-4407` runs the whole chain and
-reports retrieval at ~2ms and first token at ~4ms in process, on committed fixtures.
+```
+event: meta
+data: {"claim_id": "AV-2026-4407", "retrieval_ms": 2.88, "considered": 5, "configuration": "dense+rerank"}
+event: token
+data: {"text": "Segundo AV-2026-4407-apolice (p. 1, APOLICE DE SEGURO DE AUTOMOVEL > COBERTURAS CONTRATADAS):
 
----
+"}
+event: done
+data: {"ttft_ms": 2.98, "total_ms": 3.04, "characters": 146, "citations": [...]}
+```
+
+**Median TTFT over 20 requests: 3.02ms** (2.72 to 3.66), in process, on committed fixtures. A
+deployment embedding live questions pays the encoder's forward pass on top of that; this
+figure is the pipeline's own cost and is reported as such.
+
+**SSE rather than WebSockets**, because the traffic is one request and one stream of text
+back. SSE is a `text/event-stream` body over ordinary HTTP: it survives proxies that do not
+know about upgrade handshakes and there is no connection state to manage. The response carries
+`X-Accel-Buffering: no`, without which an nginx in front delivers the whole stream at the end
+and turns a 3ms first token into a 300ms one — invisible to any test that does not go through
+the proxy.
+
+**The claim is in the path, not in the body.** A request that forgets the scope cannot be
+formed, rather than quietly searching every claim in the corpus.
+
+### Containers
+
+`docker compose up` brings the service and a real Qdrant. The image is multi-stage, runs as
+uid 10001 with a read-only root filesystem, and its healthcheck hits `/health` rather than the
+port — a container that is listening but could not load its corpus is not healthy, and a TCP
+check would call it healthy for ever.
+
+`k8s/` has a Deployment, a Service and a PodDisruptionBudget, written for a cluster enforcing
+the restricted Pod Security Standard. Three things in there are deliberate and asserted by the
+test suite: readiness and liveness are **separate** probes, because sharing one means a slow
+dependency gets the container killed instead of taken out of rotation; memory request equals
+memory limit, so the pod is Guaranteed rather than the first thing evicted; and the disruption
+budget exists because Server-Sent Events are long-lived responses and a rollout without one
+cuts every answer mid-sentence.
+
+CI does not stop at `docker build`. It starts the container and asks it a question, because
+what breaks is an entry point naming a module nobody imported, or a corpus that is not in the
+image — neither of which a build catches.
+
+### What the vector store is for
+
+`store.py` is exercised against a real Qdrant in local mode, with payload filtering. On this
+corpus its ranking is **identical** to the exact flat index, which is the point: HNSW has
+nothing to approximate at 299 chunks, and the exact baseline is the only thing that could
+measure what an approximate index costs in recall once there is enough corpus to need one.
+
+Writing it was not enough. Running it found two defects a review would not: the client
+deprecated `recreate_collection` and **removed** `search` outright in the version this pins.
 
 ## Data and privacy
 
