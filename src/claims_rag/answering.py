@@ -98,10 +98,37 @@ class GroundingPolicy:
     retriever returns something topically adjacent and lexically unrelated.
     """
 
-    min_score: float = 0.0
-    min_overlap: int = 1
-    #: Set by `claims calibrate`, carried here so a report can say where the number came from.
-    provenance: str = "not calibrated"
+    #: Chosen from the table `claims calibrate` prints, not by feel — and measured against the
+    #: **dense cosine**, not the reranker score, which is the finding that shaped this class.
+    #:
+    #: The cross-encoder is the better ranker and the worse gate. Asked to separate the 64
+    #: answerable questions from the 8 unanswerable ones, its top score gives the answerable ones a median
+    #: of 0.016 against an unanswerable maximum of 0.0066: refusing every unanswerable question
+    #: costs half the answerable ones. The dense cosine, which ranks worse, separates cleanly —
+    #: answerable in [0.840, 0.916], unanswerable in [0.828, 0.847] — so 0.853 refuses 8 of 8
+    #: while keeping 51 of 64.
+    #:
+    #: Ordering and deciding-whether-to-answer are different jobs, and the signal that is best
+    #: at one is not best at the other.
+    min_score: float = 0.853
+
+    #: Off by default, after measuring what it costs.
+    #:
+    #: The idea was cheap insurance: require at least one content word of the question to
+    #: appear in the chunk being quoted, to catch a dense hit that is topically adjacent and
+    #: lexically unrelated. Measured on the 64 golden questions it refuses 38 answers, and 8
+    #: of those were the correct chunk — a third of every correct answer the system produces.
+    #:
+    #: The reason is the reason dense retrieval exists. Asked "o motorista podia dirigir no
+    #: dia do acidente", the right chunk reads `Habilitação: válida`, and the two share no
+    #: word at all. A lexical floor under a semantic retriever punishes it for working.
+    #:
+    #: It does raise top-1 precision from 41% to 69%, so it is kept and configurable for work
+    #: where a wrong answer costs more than a missing one. It is not the default.
+    min_overlap: int = 0
+    provenance: str = (
+        "claims calibrate, dense cosine on the shipped corpus: 8/8 refused, 51/64 kept"
+    )
 
 
 @dataclass
@@ -115,8 +142,18 @@ class Grounded:
 
 
 def check_grounding(
-    question: str, hits: list[Scored], chunks: dict[str, Chunk], policy: GroundingPolicy
+    question: str,
+    hits: list[Scored],
+    chunks: dict[str, Chunk],
+    policy: GroundingPolicy,
+    grounding_score: float | None = None,
 ) -> Grounded:
+    """`grounding_score` is the signal the policy was calibrated against.
+
+    It is separate from `hits[0].score` on purpose. After reranking, the top hit carries a
+    cross-encoder score, and that score is a poor gate even though the reranker is the better
+    ranker. The caller passes the dense cosine here and lets the reranker do the ordering.
+    """
     if not hits:
         return Grounded(False, "retrieval returned nothing for this question")
 
@@ -126,13 +163,14 @@ def check_grounding(
         return Grounded(False, f"the top hit {best.chunk_id} is not in the corpus")
 
     overlap = len(set(tokenise(question)) & set(tokenise(chunk.embedding_text)))
+    score = best.score if grounding_score is None else grounding_score
 
-    if best.score < policy.min_score:
+    if score < policy.min_score:
         return Grounded(
             False,
-            f"the best match scored {best.score:.4f}, below the {policy.min_score:.4f} this "
+            f"the best match scored {score:.4f}, below the {policy.min_score:.4f} this "
             f"corpus was calibrated at ({policy.provenance})",
-            best.score,
+            score,
             overlap,
         )
     if overlap < policy.min_overlap:
@@ -140,10 +178,10 @@ def check_grounding(
             False,
             "the best match shares no content word with the question, which is what a "
             "topically-adjacent but unrelated passage looks like",
-            best.score,
+            score,
             overlap,
         )
-    return Grounded(True, "", best.score, overlap)
+    return Grounded(True, "", score, overlap)
 
 
 @dataclass
@@ -171,6 +209,7 @@ def answer(
     answerer: Answerer,
     policy: GroundingPolicy,
     started: float | None = None,
+    grounding_score: float | None = None,
 ) -> tuple[Answer, Timing]:
     """Collects the stream. The streaming path is :func:`stream_answer`; this is for tests,
     the CLI and anything that wants the whole thing before deciding what to do with it."""
@@ -179,7 +218,7 @@ def answer(
     ttft = 0.0
     refusal: Answer | None = None
 
-    for event in stream_answer(question, hits, chunks, answerer, policy, started):
+    for event in stream_answer(question, hits, chunks, answerer, policy, started, grounding_score):
         if isinstance(event, Answer):
             refusal = event
             break
@@ -211,6 +250,7 @@ def stream_answer(
     answerer: Answerer,
     policy: GroundingPolicy,
     started: float | None = None,
+    grounding_score: float | None = None,
 ) -> Iterator[str | Answer]:
     """Yields text pieces, or a single :class:`Answer` when the question is refused.
 
@@ -218,7 +258,7 @@ def stream_answer(
     because an HTTP stream that has already begun cannot raise at the client usefully.
     """
     started = started if started is not None else time.perf_counter()
-    grounded = check_grounding(question, hits, chunks, policy)
+    grounded = check_grounding(question, hits, chunks, policy, grounding_score)
     if not grounded.allowed:
         elapsed = (time.perf_counter() - started) * 1000
         yield Answer(
