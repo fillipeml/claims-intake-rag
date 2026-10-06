@@ -14,6 +14,13 @@ defects in my own work that the evaluation found and a code review would not hav
 > the image and asks it a question rather than only building it. Still missing a README
 > screenshot and a published demo.
 
+> **Companion repository.** [`qlora-serving-lab`](https://github.com/fillipeml/qlora-serving-lab)
+> takes the other half of the same problem: not retrieving from claim documents but turning a short
+> Portuguese claim notice into a structured English record, by fine-tuning a 0.5B model on the same
+> consumer GPU. Where this repository measures retrieval and serving, that one measures training,
+> quantisation and what the hardware actually does — including an fp16 matrix multiply that runs at
+> one eighth of fp32 on the card both repositories run on.
+
 ---
 
 ## Why this exists
