@@ -177,6 +177,55 @@ def compare(before: RetrievalReport, after: RetrievalReport) -> PairedComparison
     )
 
 
+def compare_by_question(
+    before: RetrievalReport, after: RetrievalReport, question_of: dict[str, str]
+) -> PairedComparison:
+    """The same comparison, at the unit that is actually independent.
+
+    The golden set is 64 rows and **8 distinct questions**: each question is asked of all eight
+    generated claims, and the claims come from one template varying only names, dates and
+    amounts. So the 64 rows are eight clusters of eight, not 64 independent trials, and a sign
+    test over them answers a question nobody asked — it treats one question that happens to fail
+    on all eight claims as eight independent failures.
+
+    What that cost, measured both ways on the shipped fixtures:
+
+        lexical-only -> hybrid-rrf     20+  0-  p=0.0000   |   4+ 0-  p=0.1250
+        dense-only   -> hybrid-rrf      2+ 12-  p=0.0129   |   2+ 2-  p=1.0000
+        dense-only   -> dense+rerank   14+  8-  p=0.2863   |   4+ 1-  p=0.3750
+        hybrid-rrf   -> hybrid+rerank  17+  8-  p=0.1078   |   3+ 1-  p=0.6250
+
+    **Not one comparison is significant at the question level.** The conclusion this repository
+    led with for a week — that adding BM25 to a strong dense retriever makes it significantly
+    worse — was one question counted eight times, and at the right unit it is a two-to-two tie.
+
+    The per-query figures are still reported, because they are what the code produces and
+    hiding them would be its own dishonesty. They are labelled as the wrong unit.
+
+    The fix is not statistical, it is more questions. Eight gives no test any power: even a
+    clean four-to-nothing split is p = 0.125. Thirty distinct questions over the same claims
+    would make these comparisons answerable; until they exist, this repository measures that its
+    pipeline runs and does not measure which configuration is better.
+    """
+    shared = sorted(set(before.per_query_ndcg) & set(after.per_query_ndcg))
+    if len(shared) != len(before.per_query_ndcg) or len(shared) != len(after.per_query_ndcg):
+        raise ValueError(
+            "refusing to compare: the two reports do not cover the same queries, so the "
+            "comparison would not be paired and the p-value would be meaningless."
+        )
+    grouped_before: dict[str, list[float]] = {}
+    grouped_after: dict[str, list[float]] = {}
+    for query_id in shared:
+        question = question_of[query_id]
+        grouped_before.setdefault(question, []).append(before.per_query_ndcg[query_id])
+        grouped_after.setdefault(question, []).append(after.per_query_ndcg[query_id])
+    questions = sorted(grouped_before)
+    return sign_test(
+        [sum(grouped_before[q]) / len(grouped_before[q]) for q in questions],
+        [sum(grouped_after[q]) / len(grouped_after[q]) for q in questions],
+    )
+
+
 def render(reports: list[RetrievalReport], ablation_note: str = "") -> str:
     """The ablation table. Every figure carries its interval; none is quoted alone."""
     if not reports:

@@ -135,3 +135,71 @@ class TestTheCorpusIsUsable:
         raw = sum(p["cer"] for p in pages) / len(pages)
         folded = sum(p["cer_accent_folded"] for p in pages) / len(pages)
         assert folded < raw
+
+
+class TestTheGoldenSetSaysItsOwnSize:
+    """The structure that made a p-value meaningless, pinned so it cannot be forgotten again.
+
+    The golden set is 64 rows and 8 distinct questions, each asked of every claim. That is eight
+    clusters of eight, not 64 independent trials, and a sign test over rows counts one question
+    failing everywhere as eight separate failures. This repository published `p = 0.013` on that
+    basis for a week; at the question level the same comparison is a 2-2 tie.
+
+    These assertions exist so that the next person to read the ablation — or the next version of
+    me — cannot miss the shape of the design. If a future golden set adds distinct questions,
+    these numbers change and the README's power discussion changes with them, in the same commit.
+    """
+
+    def test_the_rows_are_eight_questions_not_sixty_four(self) -> None:
+        from claims_rag.pipeline import build
+
+        corpus = build("fixtures")
+        questions = {q.text for q in corpus.queries}
+        assert len(corpus.queries) == 64
+        assert len(questions) == 8, (
+            f"{len(questions)} distinct questions behind {len(corpus.queries)} rows. The "
+            "ablation's unit of analysis is the question; update compare_by_question's "
+            "docstring and the README's power discussion together with this number."
+        )
+
+    def test_every_question_is_asked_of_every_claim(self) -> None:
+        from collections import Counter
+
+        from claims_rag.pipeline import build
+
+        corpus = build("fixtures")
+        per_question = Counter(q.text for q in corpus.queries)
+        assert set(per_question.values()) == {8}, (
+            "the questions are no longer balanced across claims, which breaks the assumption "
+            "that averaging within a question is a fair cluster summary"
+        )
+
+    def test_the_clustered_test_is_what_the_report_leads_with(self) -> None:
+        """The clustered comparison must exist and must disagree with the naive one here.
+
+        If these ever agree on this corpus, either the golden set grew or something regressed in
+        the clustering — both are things the next reader needs to know about.
+        """
+        from claims_rag.cli import CONFIGURATIONS, run_configuration
+        from claims_rag.metrics import compare, compare_by_question, evaluate
+        from claims_rag.pipeline import build
+
+        corpus = build("fixtures")
+        question_of = {q.id: q.text for q in corpus.queries}
+        reports = {
+            c.name: evaluate(
+                corpus.queries,
+                run_configuration(corpus, c, scoped=True),
+                configuration=c.name,
+                k=5,
+            )
+            for c in CONFIGURATIONS
+            if c.name in {"dense-only", "hybrid-rrf"}
+        }
+        naive = compare(reports["dense-only"], reports["hybrid-rrf"])
+        clustered = compare_by_question(reports["dense-only"], reports["hybrid-rrf"], question_of)
+        assert naive.p_value < 0.05, "the naive test no longer finds the spurious effect"
+        assert clustered.p_value > 0.05, (
+            "the clustered test now finds the effect the naive one did. On 8 questions that "
+            "would be surprising; check the golden set grew before believing it."
+        )

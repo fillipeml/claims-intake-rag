@@ -14,7 +14,7 @@ import time
 from pathlib import Path
 
 from .answering import ExtractiveAnswerer, GroundingPolicy, answer
-from .metrics import Ranking, compare, evaluate, render
+from .metrics import Ranking, compare, compare_by_question, evaluate, render
 from .pipeline import DEFAULT_FIXTURES, Corpus, build
 from .retrieval import RetrievalConfig
 
@@ -88,13 +88,36 @@ def cmd_evaluate(args: argparse.Namespace) -> int:
     out(render(reports, ablation_note=f"Search was scoped to **{scope}**."))
 
     by_name = {report.configuration: report for report in reports}
+    question_of = {q.id: q.text for q in corpus.queries}
+    distinct = len(set(question_of.values()))
+
     out("## Is the difference a difference")
     out()
-    out(f"Paired, on nDCG@{args.k}, by exact sign test over the queries whose score moved.")
+    out(
+        f"Paired, on nDCG@{args.k}, by exact sign test. Reported twice, because the golden set "
+        f"has {len(corpus.queries)} rows and only **{distinct} distinct questions** — each asked "
+        f"of every claim. The question is the unit that is independent; the row is not, and a "
+        f"test over rows counts one question that fails everywhere as eight separate failures."
+    )
     out()
+    out(f"| Comparison | By question (n={distinct}) | By row (n={len(corpus.queries)}) |")
+    out("| --- | --- | --- |")
     for before, after in COMPARISONS:
-        if before in by_name and after in by_name:
-            out(f"- `{before}` -> `{after}`: {compare(by_name[before], by_name[after]).describe()}")
+        if before not in by_name or after not in by_name:
+            continue
+        clustered = compare_by_question(by_name[before], by_name[after], question_of)
+        naive = compare(by_name[before], by_name[after])
+        out(
+            f"| `{before}` -> `{after}` | {clustered.better}+ {clustered.worse}- "
+            f"p={clustered.p_value:.4f} | {naive.better}+ {naive.worse}- "
+            f"p={naive.p_value:.4f} |"
+        )
+    out()
+    out(
+        f"The left column is the one to read. With {distinct} questions no comparison here has "
+        f"the power to detect anything: even a clean four-to-nothing split is p=0.125. This "
+        f"measures that the pipeline runs; it does not establish which configuration is better."
+    )
     out()
     return 0
 

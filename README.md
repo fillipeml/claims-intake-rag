@@ -7,12 +7,18 @@ reranking, and an answer the system **refuses to give** when retrieval is weak.
 
 Every number below was produced by the command shown next to it and written here afterwards.
 Nothing is estimated, and the results that went the wrong way are in here too — including four
-defects in my own work that the evaluation found and a code review would not have.
+defects in my own work that the evaluation found and a code review would not have, and one
+**withdrawn conclusion**: this repository led for a week with a finding about hybrid search that
+an independent review of its own golden set destroyed. The retraction is in
+[the ablation section](#is-the-difference-a-difference) rather than edited out.
 
-> **Status: the pipeline is complete and measured.** OCR, layout, retrieval, the ablation, the
-> refusal threshold, the streaming endpoint and the containers are all exercised, and CI starts
-> the image and asks it a question rather than only building it. Still missing a README
-> screenshot and a published demo.
+> **Status: the pipeline is complete and measured; the ablation is underpowered and says so.**
+> OCR, layout, retrieval, the refusal threshold, the streaming endpoint and the containers are
+> all exercised, and CI starts the image and asks it a question rather than only building it.
+> The retrieval ablation has 8 distinct questions behind its 64 rows, which is too few to
+> establish which configuration is better — it now reports the clustered test beside the naive
+> one and draws no conclusion the design cannot support. Still missing a README screenshot and a
+> published demo.
 
 > **Companion repository.** [`qlora-serving-lab`](https://github.com/fillipeml/qlora-serving-lab)
 > takes the other half of the same problem: not retrieving from claim documents but turning a short
@@ -95,7 +101,9 @@ uv run claims evaluate      # the table
 uv run claims scope         # what filtering by claim is worth
 ```
 
-Search scoped to the claim the question is about, k=5:
+Search scoped to the claim the question is about, k=5. **The 64 rows are 8 distinct questions
+asked of 8 claims**, so read every interval below as roughly twice as wide as it prints — the
+clustered figures are in the comparison table that follows:
 
 | Configuration | Hit@5 | Recall@5 | MRR | nDCG@5 |
 | --- | --- | --- | --- | --- |
@@ -109,28 +117,66 @@ Hit@5 is a proportion over queries and carries a Wilson interval. Recall, MRR an
 means of per-query values and carry a seeded bootstrap. Using Wilson on a mean would compute
 cleanly and be wrong, which is the only reason the distinction is worth a sentence.
 
-**Paired, by exact sign test over the queries whose score moved:**
+**Paired, by exact sign test on nDCG@5 — reported at both units, because one of them is wrong:**
 
-| | |
-| --- | --- |
-| `lexical-only` → `hybrid-rrf` | 20 improved, 0 regressed — **p < 0.001** |
-| `dense-only` → `hybrid-rrf` | 2 improved, 12 regressed — **p = 0.013** |
-| `dense-only` → `dense+rerank` | 14 improved, 8 regressed — p = 0.286 |
-| `hybrid-rrf` → `hybrid+rerank` | 17 improved, 8 regressed — p = 0.108 |
+| Comparison | By question (n=8) | By row (n=64) |
+| --- | --- | --- |
+| `lexical-only` → `hybrid-rrf` | 4+ 0− p=0.1250 | 20+ 0− p=0.0000 |
+| `dense-only` → `hybrid-rrf` | 2+ 2− **p=1.0000** | 2+ 12− **p=0.0129** |
+| `dense-only` → `dense+rerank` | 4+ 1− p=0.3750 | 14+ 8− p=0.2863 |
+| `hybrid-rrf` → `hybrid+rerank` | 3+ 1− p=0.6250 | 17+ 8− p=0.1078 |
+| `dense+rerank` → `hybrid+rerank` | 0+ 1− p=1.0000 | 0+ 2− p=0.5000 |
 
-### What that says, including the part that contradicts the usual advice
+### A correction, and it removes this repository's headline
 
-**Adding BM25 to a strong dense retriever makes it worse, and the difference is real.** Twelve
-queries regressed and two improved. Every guide says hybrid search is the single highest-impact
-upgrade; on this corpus it is a downgrade, because RRF is unweighted and fusing a strong
-retriever with a weak one drags the strong one down. Hybrid is not free.
+For about a week this section led with **"adding BM25 to a strong dense retriever makes it worse,
+and the difference is real — twelve queries regressed and two improved, p = 0.013."** That
+sentence is withdrawn. It was wrong, and it was wrong in a way worth leaving on the record rather
+than quietly editing out.
 
-**Adding BM25 to a weak retriever helps enormously** — the first row, 20 improved and 0
-regressed. Which is the same fact: fusion moves both retrievers toward each other.
+The golden set is 64 rows and **8 distinct questions**. Each question is asked of all eight
+generated claims, and the eight claims come from one template that varies only names, dates and
+amounts. So the rows are eight clusters of eight, not 64 independent trials — and a sign test
+over rows counts a single question that fails on every claim as eight separate failures. The
+"twelve regressions" were **two questions**, counted eight times each.
 
-**Reranking helps both and the difference is not significant on 64 queries.** The point estimate
-moves in the right direction each time and the intervals overlap. Saying more than that would
-be reading the table past what it supports.
+At the question level the same comparison is **2 improved, 2 regressed, p = 1.000**: not a
+significant downgrade, not a downgrade at all, a tie. Every interval roughly doubles too —
+`dense+rerank` goes from 75.0% [63.2, 84.0] to 75.0% [40.9, 92.9].
+
+**Not one of the five comparisons is significant at the question level.** With eight questions
+none of them could be: even a clean four-to-nothing split is p = 0.125, so the design has no
+power to detect anything before the first row is scored. The honest summary of this table is
+that the pipeline runs end to end and the ablation does not establish which configuration is
+better.
+
+What it still supports, and this part did survive: the point estimates separate cleanly and in a
+sensible order — lexical alone finds 37.5% of answers, dense alone 71.9%, reranking 75.0% — and
+`claims evaluate` reproduces every figure above from the committed fixtures. A pipeline that runs
+and a measurement that reproduces are worth something. A conclusion about hybrid search is not
+among the things this corpus can buy.
+
+**What would fix it is more questions, not more statistics.** Eight distinct questions over eight
+near-identical claims is the wrong shape: the cheap axis was added and the expensive one was not.
+Thirty distinct questions over the same eight claims would make these comparisons answerable, and
+until they exist no amount of care with intervals rescues the design. `compare_by_question` in
+`metrics.py` now computes the clustered test, the command prints both columns side by side, and a
+test pins the structure so this cannot be forgotten again.
+
+**How it was found.** Not by me reading my own work again — I had quoted the 0.013 as a headline
+several times. It was found by pointing an independent reviewer at the repository with
+instructions to attack every claim and check each number against the artefact that produced it.
+The first thing it opened was `fixtures/queries.json`.
+
+### The rest of the table, read at what it can support
+
+**Adding BM25 to a weak retriever helps and adding it to a strong one does not hurt.** The first
+row moves four questions out of eight in the right direction and none backwards; the second moves
+two each way. Both are consistent with the mechanism — RRF is unweighted, so fusion pulls both
+retrievers toward each other — and neither is established by this data.
+
+**Reranking moves the point estimate in the right direction every time and is never significant.**
+Which is what a table of eight questions should be expected to say.
 
 ### Scoping is the largest single effect
 
